@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/element-software-123/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/element-software-123/storage/concept_mnode_work_with_the_management_node.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/element-software-123/storage/concept_mnode_work_with_the_management_node.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/element-software-123/storage/concept_mnode_work_with_the_management_node.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/element-software-123/storage/concept_mnode_work_with_the_management_node.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/element-software-123/storage/concept_mnode_work_with_the_management_node.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/element-software-123/storage/concept_mnode_work_with_the_management_node.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/element-software-123/storage/concept_mnode_work_with_the_management_node.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/element-software-123/storage/concept_mnode_work_with_the_management_node.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/element-software-123/storage/concept_mnode_work_with_the_management_node.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/element-software-123/storage/concept_mnode_work_with_the_management_node.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -4226,7 +4218,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/index.html">
         SolidFire 및 Element 소프트웨어 12.3.x 문서
       </a></li><li class="subfolders "><a href="/ko-kr/element-software-123/concepts/concept_rn_relatedrn_element.html">
@@ -4416,11 +4408,11 @@
         Element 인터페이스의 아이콘입니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/storage/task_intro_provide_feedback.html">
         피드백을 제공합니다
-      </a></li></ul></li><li class="subfolders "><a href="/ko-kr/element-software-123/storage/task_data_manage_accounts_work_with_accounts_task.html">
+      </a></li></ul></li><li class="subfolders "><a href="/ko-kr/element-software-123/storage/concept_system_manage_account_management.html">
         <div class="na-navbar-padding"> 계정 관리</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/storage/task_data_manage_accounts_work_with_accounts_task.html">
-        사용자 계정 작업
+        CHAP를 사용하여 계정 작업
       </a></li><li class="subfolders "><a href="/ko-kr/element-software-123/storage/concept_system_manage_manage_cluster_administrator_users.html">
         <div class="na-navbar-padding"> 클러스터 관리자 사용자 계정을 관리합니다</div>
       </a>
@@ -5161,7 +5153,7 @@
         SetLicenseKey를 선택합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_setloginsessioninfo.html">
         SetLoginSessionInfo 를 참조하십시오
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_shutdown.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_cluster_shutdown.html">
         종료
       </a></li></ul></li><li class="subfolders "><a href="/ko-kr/element-software-123/api/concept_element_api_create_cluster_api_methods.html">
         <div class="na-navbar-padding"> 클러스터 생성 API 메소드</div>
@@ -5303,7 +5295,7 @@
         GetNetworkInterface 를 참조하십시오
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_getnodeactivetlsciphers.html">
         GetNodeActiveTlsCiphers 를 참조하십시오
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_getnodefipsdrivesreport.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_node_getnodefipsdrivesreport.html">
         GetNodeFipsDrivesReport 를 참조하십시오
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_getnodesslcertificate.html">
         GetNodeSSLCertificate를 참조하십시오
@@ -5347,7 +5339,7 @@
         SetNodeSSLCertificate를 선택합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_setnodesupplementaltlsciphers.html">
         SetNodeSupplementalTlsCiphers 를 참조하십시오
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_shutdown.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_node_shutdown.html">
         종료
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_testconnectensemble.html">
         TestConnectEnsemble을 참조하십시오
@@ -5525,7 +5517,7 @@
         GetLldpConfig 를 참조하십시오
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_getlldpinfo.html">
         GetLldpInfo 를 참조하십시오
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_getnodefipsdrivesreport.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_system_configuration_getnodefipsdrivesreport.html">
         GetNodeFipsDrivesReport 를 참조하십시오
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/element-software-123/api/reference_element_api_getntpinfo.html">
         GetNtpInfo 를 참조하십시오
@@ -6102,4 +6094,5 @@
     </script>
     <script src='/ko-kr/element-software-123/js/www-ntap.js'></script>
     <script src='/ko-kr/element-software-123/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/element-software-123/js/sidebar.js'></script>
   </body></html>
