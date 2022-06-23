@@ -419,7 +419,6 @@
   <block id="b12641981b1007fecfaf498bd16ae5d5" category="list-text">테이블의 * Actions * 열에서 계정 메뉴를 확장하고 * Delete * 를 선택합니다.</block>
   <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="inline-link-macro">어카운트에 대해 알아보십시오</block>
   <block id="f25165465224e736bc3801bbad7eb5f8" category="list-text"><block ref="f25165465224e736bc3801bbad7eb5f8" category="inline-link-macro-rx"></block></block>
-  <block id="7e5784de66821e5068bc24c9a5c6d1d6" category="inline-link-macro">사용자 계정 작업</block>
   <block id="3f9324833c13ae3ed43845b441b05e73" category="summary">NetApp 하이브리드 클라우드 제어 대시보드에서 스토리지 리소스를 확인할 수 있습니다. 또한 스토리지 용량과 스토리지 성능을 모니터링할 수 있습니다.</block>
   <block id="a74d2845bf0214173bedd164f5dc18bc" category="doc">하이브리드 클라우드 제어 대시보드에서 스토리지 리소스를 모니터링합니다</block>
   <block id="a916121ffd7a7772d450d2d9b32f3aa2" category="paragraph">NetApp 하이브리드 클라우드 제어 대시보드 를 사용하여 모든 스토리지 리소스를 한눈에 파악할 수 있습니다. 또한 스토리지 용량과 스토리지 성능을 모니터링할 수 있습니다.</block>
@@ -10817,10 +10816,6 @@
   <block id="cc751aecc3b9e0def4278d0e48160a0f" category="paragraph">더 이상 필요하지 않은 계정은 삭제할 수 있습니다.</block>
   <block id="9e82c73d2e8a733dd6bf507d7ffcb220" category="paragraph">계정을 삭제하기 전에 계정과 연결된 모든 볼륨을 삭제하고 삭제하십시오.</block>
   <block id="662df6517322cb960d5b7a5b3fc89dea" category="list-text">삭제할 계정의 작업 아이콘을 클릭합니다.</block>
-  <block id="34fa21de6cec673be30516d925b1ef0a" category="summary">SolidFire 스토리지 시스템에서 사용자 계정을 사용하면 클라이언트가 노드의 볼륨에 연결할 수 있습니다. SolidFire 스토리지 시스템의 클러스터 관리자 계정을 관리할 수도 있습니다.</block>
-  <block id="4dc056b77b799b07e73a3c822af00828" category="paragraph">SolidFire 스토리지 시스템에서 사용자 계정을 사용하면 클라이언트가 노드의 볼륨에 연결할 수 있습니다. 볼륨을 생성하면 특정 사용자 계정에 할당됩니다. SolidFire 스토리지 시스템의 클러스터 관리자 계정을 관리할 수도 있습니다.</block>
-  <block id="f5b0d24b7d0469f0116c13fb8bcbb772" category="list-text"><block ref="f5b0d24b7d0469f0116c13fb8bcbb772" category="inline-link-macro-rx"></block></block>
-  <block id="093667bda42279d43524628d34f5580a" category="list-text"><block ref="093667bda42279d43524628d34f5580a" category="inline-link-macro-rx"></block></block>
   <block id="acf18d5fb4380ea22d0a65b24cb7970a" category="summary">영구 볼륨을 사용하면 관리 노드 구성 데이터를 VM이 로컬로 저장되지 않고 지정된 스토리지 클러스터에 저장할 수 있으므로 관리 노드가 손실되거나 제거된 경우에도 데이터를 보존할 수 있습니다. 영구 볼륨은 선택 사항이지만 권장되는 관리 노드 구성입니다.</block>
   <block id="ffdacd6c2fa0cc41b20f4135b3c82577" category="paragraph">새 관리 노드를 구축할 때 설치 및 업그레이드 스크립트에는 영구 볼륨을 사용하도록 설정하는 옵션이 포함되어 있습니다. 영구 볼륨은 VM 수명 기간 이후에도 지속된 호스트 관리 노드 VM에 대한 관리 노드 구성 정보가 포함된 Element 소프트웨어 기반 스토리지 클러스터의 볼륨입니다. 관리 노드가 손실된 경우 대체 관리 노드 VM이 손실된 VM에 다시 연결하여 구성 데이터를 복구할 수 있습니다.</block>
   <block id="6f5983880dad4e85e696acaacf3a185b" category="paragraph">설치 또는 업그레이드 중에 활성화된 영구 볼륨 기능은 할당된 클러스터의 이름에 NetApp-HCI 사전 할당 기능을 사용하여 여러 볼륨을 자동으로 생성합니다. 이러한 볼륨은 Element 소프트웨어 기반 볼륨과 마찬가지로 기본 설정 및 설치에 따라 Element 소프트웨어 웹 UI, vCenter Server용 NetApp Element 플러그인 또는 API를 사용하여 볼 수 있습니다. 복구에 사용할 수 있는 현재 구성 데이터를 유지하려면 관리 노드에 대한 iSCSI 연결을 통해 영구 볼륨이 가동되어 실행 중이어야 합니다.</block>
@@ -12326,12 +12321,8 @@
   <block id="69b7535618573fd609dc8b4663c8b8c0" category="list-text"><block ref="69b7535618573fd609dc8b4663c8b8c0" category="inline-link-macro-rx"></block></block>
   <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">스토리지 펌웨어 번들 2.27에 대한 고지 사항</block>
   <block id="656e3f29cbe522931c455a5e233d1c6f" category="list-text"><block ref="656e3f29cbe522931c455a5e233d1c6f" category="inline-link-macro-rx"></block></block>
-  <block id="372092ac59d2946fc3d092b0e44df82a" category="list-text"><block ref="372092ac59d2946fc3d092b0e44df82a" category="inline-link-macro-rx"></block></block>
-  <block id="26bde7cf1d647a00812ba293427f218c" category="summary">Element UI에서 계정을 관리할 수 있습니다. 여기에는 CHAP를 사용하는 계정 작업 및 클러스터 관리자 사용자 계정 관리가 포함됩니다.</block>
-  <block id="cb7c12b1424a0e6b1be1defaded53de8" category="paragraph">Element UI에서 시스템 계정을 관리할 수 있습니다. 여기에는 CHAP(Challenge-Handshake Authentication Protocol)를 사용하는 계정 작업 및 클러스터 관리자 사용자 계정 관리가 포함됩니다.</block>
   <block id="0de8022e52b232dc0912129174158b7b" category="list-text"><block ref="0de8022e52b232dc0912129174158b7b" category="inline-link-macro-rx"></block></block>
   <block id="93b99f5d3cef7af59adc0f899dddf1e1" category="list-text"><block ref="93b99f5d3cef7af59adc0f899dddf1e1" category="inline-link-macro-rx"></block></block>
-  <block id="5ca104d2b413ecd234583f40c3a808b8" category="list-text"><block ref="5ca104d2b413ecd234583f40c3a808b8" category="inline-link-macro-rx"></block></block>
   <block id="7e33105c99e1040a1b09764052c96bf6" category="list-text"><block ref="7e33105c99e1040a1b09764052c96bf6" category="inline-xref-macro-rx"></block></block>
   <block id="b9d025f755210db0c30935ae2494f820" category="list-text"><block ref="b9d025f755210db0c30935ae2494f820" category="inline-xref-macro-rx"></block></block>
   <block id="f79d1130796c00fe9899b2bf889381a3" category="paragraph">클러스터에 대해 수행할 작업입니다. 가능한 값: * 재시작: 클러스터를 재시작합니다. * HALT: 전원을 완전히 끕니다.</block>
@@ -12351,4 +12342,8 @@
   <block id="e12535c6360c5dad15589e14aca41e3a" category="list-text"><block ref="e12535c6360c5dad15589e14aca41e3a" category="inline-link-macro-rx"></block></block>
   <block id="7661478d2706b156c56055536f2e93da" category="list-text"><block ref="7661478d2706b156c56055536f2e93da" category="inline-link-rx"></block></block>
   <block id="324fcb27182f60b1051fad39c080b193" category="doc">볼륨 스냅샷을 백업합니다</block>
+  <block id="cd7c96dd340046e8b1a1ed84b73227c0" category="summary">SolidFire 스토리지 시스템에서 테넌트는 계정을 사용하여 클라이언트가 클러스터의 볼륨에 연결할 수 있도록 설정할 수 있습니다. SolidFire 스토리지 시스템의 클러스터 관리자 계정을 관리할 수도 있습니다.</block>
+  <block id="d69a8eaf0dfea73cf60506f2c945b71e" category="paragraph">SolidFire 스토리지 시스템에서 테넌트는 계정을 사용하여 클라이언트가 클러스터의 볼륨에 연결할 수 있도록 설정할 수 있습니다. 볼륨을 생성하면 특정 계정에 할당됩니다. SolidFire 스토리지 시스템의 클러스터 관리자 계정을 관리할 수도 있습니다.</block>
+  <block id="f22f8c5563a22eebf5e40a4e6776b17e" category="list-text"><block ref="f22f8c5563a22eebf5e40a4e6776b17e" category="inline-link-macro-rx"></block></block>
+  <block id="270743fb35c053386e4a4cdf6792cc48" category="list-text"><block ref="270743fb35c053386e4a4cdf6792cc48" category="inline-link-macro-rx"></block></block>
 </blocks>
