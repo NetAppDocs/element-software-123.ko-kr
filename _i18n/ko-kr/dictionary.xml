@@ -14,29 +14,12 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
-  <block id="eb3c130e264688a3a29d73ad802f6f63" category="paragraph">알림 파일은 타사 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="24e9da091f15f10b8da793e19b340302" category="inline-link-macro">Ember OS 12.3.1에 대한 고지 사항</block>
-  <block id="53b5781a15ca0bf5e3350b448255d082" category="list-text"><block ref="53b5781a15ca0bf5e3350b448255d082" category="inline-link-macro-rx"></block></block>
   <block id="fbcc1cb0e2a70eff701965a5f3e0d76b" category="inline-link-macro">Ember OS 12.3에 대한 고지 사항</block>
   <block id="fd9a4be3d806a4349b944f9bfba66d2f" category="list-text"><block ref="fd9a4be3d806a4349b944f9bfba66d2f" category="inline-link-macro-rx"></block></block>
   <block id="9607eb5adaeed1b4ef323e97b2dcb6f8" category="inline-link-macro">HealthTools에 대한 고지 사항</block>
   <block id="5417db75ab0296db879fb27f51d7211f" category="list-text"><block ref="5417db75ab0296db879fb27f51d7211f" category="inline-link-macro-rx"></block></block>
-  <block id="26c74f7a8ac6a7c8cdb0def0e876263d" category="inline-link-macro">관리 노드 12.3.1 공지</block>
-  <block id="047152327178a19c354a2a92281da90f" category="list-text"><block ref="047152327178a19c354a2a92281da90f" category="inline-link-macro-rx"></block></block>
   <block id="43551c29e9ac231743a69c265f5ef85c" category="inline-link-macro">관리 노드 12.3에 대한 고지 사항</block>
   <block id="75a6ef9f6db80c36c759ab0d75ce6a00" category="list-text"><block ref="75a6ef9f6db80c36c759ab0d75ce6a00" category="inline-link-macro-rx"></block></block>
-  <block id="61cd5267ad49d97d8c6a8799b4590b34" category="inline-link-macro">관리 서비스 공지 2.18</block>
-  <block id="a32fc98c3fcd85bfbaec869e06369054" category="list-text"><block ref="a32fc98c3fcd85bfbaec869e06369054" category="inline-link-macro-rx"></block></block>
-  <block id="6a277dcdcf3e292a520228548566382d" category="inline-link-macro">관리 서비스 공지 2.17.56</block>
-  <block id="a13f8370935ba66df60b71ed88c770a4" category="list-text"><block ref="a13f8370935ba66df60b71ed88c770a4" category="inline-link-macro-rx"></block></block>
-  <block id="a7f3524da37a8fea65e29d2411b8d139" category="inline-link-macro">관리 서비스 공지 2.17.52</block>
-  <block id="c4b0c1a013a1ecb5b81326f9c346a81a" category="list-text"><block ref="c4b0c1a013a1ecb5b81326f9c346a81a" category="inline-link-macro-rx"></block></block>
-  <block id="0ee51fae49898e7b795797b58419f657" category="inline-link-macro">관리 서비스 공지 2.16</block>
-  <block id="72f5ccb1ed4b7e177d8ae3b465eef55a" category="list-text"><block ref="72f5ccb1ed4b7e177d8ae3b465eef55a" category="inline-link-macro-rx"></block></block>
-  <block id="1dfa4a8c715814e4b02560de4804ce2d" category="inline-link-macro">관리 서비스 공지 2.14</block>
-  <block id="508fdda0cae73a3702d387c360f820fa" category="list-text"><block ref="508fdda0cae73a3702d387c360f820fa" category="inline-link-macro-rx"></block></block>
-  <block id="b299d2f02ed62ade4c836e18fedda400" category="inline-link-macro">관리 서비스 공지 2.13</block>
-  <block id="4c906abe4e1aa56f6ecc4fc5bb0dac85" category="list-text"><block ref="4c906abe4e1aa56f6ecc4fc5bb0dac85" category="inline-link-macro-rx"></block></block>
   <block id="a6e60f5446d407aa42b1293e56f2cb42" category="inline-link-macro">NetApp SolidFire 엔터프라이즈 SDS에 대한 고지 사항</block>
   <block id="b96897a2164001e55b7cb0f0b7883d94" category="list-text"><block ref="b96897a2164001e55b7cb0f0b7883d94" category="inline-link-macro-rx"></block></block>
   <block id="2e5993f9d970daebf225967bb1e45acc" category="inline-link-macro">스토리지 펌웨어 번들 2.99.2에 대한 고지 사항</block>
@@ -9417,7 +9400,6 @@
   <block id="b5a47ab00ee38fd24f7e8b0828ad2a73" category="list-text">삭제할 일정에 대한 * 작업 * 아이콘을 클릭합니다.</block>
   <block id="d5e6af1fd8ded16ac6d7700584a8025a" category="list-text">결과 메뉴에서 * 삭제 * 를 클릭합니다.</block>
   <block id="f6e1cbdb2c7e86d550e022623d7c9169" category="summary">NetApp Element API를 사용하여 클러스터에 있는 스토리지 노드의 기본 SSL 인증서 및 개인 키를 변경할 수 있습니다.</block>
-  <block id="443d95dd305b59017ca1b34a7df3d4ac" category="paragraph">NetAppElement API를 사용하여 클러스터에 있는 스토리지 노드의 기본 SSL 인증서 및 개인 키를 변경할 수 있습니다.</block>
   <block id="1aa8b758f81e4b362f8fc94cd4c2a3ba" category="paragraph">NetApp Element 소프트웨어 클러스터가 생성되면 클러스터는 Element UI, Per-Node UI 또는 API를 통해 모든 HTTPS 통신에 사용되는 고유한 자체 서명된 SSL(Secure Sockets Layer) 인증서와 개인 키를 생성합니다. Element 소프트웨어는 자체 서명된 인증서뿐만 아니라 신뢰할 수 있는 CA(인증 기관)에서 발급 및 확인되는 인증서도 지원합니다.</block>
   <block id="774ce4e623f683d68865c30ea0ac37fa" category="paragraph">다음 API 메소드를 사용하여 기본 SSL 인증서에 대한 자세한 정보를 얻고 변경할 수 있습니다.</block>
   <block id="cddbead568984bbddd14181e555c89ec" category="inline-link-macro">NetApp Element 소프트웨어 API 참조서</block>
@@ -9478,7 +9460,6 @@
   <block id="8857f9727dda96e7b5e43e56c678ffed" category="paragraph">스토리지 시스템은 데이터 쓰기 및 삭제를 위해 각 SSD(Solid State Drive)에서 사용 가능한 대략적인 마모 양을 보고합니다. 설계된 쓰기 및 지우기 주기의 5%를 사용한 드라이브의 마모 잔여량은 95%입니다. 시스템에서 드라이브 마모 정보를 자동으로 새로 고치지 않습니다. 페이지를 새로 고치거나 닫고 다시 로드하여 정보를 새로 고칠 수 있습니다.</block>
   <block id="7464a7978b1ad9e7f36e5f0181e97eb5" category="list-text">* 유형 *</block>
   <block id="509a3e7c96f28c8cf61138c9b6171802" category="paragraph">드라이브 유형입니다. 형식은 블록 또는 메타데이터일 수 있습니다.</block>
-  <block id="0b3db31a78382ab0be6cb2c1c708acfa" category="summary">원래 소스 볼륨을 다시 동기화하고 NetAppElement UI를 사용하여 페일백할 수 있습니다. 이 섹션은 원래 소스 볼륨이 손실되었지만 원래 클러스터가 그대로 유지되는 시나리오에 적용됩니다. 새 클러스터로 복원하는 방법에 대한 자세한 내용은 NetApp Support 사이트 설명서를 참조하십시오.</block>
   <block id="eeeaa1b412a6ca7d2f439dfd70f27a5d" category="doc">소스 볼륨이 더 이상 존재하지 않는 경우 장애 복구를 수행합니다</block>
   <block id="42d57b6f08f8ad59237283315e687c79" category="list-text">Element 및 ONTAP 볼륨 간에 분리된 복제 관계가 있습니다.</block>
   <block id="7a3a43b13837f525a81135347991edaf" category="list-text">Element 볼륨이 복구할 수 없는 손실입니다.</block>
@@ -9835,7 +9816,6 @@
   <block id="5bf82e30143007adb7f5da32c41a39b2" category="paragraph">가상 볼륨 호스트에 대한 이니시에이터 IQN입니다.</block>
   <block id="9ea373d7b3a845bd9df2300537ef0283" category="list-text">* SolidFire 프로토콜 엔드포인트 ID *</block>
   <block id="343e7c07345dadd21afd5d8e348ca649" category="paragraph">현재 ESXi 호스트에 표시되는 프로토콜 엔드포인입니다.</block>
-  <block id="7b610931ca8d2eeb0a73a56e2e8f50f1" category="summary">NetAppElement UI에서 SnapMirror 관계를 생성해야 합니다.</block>
   <block id="2de1d87763849258fb54f9bb79e65283" category="doc">SnapMirror 관계를 생성합니다</block>
   <block id="507526c658246388ad3ac5ab8feb0b16" category="admonition">SnapMirror에 대해 볼륨이 아직 활성화되어 있지 않고 Element UI에서 관계를 생성하도록 선택하면 해당 볼륨에서 SnapMirror가 자동으로 활성화됩니다.</block>
   <block id="d0d72af3850aa3c7f23bae5777534059" category="paragraph">볼륨에 SnapMirror가 활성화되어 있습니다.</block>
@@ -10058,7 +10038,6 @@
   <block id="a80fcc534ef750a063b9849f304c259a" category="list-text"><block ref="a80fcc534ef750a063b9849f304c259a" category="inline-xref-macro-rx"></block></block>
   <block id="61e4de56f3e5ad1651eba1f85e759c1c" category="summary">각 노드에는 클러스터의 데이터 일부를 저장하는 데 사용되는 하나 이상의 물리적 드라이브가 포함됩니다. 클러스터가 드라이브를 클러스터에 성공적으로 추가한 후 드라이브의 용량과 성능을 활용합니다. Element UI를 사용하여 드라이브를 관리할 수 있습니다.</block>
   <block id="8bd00e89826dbd3fcf80ca108d7a008d" category="doc">드라이브 관리</block>
-  <block id="a400e22973320013f60a0fa177f3e08a" category="summary">NetApp Element UI의 데이터 보호 탭에서 SnapMirror 관계를 생성할 수 있습니다. 사용자 인터페이스에서 이를 보려면 SnapMirror 기능이 활성화되어 있어야 합니다.</block>
   <block id="1850b680cd92212594194c87da7f359c" category="doc">Element 및 ONTAP 클러스터 간 SnapMirror 복제 사용</block>
   <block id="535a1bef8214ea6639d284226cee5417" category="paragraph">IPv6은 NetApp Element 소프트웨어와 ONTAP 클러스터 간의 SnapMirror 복제에 지원되지 않습니다.</block>
   <block id="cff1ba82911704030dd8ccc8f2c0c6c0" category="inline-link">NetApp 비디오: NetApp HCI용 SnapMirror 및 Element 소프트웨어</block>
@@ -10648,7 +10627,6 @@
   <block id="2f5797a9b6c1035ff7c904481f0214ba" category="doc">iSCSI 세션을 봅니다</block>
   <block id="8138b83b3338c0a50b7c0b1bd72b3cb8" category="list-text">Element UI에서 * Reporting * &gt; * iSCSI Sessions * 를 선택합니다.</block>
   <block id="53afd371e15d648a9aa30b588b004c09" category="paragraph"><block ref="53afd371e15d648a9aa30b588b004c09" category="inline-xref-macro-rx"></block></block>
-  <block id="5bb220f689bb9c696c552f6b16bf7a7b" category="summary">원래 소스 볼륨을 다시 동기화하고 NetAppElement UI를 사용하여 페일백할 수 있습니다. 이 절차는 원래 소스 볼륨이 여전히 존재하는 시나리오에 적용됩니다.</block>
   <block id="70f26877db1785068e8daf0aa7de7175" category="doc">소스 볼륨이 아직 있을 때 페일백을 수행합니다</block>
   <block id="dfee99faea9f8bafc9217380d561c98e" category="list-text">Actions 아이콘을 클릭하고 * Reverse Resync * 를 클릭합니다.</block>
   <block id="f5143a520c1fda122c346660fb8e2183" category="admonition">역방향 재동기화 작업은 원래 소스 볼륨과 대상 볼륨의 역할이 반전되는 새 관계를 생성합니다. 이로 인해 원래 관계가 유지됨에 따라 두 개의 관계가 형성됩니다. 원래 대상 볼륨의 새 데이터는 역방향 재동기화 작업의 일부로 원래 소스 볼륨으로 전송됩니다. 대상 측의 활성 볼륨에 계속 액세스하고 데이터를 쓸 수 있지만 원래 기본 볼륨으로 리디렉션하기 전에 모든 호스트를 소스 볼륨에서 분리하고 SnapMirror 업데이트를 수행해야 합니다.</block>
@@ -11265,7 +11243,6 @@
   <block id="b47b83d6802263014655a14ac59f1ec6" category="list-text"><block ref="b47b83d6802263014655a14ac59f1ec6" category="inline-xref-macro-rx"></block></block>
   <block id="a5b2d4de2841c516a54a4c4b3db587b1" category="summary">NetApp Element 소프트웨어를 실행하는 시스템에서는 SnapMirror 기능을 지원하여 NetApp ONTAP 시스템에서 스냅샷을 복사 및 복원할 수 있습니다.</block>
   <block id="908041e9f7dbdfd6dd76e9617f0b3454" category="doc">SnapMirror 개요</block>
-  <block id="265f031cee0ea04d5f3ef759b07f4907" category="paragraph">Element를 실행하는 시스템은 ONTAP 시스템 9.3 이상에서 SnapMirror와 직접 통신할 수 있습니다. NetAppElement API는 클러스터, 볼륨 및 스냅샷에서 SnapMirror 기능을 활성화하는 메서드를 제공합니다. 또한 Element UI에는 Element 소프트웨어와 ONTAP 시스템 간의 SnapMirror 관계를 관리하는 데 필요한 모든 기능이 포함되어 있습니다.</block>
   <block id="5a5a2d3bbdb5fecdea9055d444ee32af" category="paragraph">기능이 제한된 특정 사용 사례에서 ONTAP 생성 볼륨을 Element 볼륨으로 복제할 수 있습니다. 자세한 내용은 ONTAP 설명서를 참조하십시오.</block>
   <block id="49c8c279b60ab1926e498dd27ba47ce7" category="inline-link">Element 소프트웨어와 ONTAP 간 복제</block>
   <block id="e01755805869b3d9cedc19fff7c5daae" category="paragraph"><block ref="e01755805869b3d9cedc19fff7c5daae" category="inline-link-rx"></block></block>
@@ -11580,7 +11557,6 @@
   <block id="80ace20ee83384d4f033b9e5ff4a50fd" category="list-text">편집 * 버튼을 클릭합니다.</block>
   <block id="9359562927fad634dda8891d77a59d8f" category="list-text">Add Volumes 아래의 * Volumes * 목록에서 볼륨을 선택합니다.</block>
   <block id="cc4a9ccdabb241d51359c0bca7504d49" category="paragraph">이 단계를 반복하여 볼륨을 더 추가할 수 있습니다.</block>
-  <block id="570aab436b512498fd7406a4088e8c43" category="summary">Element 시스템은 NetAppElement API를 기능 및 기능의 기반으로 사용합니다. Element UI를 사용하면 인터페이스를 사용할 때 시스템에서 다양한 유형의 실시간 API 작업을 볼 수 있습니다. API 로그를 사용하면 사용자 시작 및 백그라운드 시스템 API 작업과 현재 보고 있는 페이지에서 수행된 API 호출을 볼 수 있습니다.</block>
   <block id="1e022b9ed0afb421ad5cb475bd23e7c5" category="paragraph">Element 시스템은 NetApp Element API를 기능 및 기능의 기반으로 사용합니다. Element UI를 사용하면 인터페이스를 사용할 때 시스템에서 다양한 유형의 실시간 API 작업을 볼 수 있습니다. API 로그를 사용하면 사용자 시작 및 백그라운드 시스템 API 작업과 현재 보고 있는 페이지에서 수행된 API 호출을 볼 수 있습니다.</block>
   <block id="3c7b529bb5fc2bcf9519f64a68e3cf4e" category="paragraph">API 로그를 사용하여 특정 작업에 사용되는 API 메서드를 식별하고 API 메서드 및 개체를 사용하여 사용자 지정 응용 프로그램을 빌드하는 방법을 확인할 수 있습니다.</block>
   <block id="680951056bdde0e1b96bf280f96ebc5a" category="inline-link-macro">Element 소프트웨어 API 참조입니다</block>
@@ -11715,7 +11691,6 @@
   <block id="83a1a5ceb5398a01a54e7effead0e886" category="admonition">NetApp Element 계정 ID는 자동으로 생성되어 저장소 컨테이너에 할당되므로 계정을 수동으로 생성할 필요가 없습니다.</block>
   <block id="5c52fea0e83d9a95a1c098c60ff6b58d" category="section-title">저장소 컨테이너 세부 정보를 봅니다</block>
   <block id="c24adc0881381170eed28052264ee784" category="paragraph">VVol 탭의 Storage Containers 페이지에서 클러스터의 모든 활성 저장소 컨테이너에 대한 정보를 볼 수 있습니다.</block>
-  <block id="9a14ff246991ca75a508eaad3a696a9c" category="list-text">* 계정 ID *: 스토리지 컨테이너와 연결된 NetAppElement 계정의 ID입니다.</block>
   <block id="bb9c607dcd3a4bd18589c06ac12a84a4" category="list-text">* 이름 *: 저장소 컨테이너의 이름입니다.</block>
   <block id="95aeb213f6e0232dfebbeef4d3fabdbb" category="list-text">* 상태 *: 저장소 컨테이너의 상태입니다. 가능한 값:</block>
   <block id="e826588898505d9bee0c431278a33ad3" category="list-text">* PE 유형 *: 프로토콜 엔드포인트 유형(SCSI는 Element 소프트웨어에 대해 사용 가능한 유일한 프로토콜입니다).</block>
@@ -12030,7 +12005,6 @@
   <block id="43d30245468a1ac3a0e76fb7722c7e17" category="inline-link-macro">API 참조 정보입니다</block>
   <block id="ae8b382bd5524cebdda8c02c60491369" category="paragraph">API 메소드에 대한 자세한 내용은 를 참조하십시오 <block ref="1a4a7db3ce46085e66e7371a3d480d1b" category="inline-link-macro-rx"></block>.</block>
   <block id="19bb9f2d83ebc22f2e8931ebc34f6110" category="paragraph">클러스터의 Element UI에서 VVOL 기능을 활성화했습니다.</block>
-  <block id="7b5a00f2f339a450a57bb4aaa1f60371" category="summary">관계를 만들려면 NetAppElement UI에서 SnapMirror 끝점을 만들어야 합니다.</block>
   <block id="dedd3700704f998555c9779c076f3d9c" category="doc">SnapMirror 끝점을 만듭니다</block>
   <block id="47f8bb61ca87b0a38661fa7bfdece7b4" category="paragraph">SnapMirror 엔드포인트는 Element 소프트웨어를 실행하는 클러스터의 복제 타겟 역할을 하는 ONTAP 클러스터입니다. SnapMirror 관계를 생성하기 전에 먼저 SnapMirror 끝점을 만듭니다.</block>
   <block id="4720a2d6ded47a6e3a7c30b7a024eb83" category="paragraph">Element 소프트웨어를 실행하는 스토리지 클러스터에서 SnapMirror 엔드포인트를 최대 4개 생성하고 관리할 수 있습니다.</block>
@@ -12045,7 +12019,6 @@
   <block id="6e683df732e71b9f9959d98a8bdf3290" category="list-text">LIF: Element와 통신하는 데 사용되는 ONTAP 인터클러스터 논리 인터페이스를 나열합니다.</block>
   <block id="a4bf5e9cf478552cfbc1dd5e7d6e852e" category="list-text">상태: SnapMirror 끝점의 현재 상태를 표시합니다. 가능한 값은 연결, 연결 해제 및 관리되지 않는 값입니다.</block>
   <block id="e7eb95bedcf0e5a384949274771b9090" category="summary">EnableFeature API 메소드를 사용하여 HTTPS 통신에 FIPS 140-2 작동 모드를 활성화할 수 있습니다.</block>
-  <block id="f7b1c0a6c1bbdeeb75abbfb1e3471656" category="paragraph">NetApp Element 소프트웨어를 사용하면 클러스터에서 FIPS(Federal Information Processing Standards) 140-2 운영 모드를 사용하도록 선택할 수 있습니다. 이 모드를 활성화하면 NetApp CSM(Cryptographic Security Module)이 활성화되고 HTTPS를 통해 NetAppElement UI 및 API에 대한 모든 통신에 FIPS 140-2 Level 1 인증 암호화를 활용합니다.</block>
   <block id="28117dac6dae3b2926b3fa3daa54c622" category="admonition">FIPS 140-2 모드를 활성화한 후에는 비활성화할 수 없습니다. FIPS 140-2 모드를 사용하도록 설정하면 클러스터의 각 노드가 재부팅되고 자체 테스트를 통해 실행되므로 NCSM이 FIPS 140-2 인증 모드에서 올바르게 설정 및 작동할 수 있습니다. 이로 인해 클러스터의 관리 및 스토리지 연결이 모두 중단됩니다. 환경에 암호화 메커니즘이 필요한 경우에만 신중하게 계획하고 이 모드를 활성화해야 합니다.</block>
   <block id="5f29c6b789d473ccf8c4eab2ed0331b5" category="paragraph">자세한 내용은 Element API 정보를 참조하십시오.</block>
   <block id="27f7170bd4fd080bb623675efbd52303" category="paragraph">다음은 FIPS를 사용하도록 설정하는 API 요청의 예입니다.</block>
@@ -12128,7 +12101,6 @@
   <block id="e79fd324410ad16d2165bd74fda88b57" category="list-text">* 버전 *: 각 노드에서 실행되는 소프트웨어 버전.</block>
   <block id="bc5c41c17da340e6195713d181a795ab" category="list-text">* 복제 포트 *: 원격 복제를 위해 노드에서 사용되는 포트입니다.</block>
   <block id="85611bc8b3b596220acd69ebfdc9f561" category="list-text">* 서비스 태그 *: 노드에 할당된 고유한 서비스 태그 번호입니다.</block>
-  <block id="190cdc01f7fb56224ceac8d08d754e74" category="summary">NetAppElement UI를 통해 클러스터 수준에서 SnapMirror 기능을 수동으로 활성화해야 합니다. 시스템에는 SnapMirror 기능이 기본적으로 비활성화되어 있으며, 새로운 설치 또는 업그레이드의 일부로 자동 활성화되지 않습니다. SnapMirror 기능을 설정하는 것은 일회성 구성 작업입니다.</block>
   <block id="8c6deb05dad76c6d98756a12280faf11" category="doc">클러스터에서 SnapMirror를 활성화합니다</block>
   <block id="c2ced3365f4afea26203cb8baf8d5496" category="paragraph">SnapMirror는 NetApp ONTAP 시스템의 볼륨과 함께 사용되는 Element 소프트웨어를 실행하는 클러스터에 대해서만 활성화할 수 있습니다. 클러스터가 NetApp ONTAP 볼륨과 함께 사용하도록 연결된 경우에만 SnapMirror 기능을 사용하도록 설정해야 합니다.</block>
   <block id="1ad412799aee12c3b2a515a4b2c82ddc" category="paragraph">스토리지 클러스터에서 NetApp Element 소프트웨어가 실행되고 있어야 합니다.</block>
@@ -12346,4 +12318,15 @@
   <block id="d69a8eaf0dfea73cf60506f2c945b71e" category="paragraph">SolidFire 스토리지 시스템에서 테넌트는 계정을 사용하여 클라이언트가 클러스터의 볼륨에 연결할 수 있도록 설정할 수 있습니다. 볼륨을 생성하면 특정 계정에 할당됩니다. SolidFire 스토리지 시스템의 클러스터 관리자 계정을 관리할 수도 있습니다.</block>
   <block id="f22f8c5563a22eebf5e40a4e6776b17e" category="list-text"><block ref="f22f8c5563a22eebf5e40a4e6776b17e" category="inline-link-macro-rx"></block></block>
   <block id="270743fb35c053386e4a4cdf6792cc48" category="list-text"><block ref="270743fb35c053386e4a4cdf6792cc48" category="inline-link-macro-rx"></block></block>
+  <block id="502f948d897ec07db67fdc2e469148ad" category="summary">NetApp Element UI를 사용하여 원본 소스 볼륨을 재동기화하고 페일백할 수 있습니다. 이 절차는 원래 소스 볼륨이 여전히 존재하는 시나리오에 적용됩니다.</block>
+  <block id="8183914c9226d9a19ae9bbfa627fbf0e" category="list-text">* 계정 ID *: 저장소 컨테이너와 연결된 NetApp Element 계정의 ID입니다.</block>
+  <block id="ad44348578662847864653ca8200921d" category="summary">관계를 만들려면 NetApp Element UI에서 SnapMirror 끝점을 만들어야 합니다.</block>
+  <block id="6c9029af99fc728c982ed5fd936b7698" category="paragraph">Element를 실행하는 시스템은 ONTAP 시스템 9.3 이상에서 SnapMirror와 직접 통신할 수 있습니다. NetApp Element API는 클러스터, 볼륨 및 스냅숏에서 SnapMirror 기능을 활성화하는 방법을 제공합니다. 또한 Element UI에는 Element 소프트웨어와 ONTAP 시스템 간의 SnapMirror 관계를 관리하는 데 필요한 모든 기능이 포함되어 있습니다.</block>
+  <block id="0fcbcd44f94b7480efaa3994bc435a94" category="summary">NetApp Element UI를 사용하여 원본 소스 볼륨을 재동기화하고 페일백할 수 있습니다. 이 섹션은 원래 소스 볼륨이 손실되었지만 원래 클러스터가 그대로 유지되는 시나리오에 적용됩니다. 새 클러스터로 복원하는 방법에 대한 자세한 내용은 NetApp Support 사이트 설명서를 참조하십시오.</block>
+  <block id="e9e2aaadf763fccbcadaf60d40bcc872" category="summary">NetApp Element UI를 통해 클러스터 레벨에서 SnapMirror 기능을 수동으로 활성화해야 합니다. 시스템에는 SnapMirror 기능이 기본적으로 비활성화되어 있으며, 새로운 설치 또는 업그레이드의 일부로 자동 활성화되지 않습니다. SnapMirror 기능을 설정하는 것은 일회성 구성 작업입니다.</block>
+  <block id="1ae777f5f5d3ad0b135c0ce6e90b188a" category="summary">NetApp Element UI에서 SnapMirror 관계를 만들어야 합니다.</block>
+  <block id="a76e77cdf9ddd9de47f6767bd156c68a" category="summary">Element 시스템은 NetApp Element API를 기능 및 기능의 기반으로 사용합니다. Element UI를 사용하면 인터페이스를 사용할 때 시스템에서 다양한 유형의 실시간 API 작업을 볼 수 있습니다. API 로그를 사용하면 사용자 시작 및 백그라운드 시스템 API 작업과 현재 보고 있는 페이지에서 수행된 API 호출을 볼 수 있습니다.</block>
+  <block id="eb78259501a2ba2c5586f9c5378b0722" category="paragraph">NetApp Element 소프트웨어를 사용하면 클러스터에서 FIPS(Federal Information Processing Standards) 140-2 운영 모드를 사용하도록 선택할 수 있습니다. 이 모드를 활성화하면 NCSM(NetApp Cryptographic Security Module)이 활성화되고 HTTPS를 통해 NetApp Element UI 및 API에 연결되는 모든 통신에 FIPS 140-2 Level 1 인증 암호화를 활용합니다.</block>
+  <block id="9bcbeef20d899b1f6c3b91bed9318949" category="summary">NetApp Element UI의 데이터 보호 탭에서 SnapMirror 관계를 생성할 수 있습니다. 사용자 인터페이스에서 이를 보려면 SnapMirror 기능이 활성화되어 있어야 합니다.</block>
+  <block id="04c9a1dceaa7848075695a7a05510e89" category="paragraph">NetApp Element API를 사용하여 클러스터에 있는 스토리지 노드의 기본 SSL 인증서 및 개인 키를 변경할 수 있습니다.</block>
 </blocks>
