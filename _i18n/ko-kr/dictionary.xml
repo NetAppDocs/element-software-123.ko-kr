@@ -8481,7 +8481,6 @@
   <block id="390ad22ea22a7a4699d87e2efaa0c84e" category="list-text">스토리지 노드에서 실행되는 NetApp Element 소프트웨어의 일련 번호, 섀시 슬롯 위치, 모델 및 버전과 같은 노드에 대한 세부 정보입니다</block>
   <block id="09bfac84403d33379e533954403b0f94" category="list-text">가상 시스템에 대한 CPU 및 스토리지 관련 정보입니다</block>
   <block id="8f7f4baec8aa05a765ec83446ad7d0c6" category="inline-link">NetApp Support 사이트 및 GT, Active IQ용 툴</block>
-  <block id="a93cab242c29bc1f7ed010aedb157dab" category="list-text"><block ref="1a3a02f863c93340fc1be395cd8c98c0" category="inline-link-rx"></block></block>
   <block id="de38f9b39645a1819eeb7bfcb11bad84" category="summary">관리 노드 \(mNode\)는 하나 이상의 Element 소프트웨어 기반 스토리지 클러스터와 병렬로 실행되는 가상 머신입니다. 이 툴을 사용하면 모니터링 및 원격 측정을 포함하여 시스템 서비스를 업그레이드 및 제공하고, 클러스터 자산 및 설정을 관리하고, 시스템 테스트 및 유틸리티를 실행하고, 문제 해결을 위해 NetApp Support 액세스를 지원할 수 있습니다.</block>
   <block id="d3df0f25284b2139f704a93fe81001c6" category="doc">Element 소프트웨어의 관리 노드입니다</block>
   <block id="da3b616dfd629624c8720b947d60d3a8" category="inline-link-macro">관리 노드(mNode)</block>
@@ -12329,4 +12328,11 @@
   <block id="70659e4f9824d888c2aa77344aaa46c4" category="list-text"><block ref="70659e4f9824d888c2aa77344aaa46c4" category="inline-link-rx"></block></block>
   <block id="0ea391471e626f95079246bfd0ab48f9" category="paragraph">vCenter Server SIOC용 NetApp Element 플러그인은 _ QoSSIOC 암호 _ 라고도 합니다. </block>
   <block id="0ba7ef8feca0e0b45134473e9c3182d4" category="paragraph">{url-peak} [vCenter Server용 Element Plug-in KB 문서^]를 검토합니다.</block>
+  <block id="ef9cbe434b5f28c847ba96be9c26f253" category="list-text">CPU, 메모리 사용량 및 노드 임계치 조절에 대한 그래픽 표현입니다</block>
+  <block id="7aa85da92a1cd23b2981568643e3da1c" category="inline-link">SolidFire Active IQ 설명서</block>
+  <block id="24cc9a6d809fb5ff41b6660db9cdf022" category="list-text">CPU 및 스토리지 관련 정보 SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>.</block>
+  <block id="1a1a6c5ed33ecaf055e3e38150525306" category="list-text"><block ref="11e28499cd7c9c7d408304fbab2a1320" category="inline-link-rx"></block></block>
+  <block id="469eaba8a7048afa0ba6f8eb91801de9" category="doc">SolidFire Active IQ를 사용하여 스토리지를 모니터링합니다</block>
+  <block id="45f40a7365f71f3eafc4489e01e9aa82" category="sidebar">NetApp SolidFire Active IQ를 사용하여 스토리지를 모니터링합니다</block>
+  <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">NetApp SolidFire Active IQ 사용</block>
 </blocks>
