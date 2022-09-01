@@ -19,8 +19,12 @@ keywords: netapp, Element, api, enable, active iq, activeiq
 Active IQ Collector 서비스는 내역 보고 및 실시간에 가까운 성능 모니터링을 위해 구성 데이터 및 Element 소프트웨어 기반 클러스터 성능 메트릭을 SolidFire Active IQ에 전달합니다. NetApp 모니터링 서비스를 사용하면 스토리지 클러스터 장애를 vCenter에 전달하여 알림을 받을 수 있습니다.
 
 .시작하기 전에
-* 스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.
-* 버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.
+* Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.
++
+** 스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.
+** 버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.
+
+
 * 인터넷에 접속할 수 있습니다. 외부 연결이 없는 어두운 사이트에서는 Active IQ Collector 서비스를 사용할 수 없습니다.
 
 

@@ -8477,7 +8477,6 @@
   <block id="7d640bfdd148f102df423b6e94b11571" category="paragraph"><block ref="15098cd863d8945571eb3fa1cb63a7fe" category="inline-link-rx"></block> 는 클러스터 전체 데이터의 기간별 뷰를 지속적으로 업데이트하는 웹 기반 툴입니다. 특정 이벤트, 임계값 또는 메트릭에 대한 알림을 설정할 수 있습니다. SolidFire Active IQ를 사용하면 시스템 성능과 용량을 모니터링할 수 있을 뿐만 아니라 클러스터 상태에 대한 최신 정보를 유지할 수 있습니다.</block>
   <block id="841b3da78955b4e942c8bd5ffddca29e" category="paragraph">SolidFire Active IQ에서 시스템에 대한 다음 정보를 찾을 수 있습니다.</block>
   <block id="4cea75009713f3eadbea7bd906d0523e" category="list-text">노드의 수 및 노드 상태: 정상, 오프라인 또는 장애</block>
-  <block id="1d60ceb1c0eb7b235010f9d4f656f6d7" category="list-text">CPU 및 메모리 사용량을 그래픽으로 표시합니다</block>
   <block id="390ad22ea22a7a4699d87e2efaa0c84e" category="list-text">스토리지 노드에서 실행되는 NetApp Element 소프트웨어의 일련 번호, 섀시 슬롯 위치, 모델 및 버전과 같은 노드에 대한 세부 정보입니다</block>
   <block id="09bfac84403d33379e533954403b0f94" category="list-text">가상 시스템에 대한 CPU 및 스토리지 관련 정보입니다</block>
   <block id="8f7f4baec8aa05a765ec83446ad7d0c6" category="inline-link">NetApp Support 사이트 및 GT, Active IQ용 툴</block>
@@ -10154,7 +10153,6 @@
   <block id="61619933da68d936343d156cf86fd348" category="list-text">암호 * 및 * 암호 확인 * 필드에 강력한 새 암호를 입력합니다.</block>
   <block id="328ec503408d578ee5972945b2b06ae0" category="list-text">페이지 하단의 * 저장 * 을 클릭합니다.</block>
   <block id="c77013b15c47fcdd751ff96ca28cf5ac" category="list-text">기본 IPMI 암호가 있는 다른 H610S 노드에 대해 이 절차를 반복합니다.</block>
-  <block id="148fe9926e292adb5c7374ee88fa6651" category="paragraph">Active IQ에서 시스템에 대한 다음 정보를 찾을 수 있습니다.</block>
   <block id="66c36c8b05fe85645ac29ef19ef65fec" category="paragraph">관리 노드(mNode)는 하나 이상의 Element 소프트웨어 기반 스토리지 클러스터와 병렬로 실행되는 가상 머신입니다. 이 툴을 사용하면 모니터링 및 원격 측정을 포함하여 시스템 서비스를 업그레이드 및 제공하고, 클러스터 자산 및 설정을 관리하고, 시스템 테스트 및 유틸리티를 실행하고, 문제 해결을 위해 NetApp Support 액세스를 지원할 수 있습니다.</block>
   <block id="27784185cf7acffff8c4030234913f4f" category="paragraph">Element 11.3 릴리스 현재 관리 노드는 마이크로서비스 호스트로 작동하며, 주요 릴리스 이외의 특정 소프트웨어 서비스를 더 빠르게 업데이트할 수 있습니다. Active IQ Collector, vCenter 플러그인용 QoSSIOC, mNode 서비스와 같은 이러한 마이크로서비스 또는 관리 서비스는 서비스 번들로 자주 업데이트됩니다. 스토리지 노드 소프트웨어 업그레이드 및 지원 툴(원격 지원 터널링)을 위한 HealthTools를 포함한 추가 서비스도 관리 노드에서 제공됩니다.</block>
   <block id="d27c6f768ef4d7149904862f1a633b7e" category="summary">SolidFire 스토리지 노드는 Bond10G 네트워크 인터페이스를 통해 서로 통신하는 드라이브 모음이 포함된 서버입니다. 노드의 드라이브에는 데이터 스토리지 및 데이터 관리를 위한 블록 및 메타데이터 공간이 포함되어 있습니다.</block>
@@ -11126,18 +11124,6 @@
   <block id="18d9baaef37c0db710997a1713f55562" category="paragraph">QoS 정책의 사용자 정의 이름입니다.</block>
   <block id="ce8f7dd1608dc67c9404ff17eac605a7" category="list-text">볼륨 *</block>
   <block id="7bb6651b24ac622589ee6a2bece471c0" category="paragraph">에는 정책을 사용하는 볼륨 수가 나와 있습니다. 이 번호는 정책이 적용된 볼륨 표로 연결됩니다.</block>
-  <block id="8bc14f0cb78851f59e85c1d447c2c99f" category="doc">서비스 품질</block>
-  <block id="8525478e88fe768020917024e56b3375" category="list-text">* 최소 IOPS *</block>
-  <block id="27e38a475d319fbe8808dbde111a71f4" category="paragraph">스토리지 클러스터가 볼륨에 제공하는 최소 유지 IOPS(초당 입출력) 수입니다. 볼륨에 대해 구성된 최소 IOPS는 볼륨의 보장된 성능 수준입니다. 성능이 이 수준 아래로 떨어지지 않습니다.</block>
-  <block id="0eafe666057554f59d8d2c8c24b3e0f3" category="list-text">* 최대 IOPS *</block>
-  <block id="086078d6e9862aa3229698f9f4ea609d" category="paragraph">스토리지 클러스터가 볼륨에 제공하는 최대 지속 IOPS 수입니다. 클러스터 IOPS 레벨이 매우 높을 경우 이 IOPS 성능 레벨이 초과하지 않습니다.</block>
-  <block id="6c3439000c562798f2214c4888ab4ed8" category="paragraph">짧은 버스트 시나리오에서 허용되는 최대 IOPS 수입니다. 볼륨이 최대 IOPS 미만으로 실행 중인 경우 버스트 크레딧이 누적됩니다. 성능 수준이 매우 높고 최대 수준으로 푸시되면 볼륨에 대해 짧은 IOPS 버스트가 허용됩니다.</block>
-  <block id="21094115b958d315231b910f9b8e8c38" category="paragraph">단일 볼륨에서 버스트 IOPS를 늘리고 크레딧을 사용하여 설정된 "버스트 기간"에 대해 최대 IOPS 레벨까지 버스트 IOPS를 초과하는 성능을 높일 수 있습니다. 클러스터에 최대 60초 동안 연속 데이터 증가를 수용할 수 있는 용량이 있는 경우 볼륨이 폭발할 수 있습니다.</block>
-  <block id="1d817bd510c09dbc5ee3cf5101fa6e94" category="paragraph">볼륨은 최대 IOPS 한도 미만으로 실행되는 초당 1초의 버스트 크레딧(최대 60초)을 누적합니다.</block>
-  <block id="4fb6dee19a7208b7558396de228b1c1c" category="list-text">* 유효 최대 대역폭 *</block>
-  <block id="248da5ca182c3126378490e07f585f5c" category="paragraph">최대 대역폭은 IOPS 수(QoS 곡선 기준)에 IO 크기를 곱하여 계산합니다.</block>
-  <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph">예:</block>
-  <block id="4f88c9126146259f6c0627052d9cda8f" category="paragraph">100분 IOPS, 1000 Max IOPS, 1500 Burst IOP의 QoS 매개 변수 설정은 성능 품질에 다음과 같은 영향을 미칩니다.</block>
   <block id="a418de238af2e950367eb7c3bf83fe1f" category="summary">일반적으로 NetApp Element 소프트웨어를 실행하는 SolidFire 스토리지 클러스터에서 ONTAP 소프트웨어로 재해 복구를 위해 SnapMirror를 사용하는 경우, Element가 소스이고 ONTAP가 타겟입니다. 하지만 경우에 따라 ONTAP 스토리지 시스템이 소스 및 Element를 타겟으로 사용할 수 있습니다.</block>
   <block id="659c8d4c2c0fc3a73a824fc81bde1e80" category="doc">ONTAP에서 요소로 전송 또는 1회 마이그레이션을 수행합니다</block>
   <block id="a955789d7e958f413c05678ed87e5055" category="list-text">두 가지 시나리오가 있습니다.</block>
@@ -12087,9 +12073,6 @@
   <block id="17d44e89eecd428fa4268b3fa3873164" category="paragraph">암호화되지 않은 노드와 암호화된 노드를 혼합하지 않는 것이 가장 좋습니다. 혼합 노드 클러스터에서 노드는 총 클러스터 용량의 33%를 초과할 수 없습니다. 예를 들어, 4개의 SF-Series 4805 노드가 있는 클러스터에서 단독으로 추가할 수 있는 가장 큰 노드는 SF-Series 9605입니다. 클러스터 용량 임계값은 이 상황에서 최대 노드의 잠재적 손실을 기준으로 계산됩니다.</block>
   <block id="dde5a199f31b4af53ccd088330e8314c" category="paragraph">Element 12.0부터 다음 SF 시리즈 스토리지 노드는 지원되지 않습니다.</block>
   <block id="58432e4b26f0e5c8db86828d17f3a7ba" category="paragraph">이러한 스토리지 노드 중 하나를 Element 12.0으로 업그레이드하면 이 노드가 Element 12.0에서 지원되지 않는다는 오류가 표시됩니다.</block>
-  <block id="05da295a52c5ab8bf219722efcc57625" category="summary">서비스 품질\(QoS\) 성능 곡선은 블록 크기와 IOPS 백분율 간의 관계를 보여줍니다.</block>
-  <block id="735a31f1d01fe768279621625e725b79" category="doc">QoS 성능 곡선</block>
-  <block id="18a66bc3ec4b3669a530ba3c51d026aa" category="paragraph">QoS(서비스 품질) 성능 곡선은 블록 크기와 IOPS 백분율 간의 관계를 보여줍니다.</block>
   <block id="4cf5f18e32ae2a3ab791ffc90b0c71b8" category="summary">진단 목적으로 시스템을 모니터링하고 다양한 시스템 작업의 성능 추세 및 상태에 대한 정보를 확인해야 합니다. 유지보수를 위해 노드 또는 SSD를 교체해야 할 수 있습니다.</block>
   <block id="5d275af03802c344792a6765e974ac03" category="list-text"><block ref="5d275af03802c344792a6765e974ac03" category="inline-link-macro-rx"></block></block>
   <block id="b1c9ca707156f02819d3d0e1cc8278ee" category="list-text"><block ref="b1c9ca707156f02819d3d0e1cc8278ee" category="inline-link-macro-rx"></block></block>
@@ -12330,9 +12313,10 @@
   <block id="0ba7ef8feca0e0b45134473e9c3182d4" category="paragraph">{url-peak} [vCenter Server용 Element Plug-in KB 문서^]를 검토합니다.</block>
   <block id="ef9cbe434b5f28c847ba96be9c26f253" category="list-text">CPU, 메모리 사용량 및 노드 임계치 조절에 대한 그래픽 표현입니다</block>
   <block id="7aa85da92a1cd23b2981568643e3da1c" category="inline-link">SolidFire Active IQ 설명서</block>
-  <block id="24cc9a6d809fb5ff41b6660db9cdf022" category="list-text">CPU 및 스토리지 관련 정보 SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>.</block>
   <block id="1a1a6c5ed33ecaf055e3e38150525306" category="list-text"><block ref="11e28499cd7c9c7d408304fbab2a1320" category="inline-link-rx"></block></block>
   <block id="469eaba8a7048afa0ba6f8eb91801de9" category="doc">SolidFire Active IQ를 사용하여 스토리지를 모니터링합니다</block>
   <block id="45f40a7365f71f3eafc4489e01e9aa82" category="sidebar">NetApp SolidFire Active IQ를 사용하여 스토리지를 모니터링합니다</block>
   <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">NetApp SolidFire Active IQ 사용</block>
+  <block id="f02632134f46548247abd92a38e5f73e" category="paragraph">SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>.</block>
+  <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.</block>
 </blocks>

@@ -18,8 +18,10 @@ SolidFire Active IQ에서 시스템에 대한 다음 정보를 찾을 수 있습
 * 노드의 수 및 노드 상태: 정상, 오프라인 또는 장애
 * CPU, 메모리 사용량 및 노드 임계치 조절에 대한 그래픽 표현입니다
 * 스토리지 노드에서 실행되는 NetApp Element 소프트웨어의 일련 번호, 섀시 슬롯 위치, 모델 및 버전과 같은 노드에 대한 세부 정보입니다
-* CPU 및 스토리지 관련 정보 SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/solidfire-active-iq/index.html["SolidFire Active IQ 설명서"^].
+* 가상 시스템에 대한 CPU 및 스토리지 관련 정보입니다
 
+
+SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/solidfire-active-iq/index.html["SolidFire Active IQ 설명서"^].
 
 
 
