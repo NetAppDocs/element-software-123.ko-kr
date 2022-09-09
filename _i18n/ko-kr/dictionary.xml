@@ -8867,7 +8867,6 @@
   <block id="4902bbb0f0792204a931cd6714a07488" category="section-title">권한 있는 스토리지 클러스터</block>
   <block id="a18ea3a466ff3d7bd70cfb3f7158e88d" category="paragraph">신뢰할 수 있는 스토리지 클러스터는 NetApp 하이브리드 클라우드 제어에서 사용자를 인증하는 데 사용하는 스토리지 클러스터입니다.</block>
   <block id="2cd0e9f52d18ccaa56ebdcbb4861e9b3" category="paragraph">관리 노드에 스토리지 클러스터가 하나만 있는 경우 신뢰할 수 있는 클러스터입니다. 관리 노드에 둘 이상의 스토리지 클러스터가 있는 경우 이러한 클러스터 중 하나가 권한 있는 클러스터로 할당되고 해당 클러스터의 사용자만 NetApp 하이브리드 클라우드 제어에 로그인할 수 있습니다. 어느 클러스터가 권위 있는 클러스터인지 확인하려면 Get/mnode/about API를 사용할 수 있습니다. 이에 대한 응답으로 token_url 필드의 IP 주소는 권한 있는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. NetApp 하이브리드 클라우드 제어에 권한 있는 클러스터에 없는 사용자로 로그인하려고 하면 로그인 시도가 실패합니다.</block>
-  <block id="231614b040b1229fa532738569668845" category="paragraph">많은 NetApp 하이브리드 클라우드 제어 기능은 여러 스토리지 클러스터에서 작동하도록 설계되었지만 인증과 권한 부여에는 제한이 있습니다. 인증 및 권한 부여에 대한 제한 사항은 권한 있는 클러스터의 사용자가 다른 스토리지 클러스터의 사용자가 아니더라도 NetApp 하이브리드 클라우드 제어에 연결된 다른 클러스터에 대한 작업을 실행할 수 있다는 것입니다. 여러 스토리지 클러스터를 관리하기 전에 권한 있는 클러스터에 정의된 사용자가 동일한 권한을 가진 다른 모든 스토리지 클러스터에 정의되어 있는지 확인해야 합니다.</block>
   <block id="7637537a215094d11d21f8d200622812" category="inline-link-macro">Element 소프트웨어 사용자 인터페이스</block>
   <block id="353681e44a9f1004360ad2451b95f66a" category="paragraph">여러 스토리지 클러스터를 관리하기 전에 권한 있는 클러스터에 정의된 사용자가 동일한 권한을 가진 다른 모든 스토리지 클러스터에 정의되어 있는지 확인해야 합니다. 에서 사용자를 관리할 수 있습니다 <block ref="c6f9d44a89e7c75fd4726f61bea07a82" category="inline-link-macro-rx"></block>.</block>
   <block id="68f491affafdc67007d139c6e24190b1" category="inline-link-macro">스토리지 클러스터 자산을 생성하고 관리합니다</block>
@@ -12201,7 +12200,6 @@
   <block id="e506ffc283cd9b97f54dc128678dfcbc" category="paragraph"><block ref="e506ffc283cd9b97f54dc128678dfcbc" category="inline-xref-macro-rx"></block></block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
-  <block id="c653b8edc861abcc06840aebde786e4b" category="sidebar">vCenter Server용 Element 플러그인을 사용하여 스토리지 관리(링크)</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="01064f33f360eefba819bf9542c0486b" category="sidebar">유지보수 하드웨어를 설치합니다</block>
@@ -12319,4 +12317,10 @@
   <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">NetApp SolidFire Active IQ 사용</block>
   <block id="f02632134f46548247abd92a38e5f73e" category="paragraph">SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>.</block>
   <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.</block>
+  <block id="d214b4cd328cf59221f38d85dca1988f" category="summary">VMware vSphere 인터페이스의 플러그인인 vCenter Server용 NetApp Element 플러그인을 사용하여 NetApp Element 소프트웨어를 실행하는 스토리지 클러스터를 관리하고 모니터링할 수 있습니다.</block>
+  <block id="14dc26d359d13f6037d00a6c79232cd6" category="paragraph">vCenter Server용 NetApp Element 플러그인은 NetApp Element 소프트웨어를 실행하는 스토리지 클러스터를 관리하고 모니터링할 수 있도록 VMware vSphere 인터페이스에 대한 플러그인을 제공합니다.</block>
+  <block id="da3eb0bd8c882a21931739ac39ce915a" category="inline-link">vCenter Server용 NetApp Element 플러그인 설명서</block>
+  <block id="c557278939ddfc5c37a8606a5b8bc3d8" category="paragraph">vCenter Server용 Element 플러그인에 대한 자세한 내용은 를 참조하십시오<block ref="4a40fe421733073daff96e428d226590" category="inline-link-rx"></block>.</block>
+  <block id="fd0b9b1500c5983ac27a332210ebfe29" category="paragraph">많은 NetApp 하이브리드 클라우드 제어 기능은 여러 스토리지 클러스터에서 작동하도록 설계되었지만 인증과 권한 부여에는 제한이 있습니다. 인증 및 권한 부여에 대한 제한 사항은 권한 있는 클러스터의 사용자가 다른 스토리지 클러스터의 사용자가 아니더라도 NetApp 하이브리드 클라우드 제어에 연결된 다른 클러스터에 대한 작업을 실행할 수 있다는 것입니다.</block>
+  <block id="f0e8a2f025f562374fa58233f9f7cd01" category="sidebar">vCenter Server용 Element 플러그인을 사용하여 스토리지를 관리합니다</block>
 </blocks>
