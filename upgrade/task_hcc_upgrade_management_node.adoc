@@ -30,11 +30,11 @@ NOTE: vCenter Plug-in 4.4 이상에서는 모듈식 아키텍처를 사용하여
 
 
 ====
-* 관리 노드 12.2에서 업그레이드하는 경우:<<Upgrade a management node to version 12.3.x from 12.2>>
-* 관리 노드 12.0에서 업그레이드하는 경우:<<Upgrade a management node to version 12.3.x from 12.0>>
-* 관리 노드 11.3, 11.5, 11.7 또는 11.8에서 업그레이드하는 경우:<<Upgrade a management node to version 12.3.x from 11.3 through 11.8>>
-* 관리 노드 11.0 또는 11.1에서 업그레이드하는 경우:<<Upgrade a management node to version 12.3.x from 11.1 or 11.0>>
-* 관리 노드 버전 10.x에서 업그레이드하는 경우:<<Migrating from management node version 10.x to 11.x>>
+* 관리 노드 12.2에서 업그레이드하는 경우: a management node to version 12.3.x from 12.2
+* 관리 노드 12.0에서 업그레이드하는 경우: a management node to version 12.3.x from 12.0
+* 관리 노드 11.3, 11.5, 11.7 또는 11.8에서 업그레이드하는 경우: a management node to version 12.3.x from 11.3 through 11.8
+* 관리 노드 11.0 또는 11.1에서 업그레이드하는 경우: a management node to version 12.3.x from 11.1 or 11.0
+* 관리 노드 버전 10.x에서 업그레이드하는 경우: from management node version 10.x to 11.x
 
 
 관리 서비스 버전(1) 및 (2) 요소 스토리지 버전을 * 순차적으로 * 업데이트하고 * 기존 관리 노드를 * 유지하려면 다음 옵션을 선택합니다.
@@ -42,7 +42,7 @@ NOTE: vCenter Plug-in 4.4 이상에서는 모듈식 아키텍처를 사용하여
 
 NOTE: 관리 서비스를 Element 스토리지 뒤에 순차적으로 업데이트하지 않으면 이 절차를 사용하여 재인증을 재구성할 수 없습니다. 대신 적절한 업그레이드 절차를 따르십시오.
 
-* 기존 관리 노드를 유지하는 경우:<<Reconfigure authentication using the management node REST API>>
+* 기존 관리 노드를 유지하는 경우: authentication using the management node REST API
 
 
 

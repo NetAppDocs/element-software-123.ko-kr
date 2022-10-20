@@ -19,7 +19,7 @@ keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgra
 
 이러한 구성 요소에는 관리 서비스, HealthTools, NetApp 하이브리드 클라우드 제어, Element 소프트웨어, 관리 노드 및 vCenter Server용 Element 플러그인(설치에 따라 다름)이 포함됩니다.
 
-를 클릭합니다 <<sys_upgrade,시스템 업그레이드 순서>> 내용 은 SolidFire All-Flash 스토리지 시스템 업그레이드를 완료하는 데 필요한 작업에 대해 설명합니다. 이러한 절차는 격리가 아닌 더 큰 업그레이드 순서의 일부로 수행하는 것이 이상적입니다. 구성 요소 기반 업그레이드 또는 업데이트가 필요한 경우 추가 복잡성을 해결하기 위한 절차 필수 구성 요소를 참조하십시오.
+를 클릭합니다 ,시스템 업그레이드 순서 내용 은 SolidFire All-Flash 스토리지 시스템 업그레이드를 완료하는 데 필요한 작업에 대해 설명합니다. 이러한 절차는 격리가 아닌 더 큰 업그레이드 순서의 일부로 수행하는 것이 이상적입니다. 구성 요소 기반 업그레이드 또는 업데이트가 필요한 경우 추가 복잡성을 해결하기 위한 절차 필수 구성 요소를 참조하십시오.
 
 를 클릭합니다 link:task_sf_upgrade_all_vsphere.html["vSphere 업그레이드 시퀀스"] vCenter Server용 Element 플러그인 포함 에서는 vCenter Server용 Element 플러그인을 다시 설치하는 데 필요한 추가 사전 및 사후 업그레이드 단계에 대해 설명합니다.
 
