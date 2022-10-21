@@ -891,7 +891,6 @@
   <block id="7eada9b3aeba75afea1bb6e56efd98a1" category="paragraph">REST API를 사용하여 관리 노드에서 실행 중인 서비스에서 로그를 검색할 수 있습니다. 모든 공용 서비스에서 로그를 풀거나 특정 서비스를 지정하고 쿼리 매개 변수를 사용하여 반환 결과를 더 잘 정의할 수 있습니다.</block>
   <block id="fc78a25a814125bdaeb01b28be02a19d" category="list-text">클러스터 버전이 NetApp Element 소프트웨어 11.3 이상을 실행 중입니다.</block>
   <block id="d95dde96d5f37c05bba91d1bff6d1a55" category="list-text">버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.</block>
-  <block id="4ac581155f2c6a4a3a056078e2b122a1" category="list-text">관리 노드에서 REST API UI를 엽니다.</block>
   <block id="1fca2b4a66eca3cc3857ef2cc620c7a4" category="list-text">authorize * 또는 임의의 잠금 아이콘을 선택하고 다음을 완료합니다.</block>
   <block id="fe5314e1f2b52008d7c6c1dc49232535" category="list-text">값이 아직 채워지지 않은 경우 클라이언트 ID를 mnode-client로 입력합니다.</block>
   <block id="09cd4d07205bec65818c2a8ba07333f0" category="list-text">get/logs * 를 선택합니다.</block>
@@ -7824,7 +7823,6 @@
   <block id="2aaad98bfcfbd95f21871cf486a3243c" category="inline-link">vCenter Server, ESXi, VM 및 기타 VMware 구성 요소를 비롯한 vSphere를 업그레이드합니다</block>
   <block id="f23d91ab86d1cf2e82bd86fd860c8585" category="list-text"><block ref="f0107c2e24795b3c47b3466dee69927b" category="inline-link-rx"></block>.</block>
   <block id="7389b01d5fe0e17f5523a7fb85295f91" category="inline-link">이 KB 문서를 참조하십시오</block>
-  <block id="38be14292d8d278a5d7b04a84bab839d" category="admonition">VMware vCenter Server 7.0 U3으로 업그레이드하면 vCenter Server용 NetApp Element 플러그인의 모든 버전이 배포되지 않습니다. 이 문제를 해결하려면 을 참조하십시오<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>.</block>
   <block id="0ba7583639a274c434bbe6ef797115a4" category="inline-link">등록</block>
   <block id="81750b82d55f7148c9a0001ed71e7dd4" category="list-text"><block ref="670ccc28c8c6a3ae1c020a0fa12ec195" category="inline-link-rx"></block> vCenter를 사용하여 vCenter Server용 Element Plug-in을 다시 사용할 수 있습니다.</block>
   <block id="2984cab36bd51d5446963e671e808f5d" category="inline-link">클러스터 추가</block>
@@ -12327,4 +12325,6 @@
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 관리 서비스를 업그레이드하기 전에 최종 사용자 라이센스 계약(EULA)에 동의해야 합니다.</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">관리 서비스 공지 2.21.61(VMware vCenter Server용 NetApp Element 플러그인 4.10.12)</block>
   <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
+  <block id="5d8cb69408d9a6773459aa0a397a3003" category="list-text">관리 노드에서 REST API UI를 엽니다.</block>
+  <block id="d7edacc6a8d7390dfd56f74d5b4c58a4" category="admonition">VMware vCenter Server 7.0 U3으로 업그레이드하면 Element 플러그인이 배포되지 않습니다. 이 문제를 해결하려면 을 참조하십시오<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>].</block>
 </blocks>
