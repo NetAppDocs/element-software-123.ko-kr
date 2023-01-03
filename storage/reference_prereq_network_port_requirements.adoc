@@ -189,6 +189,9 @@ repo.netapp.com
 
 
 
+| 관리 노드 | 스토리지 노드 BMC/IPMI | 623 UDP | RMCP 포트. IPMI 지원 시스템을 관리하는 데 필요합니다. 
+
+
  a| 
 관리 노드
  a| 
@@ -231,6 +234,9 @@ SNMP 서버
  a| 
 SNMP 폴링
 
+
+
+| 스토리지 노드 BMC/IPMI | 관리 노드 | 623 UDP | RMCP 포트. IPMI 지원 시스템을 관리하는 데 필요합니다. 
 
 
  a| 

@@ -12363,4 +12363,6 @@
   <block id="bac407daf00ae86b0f95e89cf84eeac1" category="section-title">[[sys_upgrade]] 시스템 업그레이드 순서</block>
   <block id="a31b6eafc73ca0db90a0d96e6fb9dc93" category="paragraph-title">상태 점검 옵션</block>
   <block id="63f488c7bb829c89f024839d6aa602f4" category="section-title">[[CUSTOM_PD]] 사용자 지정 보호 도메인</block>
+  <block id="29d5a1c31c94981fab1916121b43f763" category="cell">스토리지 노드 BMC/IPMI</block>
+  <block id="291dd45cc603b1047e92bf5a13259357" category="cell">RMCP 포트. IPMI 지원 시스템을 관리하는 데 필요합니다.</block>
 </blocks>
