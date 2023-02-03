@@ -217,5 +217,5 @@ SolidFire ESDS에 대해 다음과 같은 새로운 설명서를 사용할 수 �
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"^]
 * http://docs.netapp.com/sfe-122/index.jsp["이전 버전용 SolidFire 및 Element 소프트웨어 설명서 센터"^]
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
-* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["NetApp HCI 및 NetApp Element 소프트웨어용 펌웨어 및 드라이버 버전"^]
+* link:../hardware/fw_storage_nodes.html["SolidFire 스토리지 노드에 대해 지원되는 스토리지 펌웨어 버전입니다"] _신규 _
 
