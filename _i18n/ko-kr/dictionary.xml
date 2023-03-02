@@ -9326,9 +9326,6 @@
   <block id="7402074664fcb3503f94b26301713adb" category="admonition">클러스터 SSL 인증서는 클러스터에 추가된 모든 새 노드에 자동으로 적용됩니다. 클러스터에서 제거된 노드는 자체 서명된 인증서로 되돌리며 모든 사용자 정의 인증서와 키 정보가 노드에서 제거됩니다.</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">NetApp Support에 문의하여 예비 단계를 완료한 후 전체 클러스터의 전원을 끕니다.</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">클러스터 전원을 끕니다</block>
-  <block id="7e75e710e04194aacb5b7f056ec5e471" category="paragraph">다음을 수행하여 클러스터를 종료할 준비를 합니다.</block>
-  <block id="7bf4e8d030b2c47061505b2052e7e3c8" category="list-text">모든 I/O를 중지합니다</block>
-  <block id="c1fc137e8581e89d2a694ed758b29c11" category="list-text">모든 iSCSI 세션의 연결을 해제합니다.</block>
   <block id="52774163f10fbc297ca1a2188d7b81c9" category="list-text">클러스터의 관리 가상 IP(MVIP) 주소로 이동하여 Element UI를 엽니다.</block>
   <block id="ecb5391ff71658726fe4fbade2f9af5e" category="list-text">노드 목록에 나열된 노드를 확인합니다.</block>
   <block id="7a9ac18ef12501dac2ab0cc718dd03a4" category="list-text">클러스터의 각 노드 ID에 지정된 중지 옵션으로 Shutdown API 메서드를 실행합니다.</block>
@@ -12295,7 +12292,6 @@
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0 이상</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">VMware vCenter Server 5.0용 Element 플러그인부터 이 업그레이드 절차에서는 다음과 같은 업그레이드 시나리오에 대해 설명합니다.</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">vCenter Server 5.0용 Element 플러그인으로 업그레이드하려는 경우</block>
-  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">8.0 또는 7.0 HTML5 vSphere Web Client로 업그레이드하는 중입니다.</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0 이상의 Element 플러그인은 vCenter Server 6.7 및 6.5와 호환되지 않습니다.</block>
   <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Element Plug-in for vCenter Server 4.x에서 5.0으로 업그레이드하면 vCenter 인스턴스에서 원격 플러그인으로 데이터를 복사할 수 없기 때문에 플러그인으로 이미 구성된 클러스터가 손실됩니다. 원격 플러그인에 클러스터를 다시 추가해야 합니다. 이 작업은 로컬 플러그인에서 원격 플러그인으로 업그레이드할 때 한 번 수행하는 작업입니다.</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter 플러그인 4.10 이하</block>
@@ -12655,11 +12651,23 @@
   <block id="6488398a09e5e3619c68849839032852" category="list-text">Linux: Linux 시스템에 대한 배경 지식이 있습니다.</block>
   <block id="88a314dd47a5b577c9b424a096c7a9e8" category="list-text">네트워킹: IP 주소, 넷마스크 및 게이트웨이를 포함하여 서버 네트워킹 및 네트워크 스토리지에 익숙합니다.</block>
   <block id="229a83df3c23d08a8495591aab99bf5b" category="paragraph">RTFI ISO(International Organization for Standardization) 이미지를 배포 및 설치하고 RTFI 프로세스를 수행합니다.</block>
-  <block id="4761cf42d3167c91f942aaa5770bce7b" category="list-text"><block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block></block>
-  <block id="8e03dc636d7913fabfabd316d5e54ac0" category="list-text"><block ref="8e03dc636d7913fabfabd316d5e54ac0" category="inline-xref-macro-rx"></block></block>
-  <block id="82deed01641c36ab7f885c50d27dcaea" category="list-text"><block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block></block>
   <block id="fe87b6b5d8e86013cf5abe3db7879c77" category="list-text">Secure(보안)를 선택하면 선택한 모든 드라이브가 지워집니다.</block>
-  <block id="98f034cb87c1c327b13fbbbb31bc622b" category="paragraph">USB 키를 만들거나 BMC를 사용하여 RTFI 프로세스를 수행하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block>.</block>
   <block id="a386fc287fd28e52c07d586cfb7aa08b" category="admonition">프로세스가 시작된 후 모든 데이터 및 구성 세부 정보가 노드에서 영구적으로 삭제됩니다. 계속하지 않도록 선택하면 로 이동합니다 <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>.</block>
   <block id="d9730da4fb3635f5ccd1c078266c9334" category="paragraph">RTFI 프로세스 중에 오류 메시지가 나타나면 를 참조하십시오 <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>.</block>
+  <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">8.0 또는 7.0 HTML5 vSphere Web Client로 업그레이드하는 중입니다.</block>
+  <block id="57d4d715f0b6238380a88647e5064ab7" category="paragraph">전체 클러스터의 전원을 차단하려면 다음 절차를 수행하십시오.</block>
+  <block id="69824b5487e4b72a56fe97cb153b7404" category="list-text">(선택 사항) 사전 단계를 완료하는 데 도움이 필요하면 NetApp 지원에 문의하십시오.</block>
+  <block id="f901f3a344a86528165d6bab6500fbc5" category="list-text">모든 입출력이 중지되었는지 확인합니다.</block>
+  <block id="f0b8c58f8c65aac7a69a51384ac1a649" category="list-text">모든 iSCSI 세션 연결 끊기:</block>
+  <block id="391aec42faef3b52d4eaaefa153733b2" category="paragraph">클러스터를 재시작할 때 모든 노드가 온라인 상태인지 확인하려면 특정 단계를 수행해야 합니다.</block>
+  <block id="56312700a2d03ce6cacae049f3294807" category="list-text">모든 Critical severity 및 를 확인합니다<block ref="945c53fff9195b4e69a31c30b6a268c6" prefix=" " category="inline-code"></block> 클러스터 장애가 해결되었습니다.</block>
+  <block id="6331b65d2bb9f0f39b6e8331e5b2c669" category="list-text">클러스터가 안정될 때까지 10~15분 정도 기다립니다.</block>
+  <block id="301bf6ea727a40a8d5cc8608cc0c41d7" category="list-text">데이터 액세스를 위해 호스트를 시작합니다.</block>
+  <block id="c192e3c2dbd374233d4685406db01520" category="paragraph">노드 전원을 켜고 상태가 양호한지 확인하는 데 더 많은 시간을 할애하려면 기술 지원 부서에 문의하여 불필요한 입력 용지함 동기화를 방지하기 위해 데이터 동기화를 지연하는 방법에 대해 문의하십시오.</block>
+  <block id="eef615f9029df3b19885b836d67d03a3" category="inline-link">NetApp Solidfire/HCI 스토리지 클러스터를 올바르게 종료하고 전원을 켜는 방법</block>
+  <block id="b8c22947a9d726cf79f399d361ecc7a2" category="paragraph"><block ref="b8c22947a9d726cf79f399d361ecc7a2" category="inline-link-rx"></block></block>
+  <block id="51de7a2a44178422229997edab051ac7" category="list-text"><block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block></block>
+  <block id="8f047e2b521fd8a37be46c7a429ab25b" category="list-text"><block ref="8f047e2b521fd8a37be46c7a429ab25b" category="inline-xref-macro-rx"></block></block>
+  <block id="c2350b958761f326a00bd673fc30fdae" category="list-text"><block ref="c2350b958761f326a00bd673fc30fdae" category="inline-xref-macro-rx"></block></block>
+  <block id="4de84bc0dceded350b6aa7db34f7e00d" category="paragraph">USB 키를 만들거나 BMC를 사용하여 RTFI 프로세스를 수행하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
