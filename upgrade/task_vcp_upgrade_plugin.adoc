@@ -21,7 +21,7 @@ VMware vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere
 이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.
 
 
-NOTE: 관리 서비스 2.22.7에는 원격 플러그인이 포함된 VMware vCenter Server 5.0용 NetApp Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우, 로컬 플러그인 지원을 제거하는 VMware 지침을 준수하도록 버전 5.0으로 업그레이드해야 합니다. https://kb.vmware.com/s/article/87880["자세한 정보"^]. 플러그인을 사용하지 않는 경우 선택적 업그레이드입니다.
+NOTE: 관리 서비스 2.22.7에는 원격 플러그인이 포함된 vCenter Server 5.0용 Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우 관리 서비스 2.22.7 이상으로 업그레이드하여 로컬 플러그인 지원을 제거하는 VMware 지침을 준수해야 합니다. https://kb.vmware.com/s/article/87880["자세한 정보"^].
 
 [role="tabbed-block"]
 ====
@@ -163,8 +163,8 @@ VMware vCenter Server 6.7U1을 사용하여 vCenter Server 4.8 이상용 NetApp 
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.0
-NetApp Element Plug-in Build Number: 37
+NetApp Element Plug-in Version: 5.1
+NetApp Element Plug-in Build Number: 12
 ----
 
 

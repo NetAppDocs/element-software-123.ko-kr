@@ -11594,7 +11594,6 @@
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">vCenter Server 4.x용 Element 플러그인을 사용하면 VMware vCenter Server 7.0 Update 3으로 업그레이드할 때 플러그인을 구축할 수 없습니다. Spring Framework 4를 사용하여 이 문제를 해결하려면 을 참조하십시오<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>.</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">VMware vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
   <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
-  <block id="ec78c54d60054bc44ae2e26c00313bdb" category="admonition">관리 서비스 2.22.7에는 원격 플러그인이 포함된 VMware vCenter Server 5.0용 NetApp Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우, 로컬 플러그인 지원을 제거하는 VMware 지침을 준수하도록 버전 5.0으로 업그레이드해야 합니다.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>. 플러그인을 사용하지 않는 경우 선택적 업그레이드입니다.</block>
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0 이상</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">VMware vCenter Server 5.0용 Element 플러그인부터 이 업그레이드 절차에서는 다음과 같은 업그레이드 시나리오에 대해 설명합니다.</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">vCenter Server 5.0용 Element 플러그인으로 업그레이드하려는 경우</block>
@@ -11974,4 +11973,7 @@
   <block id="5a4b8b3924bb822fd8c6ae8c1c9b7030" category="paragraph">NetApp HCI 어플라이언스에 노드를 추가할 수 있습니다.</block>
   <block id="1a6db061a54638a3fdcefd71c9bfd9ad" category="paragraph">노드 추가 프로세스가 완료되면 활성 노드 목록에 나타납니다. 그 때까지 보류 중인 노드가 보류 중인 활성 목록에 나타납니다.</block>
   <block id="4a65434b4e4d8c919262bffbcc775165" category="paragraph">SolidFire는 클러스터에 추가할 때 보류 중인 노드에 클러스터의 Element 소프트웨어 버전을 설치합니다. 이 작업은 몇 분 정도 걸릴 수 있습니다.</block>
+  <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">관리 서비스 공지 2.23.64(VMware vCenter Server 5.1.12용 NetApp Element 플러그인)</block>
+  <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
+  <block id="ea52eab386a36623963eee64d8468c76" category="list-text">관리 서비스 2.22.7에는 원격 플러그인이 포함된 vCenter Server 5.0용 Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우 관리 서비스 2.22.7 이상으로 업그레이드하여 로컬 플러그인 지원을 제거하는 VMware 지침을 준수해야 합니다.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>.</block>
 </blocks>
