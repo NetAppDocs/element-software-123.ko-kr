@@ -7141,11 +7141,9 @@
   <block id="b142e9d9b67c7c4504bd1ab09fd15db2" category="admonition">주요 서비스, 새로운 기능, 버그 수정 사항 및 각 서비스 번들에 대한 대안을 설명하는 최신 관리 서비스 릴리즈 노트는 를 참조하십시오<block ref="51c56ce961e981301a44342800a6fcbd" category="inline-link-rx"></block></block>
   <block id="1f760966967601f6feb32cc62bb11ca3" category="list-text">인터페이스의 오른쪽 상단 근처에 있는 * Upgrade * 를 선택합니다.</block>
   <block id="be441559765f3e52d513b155b4b59981" category="list-text">EULA가 나타납니다. 아래로 스크롤하여 * 현재 업데이트 및 향후 모든 업데이트에 동의함 * 을 선택하고 * 저장 * 을 선택합니다.</block>
-  <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">EULA에 동의하면 향후 모든 업데이트에 대해 기록되고 자동 다운로드 기능이 활성화됩니다. NetApp 소프트웨어 업데이트 및 업그레이드 관련 업데이트는 고유 권한으로 설치할 수 있습니다. NetApp 온라인 소프트웨어 저장소에 대한 네트워크 연결을 비활성화하여 자동 다운로드 기능을 비활성화할 수 있습니다.</block>
   <block id="a5237c2b3436db5dc67ab53b053d3ec9" category="paragraph">NetApp 하이브리드 클라우드 제어 UI 또는 관리 노드 REST API를 사용하여 관리 서비스를 업데이트할 수 있습니다.</block>
   <block id="7d6cae0c176b060b3eb918e8fc3a8a88" category="list-text"><block ref="8b810af37d36ecef3e8ce0cfd28cc60b" category="inline-xref-macro-rx"></block> (권장 방법)</block>
   <block id="45d5739efe933eabe3dda4a4ba6b61b1" category="list-text"><block ref="b795f7048c0a3127327e392f4c115728" category="inline-xref-macro-rx"></block></block>
-  <block id="610172e2b0e7d4051f0d0b230bd8c722" category="list-text"><block ref="79f95b99cf6c6dc511dd13bb08f1454f" category="inline-xref-macro-rx"></block></block>
   <block id="2325934efda1befa076510008b0f7646" category="section-title">하이브리드 클라우드 제어를 사용하여 관리 서비스를 업데이트합니다</block>
   <block id="6dd42a6a80b9ea41a3c15d5cbf5c3528" category="paragraph">NetApp 하이브리드 클라우드 제어를 사용하여 NetApp 관리 서비스를 업데이트할 수 있습니다.</block>
   <block id="c3e2bcb5601498c3470bd272236342a3" category="paragraph">관리 서비스 번들은 주요 릴리스 이외의 설치 시 향상된 기능과 수정 사항을 제공합니다.</block>
@@ -7158,30 +7156,14 @@
   <block id="6b85e8fee9865d4ab62dcfcd4f941582" category="inline-link">관리 서비스 릴리스 정보</block>
   <block id="f4b19cd96a813fb177542ed57f6d27aa" category="admonition">각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>.</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">업그레이드 페이지에서 * 관리 서비스 * 탭을 선택합니다.</block>
-  <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">관리 서비스 탭에는 관리 서비스 소프트웨어의 현재 버전과 사용 가능한 버전이 표시됩니다.</block>
-  <block id="25026455f4896275dc71ea344eae7273" category="inline-link-macro">프록시 구성</block>
-  <block id="6d991bb9237f73dba10797ec25468d86" category="admonition">설치가 인터넷에 액세스할 수 없는 경우 현재 소프트웨어 버전만 표시됩니다. 설치에 외부 연결이 있지만 NetApp 온라인 저장소에 액세스할 수 없는 경우, 을(를) 확인하십시오 <block ref="3fa2d0476e68824edbcf4c56be4ac531" category="inline-link-macro-rx"></block>.</block>
-  <block id="b48c8e3e654392e94eba7ff80f2a9810" category="list-text">설치가 인터넷에 액세스할 수 있고 관리 서비스 업그레이드를 사용할 수 있는 경우 * 업그레이드 시작 * 을 선택합니다.</block>
-  <block id="88cc6eac67699034974d69a75c774238" category="list-text">설치가 인터넷에 액세스할 수 없는 경우 다음을 수행합니다.</block>
   <block id="3a91ea590517ccc87ccaf6cbda3ac55c" category="list-text">페이지의 지침에 따라 관리 서비스 업그레이드 패키지를 다운로드하여 컴퓨터에 저장합니다.</block>
   <block id="59ab5341afeb797e4cbab599e21e347f" category="list-text">저장한 패키지를 찾아 업로드하려면 * 찾아보기 * 를 선택합니다.</block>
   <block id="30c2b654de6b157d3965b69e2e973b9c" category="paragraph">업그레이드가 시작되면 이 페이지에서 업그레이드 상태를 확인할 수 있습니다. 업그레이드 중에 NetApp 하이브리드 클라우드 컨트롤과 연결이 끊어지고 업그레이드 결과를 보려면 다시 로그인해야 할 수 있습니다.</block>
   <block id="e1ab7975bc85b8e4a805e35bfd948176" category="section-title">관리 노드 API를 사용하여 관리 서비스를 업데이트합니다</block>
-  <block id="f64b52761fbac72e8bfdd229b3a113f1" category="paragraph">사용자는 NetApp 하이브리드 클라우드 제어에서 관리 서비스 업데이트를 수행하는 것이 이상적입니다. 그러나 관리 노드의 REST API UI를 사용하여 관리 서비스를 수동으로 업데이트할 수 있습니다.</block>
   <block id="9a452c7dc2442a21923d0c9fff059919" category="list-text">관리 노드에서 REST API UI를 엽니다. 'https://&lt;ManagementNodeIP&gt;/mnode`</block>
-  <block id="fe1085046bceaf490556bf74e0f01c15" category="list-text">(선택 사항) 사용 가능한 관리 노드 서비스 버전 확인: 'Get/services/Versions</block>
-  <block id="0edefa8da79067ac4b94f9b1b2a9af8c" category="list-text">(선택 사항) 최신 버전에 대한 자세한 내용은 'Get/services/Versions/Latest'를 참조하십시오</block>
-  <block id="b4851bdc860d51294258bcfa6507a2f6" category="list-text">(선택 사항) 특정 버전에 대한 자세한 정보: 'get/services/versions/{version}/info'</block>
-  <block id="bf5a6801d77133c83554e3433950d36e" category="list-text">다음 관리 서비스 업데이트 옵션 중 하나를 수행합니다.</block>
-  <block id="0da74aa7d2a1855d917aaf432d2d3ca4" category="list-text">이 명령을 실행하여 'put/services/update/latest' 관리 노드 서비스의 최신 버전으로 업데이트합니다</block>
-  <block id="0663ec28ae182530f1f365d17c98c119" category="list-text">관리 노드 서비스의 특정 버전인 'PUT/SERVICES/UPDATE/{version}'로 업데이트하려면 이 명령을 실행합니다</block>
-  <block id="f488e48b4d2bc7d793f0e09cb03654ee" category="list-text">'Get/services/update/status'를 실행하여 업데이트 상태를 모니터링합니다.</block>
   <block id="0e4f8b996ad3d1d666cae0ca65696890" category="paragraph">성공적으로 업데이트하면 다음 예제와 유사한 결과가 반환됩니다.</block>
-  <block id="e620d1115b8f26b9e2c66f46d34832bc" category="section-title">다크 사이트에 대한 관리 노드 API를 사용하여 관리 서비스를 업데이트합니다</block>
   <block id="c202282c44af53d5ea8a677636541731" category="paragraph">사용자는 NetApp 하이브리드 클라우드 제어에서 관리 서비스 업데이트를 수행하는 것이 이상적입니다. 하지만 REST API를 사용하여 관리 서비스에 대한 서비스 번들 업데이트를 관리 노드에 수동으로 업로드, 추출 및 배포할 수 있습니다. 관리 노드의 REST API UI에서 각 명령을 실행할 수 있습니다.</block>
   <block id="3601cad086244ec56eee653db5e2b0a3" category="list-text">NetApp Element 소프트웨어 관리 노드 11.3 이상을 배포했습니다.</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support 사이트</block>
-  <block id="9d89df9ed11d9d07aa2a21fce8623b87" category="list-text">에서 서비스 번들 업데이트를 다운로드했습니다<block ref="1c68cef0c53db6ec1d50d3b221c314cd" category="inline-link-rx"></block> 어두운 곳에서 사용할 수 있는 장치.</block>
   <block id="54521ea545972501500b09f85df8ba55" category="list-text">'PUT/SERVICES/UPLOAD' 명령어를 이용하여 관리 노드에 서비스 번들을 업로드하고 추출한다</block>
   <block id="4963e624e3688c6904a816aa37c6c7cc" category="list-text">관리 노드(PUT/SERVICES/Deploy)에 관리 서비스를 배치한다</block>
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">업데이트 상태 모니터링: 'Get/services/update/status</block>
@@ -7332,27 +7314,22 @@
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp 하이브리드 클라우드 제어를 사용하여 스토리지 클러스터를 업그레이드하는 동안 발생할 수 있는 문제와 그 해결 방법은 을 참조하십시오<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>.</block>
   <block id="021194ed35c1ca85c5ddd9daaf8630c3" category="admonition">업그레이드 프로세스는 스토리지 노드당 약 30분이 소요됩니다. Element 스토리지 클러스터를 버전 2.76 이상의 스토리지 펌웨어로 업그레이드하는 경우, 개별 스토리지 노드는 새 펌웨어가 노드에 기록된 경우에만 업그레이드 중에 재부팅됩니다.</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">업그레이드 * 페이지에서 * 스토리지 * 를 선택합니다.</block>
-  <block id="41248545ed2949a832d88f9ea8c00917" category="admonition">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다. Element 12.0 이상을 실행하는 클러스터가 있는 경우 이러한 클러스터에 대해 현재 펌웨어 번들 버전이 나열됩니다. 단일 클러스터의 노드가 서로 다른 펌웨어 버전을 가지고 있거나 업그레이드가 진행되는 동안 * Current Firmware Bundle Version * (현재 펌웨어 번들 버전 *) 열에 * Multiple * (다중 *)이 표시됩니다. 여러 * 를 선택하여 * 노드 * 페이지로 이동하여 펌웨어 버전을 비교할 수 있습니다. 모든 클러스터가 12.0 이전 버전의 Element를 실행하는 경우 펌웨어 번들 버전 번호에 대한 정보가 표시되지 않습니다. 클러스터가 최신 버전이거나 사용 가능한 업그레이드 패키지가 없는 경우 * Element * 및 * Firmware Only * 탭이 표시되지 않습니다. 이 탭은 업그레이드가 진행 중일 때도 표시되지 않습니다. Element * 탭이 표시되지만 * Firmware Only * 탭이 표시되지 않으면 사용 가능한 펌웨어 패키지가 없습니다.</block>
   <block id="f1bd2e17b5412e4b45851ad42541f684" category="list-text">다음 옵션 중 하나를 선택하고 클러스터에 적용할 수 있는 단계 세트를 수행합니다.</block>
-  <block id="042b4c254a65c4222ecfd8eda19de8fb" category="cell">관리 노드에 외부 연결이 있습니다.</block>
   <block id="c2478fbc134086873c832f9086152247" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 선택합니다.</block>
   <block id="e0d814d8ce005e1e08731f39dc4cff27" category="list-text">펌웨어 전용 * 을 선택하고 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
   <block id="c132ec9989c2f6d64865e3b80e0712f9" category="list-text">업그레이드 시작 * 을 선택합니다.</block>
   <block id="b9088c022e9648ce7ddea6e6d4a7d2a2" category="admonition">업그레이드 중 * 업그레이드 상태 * 는 프로세스 상태를 반영하기 위해 변경됩니다. 또한 업그레이드를 일시 중지하거나 업그레이드가 오류를 반환하는 경우와 같이 수행한 작업에 대한 응답으로 변경됩니다. 을 참조하십시오 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>.</block>
   <block id="1c1f68c70e4604204e19388cd8dedfa2" category="admonition">업그레이드가 진행되는 동안 페이지를 종료하고 나중에 다시 돌아와 진행 상황을 계속 모니터링할 수 있습니다. 클러스터 행이 축소되어 있는 경우 이 페이지는 상태 및 현재 버전을 동적으로 업데이트하지 않습니다. 테이블을 업데이트하거나 페이지를 새로 고치려면 클러스터 행을 확장해야 합니다.</block>
   <block id="f7c462da794bbac0b6cb931507af8070" category="paragraph">업그레이드가 완료된 후 로그를 다운로드할 수 있습니다.</block>
-  <block id="8fce94dc58f1bdc7de438659f9a9a00b" category="cell">관리 노드는 외부 연결이 없는 어두운 사이트 내에 있습니다.</block>
   <block id="308f16f303adc416b27b236c19797514" category="list-text">다운로드한 업그레이드 패키지를 업로드하려면 * 찾아보기 * 를 선택합니다.</block>
   <block id="9f3e44fdaf4628028bd071e9fdf42636" category="list-text">업로드가 완료될 때까지 기다립니다. 진행률 표시줄에 업로드 상태가 표시됩니다.</block>
   <block id="4109e9de1e5e5e6a88e7ab1943736894" category="admonition">브라우저 창에서 이동하면 파일 업로드가 손실됩니다.</block>
-  <block id="929933851dc2ac970fff1ef0a8351b29" category="paragraph">파일이 성공적으로 업로드 및 확인되면 화면에 메시지가 표시됩니다. 정품 확인에 몇 분 정도 걸릴 수 있습니다. 이 단계에서 브라우저 창에서 다른 곳으로 이동하면 파일 업로드가 유지됩니다. 업그레이드가 완료된 후 로그를 다운로드할 수 있습니다. 다양한 업그레이드 상태 변경에 대한 자세한 내용은 을 참조하십시오 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>.</block>
   <block id="d3e7182b84a940e7db18b7fb84516b9d" category="section-title">업그레이드 상태 변경</block>
   <block id="03f25bbad83c64043f813d6fad6846de" category="paragraph">업그레이드 프로세스 전, 도중 및 이후에 UI의 * 업그레이드 상태 * 열에 표시되는 다양한 상태는 다음과 같습니다.</block>
   <block id="6d34e3d06ec7dfd7e469ec4d37b9ae1d" category="cell">업그레이드 상태입니다</block>
   <block id="e519a1ecd0afa6828cea3c07f7d09b4a" category="cell">최신</block>
   <block id="79767150703c682eb62b32792815ff4b" category="cell">클러스터가 사용 가능한 최신 Element 버전으로 업그레이드되었거나 펌웨어가 최신 버전으로 업그레이드되었습니다.</block>
   <block id="6fc59d6889d5ac60b02946bb6b8b8898" category="cell">감지할 수 없습니다</block>
-  <block id="5d1b774bcdd716279a4e1f6c45c21ae4" category="cell">NetApp 하이브리드 클라우드 제어에는 온라인 소프트웨어 리포지토리에 연결할 수 있는 외부 연결이 없을 때 * 사용 가능한 버전 * 대신 * 이 상태가 표시됩니다. 스토리지 서비스 API가 가능한 업그레이드 상태의 열거 목록에 없는 업그레이드 상태를 반환하는 경우에도 이 상태가 표시됩니다.</block>
   <block id="a5d11b04812fa774f9a940e366eac9ac" category="cell">사용 가능한 버전</block>
   <block id="d9ce4c41aa5560b51aa0d618e34742a8" category="cell">Element 및/또는 스토리지 펌웨어의 최신 버전을 업그레이드할 수 있습니다.</block>
   <block id="c9413dd7682a45da9ecc9efa8cea47d7" category="cell">진행 중</block>
@@ -7371,14 +7348,7 @@
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">노드가 업데이트되는 동안 클러스터 업그레이드를 중단하면 드라이브가 노드에서 올바르게 제거되지 않을 수 있습니다. 드라이브가 올바르게 제거되지 않은 경우 업그레이드 중에 드라이브를 다시 추가하려면 NetApp Support에서 수동으로 개입해야 합니다. 노드가 펌웨어 업데이트 또는 업데이트 동기화 후 작업을 수행하는 데 시간이 더 오래 걸릴 수 있습니다. 업그레이드 진행이 멈춘 것 같다면 NetApp Support에 지원을 문의하십시오.</block>
   <block id="3aff5fc3a8e8d7210a56cf227b42a6e8" category="section-title">NetApp 하이브리드 클라우드 제어 API를 사용하여 스토리지 펌웨어를 업그레이드하십시오</block>
   <block id="13381b43a34c53873fa3ea94ea881f65" category="paragraph">API를 사용하여 클러스터의 스토리지 노드를 최신 Element 소프트웨어 버전으로 업그레이드할 수 있습니다. 원하는 자동화 툴을 사용하여 API를 실행할 수 있습니다. 여기에 설명된 API 워크플로에서는 관리 노드에서 사용할 수 있는 REST API UI를 예로 사용합니다.</block>
-  <block id="8c641b6be2c77d41b861c68406aa882e" category="list-text">연결에 따라 다음 중 하나를 수행합니다.</block>
-  <block id="99d815c1264bfc1b74f7a653fb83e659" category="list-text">리포지토리 연결을 확인합니다.</block>
   <block id="85bb06226f2384b478691f49e53204fc" category="list-text">인증 창을 닫습니다.</block>
-  <block id="132a5b6da037e3c0aba1107add99cd58" category="list-text">REST API UI에서 * get s./packagesmote/remote-repositorysessitory이거나 connection * 을 선택합니다.</block>
-  <block id="7ac2eb4e7073a0bed37085ee1d0656de" category="list-text">코드 200이 반환되는 경우 다음 단계로 이동합니다. 원격 리포지토리에 연결되지 않은 경우 연결을 설정하거나 다크 사이트 옵션을 사용합니다.</block>
-  <block id="ecd4792b2445292557fc3b37de2cda15" category="list-text">업그레이드 패키지 ID 찾기:</block>
-  <block id="bd91bfdcf4a916f6b8c00c25da13251b" category="list-text">REST API UI에서 * GET/packages * 를 선택한다.</block>
-  <block id="fa296e9495ac8602647feef1c1f92880" category="list-text">응답에서 펌웨어 패키지 ID를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="814733d416c95bcc389df46e42881e26" category="inline-link">다운로드 페이지</block>
   <block id="9b8271bf8ee401fbab82cfd673a6efe7" category="list-text">스토리지 펌웨어 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 장치로 다운로드하고 Element 소프트웨어로 이동합니다<block ref="42e6de607bd49922ef2d21825951aede" category="inline-link-rx"></block> 최신 스토리지 펌웨어 이미지를 다운로드합니다.</block>
   <block id="3d849e77fb6435c594cb34aff5254c7a" category="list-text">스토리지 펌웨어 업그레이드 패키지를 관리 노드에 업로드합니다.</block>
@@ -7435,12 +7405,8 @@
   <block id="18efefbb7dfc549a016b6c88a83bd60d" category="admonition">H610S 시리즈 노드를 Element 12.3.x로 업그레이드하는 경우 노드에서 11.8 이전의 Element 버전이 실행되는 경우 추가 업그레이드 단계( )를 수행해야 합니다<block ref="705f7add14cc7784392a1a0405b32daa" category="inline-xref-macro-rx"></block>)를 각 스토리지 노드에 대해 설정합니다. Element 11.8 이상을 실행 중인 경우 추가 업그레이드 단계(2단계)가 필요하지 않습니다.</block>
   <block id="1a1c6d70aec56ed56fdc5c3ac8162a8b" category="section-title">NetApp 하이브리드 클라우드 제어 UI를 사용하여 Element 스토리지를 업그레이드하십시오</block>
   <block id="a544a5293c147dec832e983a6fbad504" category="paragraph">NetApp 하이브리드 클라우드 제어 UI를 사용하여 스토리지 클러스터를 업그레이드할 수 있습니다.</block>
-  <block id="1fe3f0a86f12c07fb4f3cf17d971d675" category="list-text">관리 노드가 인터넷에 연결되어 있지 않은 경우 다음 위치에서 패키지를 다운로드했습니다.</block>
-  <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">SolidFire 스토리지 클러스터용 Element 소프트웨어 업그레이드 패키지(.tar.gz</block>
-  <block id="49e349363aad0972c82ddaf25dd30f70" category="paragraph"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">업그레이드 프로세스는 H610S 플랫폼이 아닌 경우 노드당 약 30분 정도 소요됩니다.</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다.</block>
-  <block id="28915945fea0308bbd2cdf191b79dd68" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 선택하고 * Element * 탭 아래에서 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
   <block id="effc57e6ad213336e96f00439b792658" category="paragraph">파일이 성공적으로 업로드 및 확인되면 화면에 메시지가 표시됩니다. 정품 확인에 몇 분 정도 걸릴 수 있습니다. 이 단계에서 브라우저 창에서 다른 곳으로 이동하면 파일 업로드가 유지됩니다.</block>
   <block id="2b96c3916188bec9de822541d9cf623f" category="cell">11.8 이전의 Element 버전을 실행하는 H610S 클러스터를 업그레이드하고 있습니다.</block>
   <block id="b6d17024c4c99e0348e4d802e2508b6b" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 선택하고 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
@@ -7448,11 +7414,9 @@
   <block id="2351c1e27093e71da7b231f5059cc476" category="list-text">에서 필요한 추가 단계(2단계)를 완료합니다<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>, 및 UI에서 단계 2를 완료했음을 확인합니다.</block>
   <block id="d215420632f75acd5be40e1f61fad92e" category="paragraph">업그레이드가 완료된 후 로그를 다운로드할 수 있습니다. 다양한 업그레이드 상태 변경에 대한 자세한 내용은 을 참조하십시오 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>.</block>
   <block id="80744cb20ac19a71c799d04e9142c0f5" category="cell">클러스터가 사용 가능한 최신 Element 버전으로 업그레이드되었습니다.</block>
-  <block id="00bdf0ae9f642cb5870113a82a86b5ba" category="cell">NetApp 하이브리드 클라우드 제어에는 온라인 소프트웨어 리포지토리에 연결할 수 있는 외부 연결이 없을 때 * 사용 가능한 버전 * 대신 * 이 상태가 표시됩니다. 외부 연결이 있지만 이 메시지가 계속 표시되면 를 확인하십시오 <block ref="3fa2d0476e68824edbcf4c56be4ac531" category="inline-link-macro-rx"></block>.</block>
   <block id="c25db468e3487f49a3fe8a8fd3ee6fca" category="cell">후속 조치를 완료합니다</block>
   <block id="35be88b3f15b8f03a1b80ac136a5039d" category="cell">11.8 이전의 Element 버전에서 H610S 노드를 업그레이드하는 경우에만 해당됩니다. 업그레이드 프로세스의 1단계가 완료된 후 이 상태는 업그레이드 2단계를 수행하라는 메시지를 표시합니다( 참조)<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>)를 클릭합니다. 2단계를 완료하고 완료했음을 확인한 후 상태가 * 최신 * 로 변경됩니다.</block>
   <block id="c46945f40a6b2e92964b73d6d398f9d3" category="section-title">NetApp 하이브리드 클라우드 제어 API를 사용하여 Element 스토리지를 업그레이드하십시오</block>
-  <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">응답에서 패키지 ID를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="1ed5061d3b76fa0c219c1f1d3b386470" category="list-text">스토리지 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 디바이스로 다운로드합니다.</block>
   <block id="592247e1218ecdf894b0dc3bf1e2b0c6" category="paragraph">Element 소프트웨어로 이동합니다<block ref="42e6de607bd49922ef2d21825951aede" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 다운로드합니다.</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">스토리지 업그레이드 패키지를 관리 노드에 업로드합니다.</block>
@@ -8645,13 +8609,9 @@
   <block id="1aa8b758f81e4b362f8fc94cd4c2a3ba" category="paragraph">NetApp Element 소프트웨어 클러스터가 생성되면 클러스터는 Element UI, Per-Node UI 또는 API를 통해 모든 HTTPS 통신에 사용되는 고유한 자체 서명된 SSL(Secure Sockets Layer) 인증서와 개인 키를 생성합니다. Element 소프트웨어는 자체 서명된 인증서뿐만 아니라 신뢰할 수 있는 CA(인증 기관)에서 발급 및 확인되는 인증서도 지원합니다.</block>
   <block id="774ce4e623f683d68865c30ea0ac37fa" category="paragraph">다음 API 메소드를 사용하여 기본 SSL 인증서에 대한 자세한 정보를 얻고 변경할 수 있습니다.</block>
   <block id="cddbead568984bbddd14181e555c89ec" category="inline-link-macro">NetApp Element 소프트웨어 API 참조서</block>
-  <block id="5a1085897e38e4e51b92668061c6497c" category="paragraph">각 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="27df1ddfd415d14d906f38bd54bde22c" category="inline-link-macro-rx"></block>.</block>
   <block id="c7d6aa2232acd143092ba0d52cae5ba8" category="list-text">* GetSSLCertificate *</block>
-  <block id="04b9e2887637b86b8614c4021d65bb52" category="paragraph">이 방법을 사용하여 모든 인증서 세부 정보를 포함하여 현재 설치된 SSL 인증서에 대한 정보를 검색할 수 있습니다.</block>
   <block id="855a3dbbd51c2fdec4e1d006b91d6323" category="list-text">* SetSSLCertificate *</block>
-  <block id="42eb9a81f7de36c9246dce8d9177d0de" category="paragraph">이 방법을 사용하여 클러스터 및 노드별 SSL 인증서를 사용자가 제공하는 인증서 및 개인 키로 설정할 수 있습니다. 시스템은 유효하지 않은 인증서가 적용되지 않도록 인증서와 개인 키의 유효성을 검사합니다.</block>
   <block id="84295a797b60702f81143ab1aa871f82" category="list-text">* RemoveSSLCertificate * 를 선택합니다</block>
-  <block id="a302712f1b09c9dcdfc7d5808cb5fe30" category="paragraph">이 메서드는 현재 설치된 SSL 인증서 및 개인 키를 제거합니다. 그런 다음 클러스터가 새로운 자체 서명된 인증서와 개인 키를 생성합니다.</block>
   <block id="7402074664fcb3503f94b26301713adb" category="admonition">클러스터 SSL 인증서는 클러스터에 추가된 모든 새 노드에 자동으로 적용됩니다. 클러스터에서 제거된 노드는 자체 서명된 인증서로 되돌리며 모든 사용자 정의 인증서와 키 정보가 노드에서 제거됩니다.</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">NetApp Support에 문의하여 예비 단계를 완료한 후 전체 클러스터의 전원을 끕니다.</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">클러스터 전원을 끕니다</block>
@@ -9177,13 +9137,6 @@
   <block id="ff888c386cbf7561a41674237043ab02" category="summary">시스템을 원격으로 관리하고 데이터 센터 외부의 클라이언트가 리소스에 연결할 수 있도록 데이터 센터의 에지 방화벽을 통해 다음 TCP 포트를 허용해야 할 수 있습니다. 시스템 사용 방법에 따라 이러한 포트 중 일부는 필요하지 않을 수 있습니다.</block>
   <block id="bbb9ca100f5b4a2074b8caeaaf4b1ae0" category="paragraph">시스템을 원격으로 관리하고 데이터 센터 외부의 클라이언트가 리소스에 연결할 수 있도록 데이터 센터의 에지 방화벽을 통해 다음 TCP 포트를 허용해야 할 수 있습니다. 시스템 사용 방법에 따라 이러한 포트 중 일부는 필요하지 않을 수 있습니다.</block>
   <block id="2f5dc9e1194b10f0920c3f6b85205b99" category="paragraph">달리 언급되지 않는 한 모든 포트는 TCP이고, Element 소프트웨어를 실행하는 NetApp Support Server, 관리 노드 및 노드 간의 양방향 통신을 허용해야 합니다.</block>
-  <block id="95f27799ddeb01b37a606c94f6349232" category="paragraph">NetApp 하이브리드 클라우드 제어 웹 UI 및 API NetApp 온라인 소프트웨어 저장소에서 소프트웨어 패키지를 다운로드합니다. 이로 인해 일부 URL 또는 IP 주소는 콘텐츠 전송 네트워크를 기반으로 다른 URL 또는 IP 주소로 해결될 수 있습니다. 가능한 경우 네트워크 엔지니어와 협력하여 다음 일반 단계를 사용하여 이러한 URL 또는 IP 주소를 방화벽 규칙에 추가해야 합니다.</block>
-  <block id="468e2827e5dc0169c965a021b0f015d8" category="list-text">wget 또는 curl 유틸리티를 사용하여 URL(예: support-sg-nawest.netapp.com 액세스합니다.</block>
-  <block id="887a9d2ae67bb61c76d5d0032a4b7b0f" category="list-text">다음 예에 표시된 것처럼 연결을 확인합니다.</block>
-  <block id="9b6b0ba6c58622cfc8a6178412a0e4bf" category="image-alt">포트 연결을 확인합니다</block>
-  <block id="17dc6266a36d140e3656a007ab0a9fce" category="list-text">URL에 액세스하지 못했습니다(support-sg-nawest.netapp.com 와는 다름).</block>
-  <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">방화벽 규칙을 편집하여 새 URL을 허용합니다.</block>
-  <block id="fc0bbd3b7c620ea524d15f50953b65de" category="list-text">액세스 시도가 성공할 때까지 위의 단계를 반복합니다.</block>
   <block id="1f2681a91e9e795d6ebb1d5828cd1182" category="admonition">관리 노드, Element 소프트웨어를 실행하는 노드 및 클러스터 MVIP 간에 ICMP를 사용하도록 설정합니다.</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">표에 사용되는 약어는 다음과 같습니다.</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">MIP: 관리 IP 주소, 노드별 주소</block>
@@ -9200,13 +9153,6 @@
   <block id="b20a6c801c401908aa3c96f370665e05" category="paragraph">DNS 조회</block>
   <block id="c203d8a151612acf12457e4d67635a95" category="paragraph">442</block>
   <block id="3576cff8b205debb58711ff360f51ffd" category="paragraph">스토리지 노드 및 Element 소프트웨어 업그레이드에 대한 UI 및 API 액세스</block>
-  <block id="27639a1d6103dcea8efd114fa6c08ad8" category="paragraph">새 릴리즈 알림:</block>
-  <block id="ab3ee28175c91fc275541983d197ab00" category="list-text">"https://support.netapp.com/aods/`</block>
-  <block id="202ff041fdb9a5ee3579e8cb7984ef6b" category="paragraph">소프트웨어 다운로드:</block>
-  <block id="9fc75d41716cfd46199787dcf77473a1" category="list-text">"https://support-sg-emea.netapp.com`</block>
-  <block id="a1b1a9120bbc7238c7b6088d7223d194" category="list-text">"https://support-sg-naeast.netapp.com`</block>
-  <block id="219033cd316af31663b173765be6dd78" category="list-text">"https://support-sg-nawest.netapp.com`</block>
-  <block id="d747a3883d729833b05cf76084503b96" category="paragraph">관리 노드 서비스 업그레이드</block>
   <block id="0c29e1667ad297897573438219b3e1c6" category="paragraph">repo.netapp.com</block>
   <block id="43416d1cebc089588a77207470ee9f35" category="paragraph">온-프레미스 배포를 설치/업데이트하는 데 필요한 구성 요소에 대한 액세스를 제공합니다.</block>
   <block id="b7328847f651fa46bcdd00a86f903b6a" category="paragraph">증인 노드</block>
@@ -11524,7 +11470,6 @@
   <block id="a76e77cdf9ddd9de47f6767bd156c68a" category="summary">Element 시스템은 NetApp Element API를 기능 및 기능의 기반으로 사용합니다. Element UI를 사용하면 인터페이스를 사용할 때 시스템에서 다양한 유형의 실시간 API 작업을 볼 수 있습니다. API 로그를 사용하면 사용자 시작 및 백그라운드 시스템 API 작업과 현재 보고 있는 페이지에서 수행된 API 호출을 볼 수 있습니다.</block>
   <block id="eb78259501a2ba2c5586f9c5378b0722" category="paragraph">NetApp Element 소프트웨어를 사용하면 클러스터에서 FIPS(Federal Information Processing Standards) 140-2 운영 모드를 사용하도록 선택할 수 있습니다. 이 모드를 활성화하면 NCSM(NetApp Cryptographic Security Module)이 활성화되고 HTTPS를 통해 NetApp Element UI 및 API에 연결되는 모든 통신에 FIPS 140-2 Level 1 인증 암호화를 활용합니다.</block>
   <block id="9bcbeef20d899b1f6c3b91bed9318949" category="summary">NetApp Element UI의 데이터 보호 탭에서 SnapMirror 관계를 생성할 수 있습니다. 사용자 인터페이스에서 이를 보려면 SnapMirror 기능이 활성화되어 있어야 합니다.</block>
-  <block id="04c9a1dceaa7848075695a7a05510e89" category="paragraph">NetApp Element API를 사용하여 클러스터에 있는 스토리지 노드의 기본 SSL 인증서 및 개인 키를 변경할 수 있습니다.</block>
   <block id="75cf134eb28470632a8ed825c6876dfa" category="paragraph">링크 실패가 감지된 후 슬레이브를 비활성화하기 전 대기 시간(밀리초)입니다.</block>
   <block id="dbc5bb01b5e0b9429317021ba7f41a80" category="paragraph">MII 링크 상태가 링크 장애를 검사하는 빈도(밀리초)입니다.</block>
   <block id="3580d7d6eae3196ebe1486dd612a7945" category="paragraph">링크가 감지된 후 슬레이브를 활성화하기 전에 대기하는 시간(밀리초)입니다.</block>
@@ -11583,24 +11528,17 @@
   <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">vCenter Server 4.10 이전 버전용 NetApp Element 플러그인을 사용하여 를 사용하여 다른 vCenter Server의 클러스터 리소스를 관리합니다<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> 로컬 스토리지 클러스터로만 제한됩니다.</block>
   <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">컨트롤러 하위 자산을 추가하려면 vCenter에서 새로운 NetApp HCC 역할을 생성해야 합니다. 이러한 새로운 NetApp HCC 역할은 관리 노드 서비스 뷰를 NetApp 전용 자산으로 제한합니다. 을 참조하십시오 <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>.</block>
   <block id="6b777567daa827d5b0665b94c630539f" category="inline-link">vCenter Plug-in 5.0 릴리즈 노트</block>
-  <block id="6e965491616fff846a7ae36b0c989a99" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block> _신규 _</block>
   <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
   <block id="d4ab00a63ae74cf5a760f97c2f37cc47" category="paragraph">페어링을 완료한 후 볼륨 테이블을 새로 고쳐 페어링된 볼륨에 대한 * Actions * 목록에서 * Pair * 옵션을 제거해야 합니다. 테이블을 새로 고치지 않으면 * Pair * 옵션을 선택할 수 있습니다. 페어링 * 옵션을 다시 선택하면 새 탭이 열리고 볼륨이 이미 페어링되었기 때문에 시스템에서 를 보고합니다<block ref="a72c919331eaecc7971bc1aee1134ebc" prefix=" " category="inline-code"></block> Element UI 페이지의 * Pair Volume * (볼륨 페어링 *) 창에 오류 메시지가 표시됩니다.</block>
   <block id="07800d7fa4e084c955b9006d30b6eed1" category="paragraph">원격 플러그인</block>
   <block id="b8ffa41d4e492f0fad2f13e29e1762eb" category="paragraph">8333</block>
   <block id="5b3a5766ccd94c0ef0148e61340c831e" category="paragraph">원격 vCenter 플러그인 서비스</block>
   <block id="ce02290d452fe7b936543abc774ea33a" category="list-text">관리 노드 12.3.2에는 가상 볼륨(VVol) 기능이 활성화된 스토리지 클러스터에 대한 보안 완화 기능이 포함되어 있습니다. 스토리지 클러스터가 이미 Element 12.3에 있고 VVOL 기능이 활성화된 경우 12.3.2로 업그레이드해야 합니다.</block>
-  <block id="1291d04b420cee74581d131dee5acf86" category="paragraph">대안을 적용할 필요 없이 VMware vCenter 7.0 업데이트 3을 사용하여 플러그인을 구축할 수 있도록 vCenter Server 5.0용 NetApp Element 플러그인으로 업그레이드해야 합니다.</block>
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">vCenter Server 4.x용 Element 플러그인을 사용하면 VMware vCenter Server 7.0 Update 3으로 업그레이드할 때 플러그인을 구축할 수 없습니다. Spring Framework 4를 사용하여 이 문제를 해결하려면 을 참조하십시오<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>.</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">VMware vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
-  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0 이상</block>
-  <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">VMware vCenter Server 5.0용 Element 플러그인부터 이 업그레이드 절차에서는 다음과 같은 업그레이드 시나리오에 대해 설명합니다.</block>
-  <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">vCenter Server 5.0용 Element 플러그인으로 업그레이드하려는 경우</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0 이상의 Element 플러그인은 vCenter Server 6.7 및 6.5와 호환되지 않습니다.</block>
-  <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Element Plug-in for vCenter Server 4.x에서 5.0으로 업그레이드하면 vCenter 인스턴스에서 원격 플러그인으로 데이터를 복사할 수 없기 때문에 플러그인으로 이미 구성된 클러스터가 손실됩니다. 원격 플러그인에 클러스터를 다시 추가해야 합니다. 이 작업은 로컬 플러그인에서 원격 플러그인으로 업그레이드할 때 한 번 수행하는 작업입니다.</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter 플러그인 4.10 이하</block>
-  <block id="523b0480434215d8d59b3dce41707a7e" category="paragraph">vCenter Server 4.10 이전 버전용 Element Plug-in의 경우 이 업그레이드 절차에 다음과 같은 업그레이드 시나리오가 포함됩니다.</block>
   <block id="524f8acc9609df7272285a19757aefcb" category="list-text">vCenter Server 4.10, 4.9, 4.8, 4.7, 4.6 용 Element 플러그인으로 업그레이드하려는 경우 4.5 또는 4.4.</block>
   <block id="c0e80cf197d1adf76fef790848a92f8f" category="list-text">이 플러그인은 VMware vCenter Server 4.x용 Element Plug-in용 VMware vCenter Server 8.0과 호환되지 않습니다</block>
   <block id="a95f4f0d2a0a7e7a472e3b6c6d23d07c" category="list-text">* vCenter Server *: vCenter 플러그인 버전 4.x 또는 5.x가 vCenter Server에 등록됩니다. 등록 유틸리티에서 <block ref="0e0152f7592ffa53464a10c6a48053e7" prefix="(" category="inline-code"></block>)에서 * 등록 상태 * 를 선택하고 필수 필드를 입력한 다음 * 상태 확인 * 을 선택하여 vCenter 플러그인이 이미 등록되어 있는지, 현재 설치 버전 번호를 확인합니다.</block>
@@ -11623,7 +11561,6 @@
   <block id="1381491a5bb8087f95db0601150c5c28" category="paragraph">스토리지 노드 BMC/IPMI H410 및 H600 시리즈</block>
   <block id="ad097a4f1c93214faa0a1ca354a82225" category="paragraph">623 UDP</block>
   <block id="483602128e75be96f5280855d8065878" category="paragraph">원격 관리 제어 프로토콜 포트. IPMI 지원 시스템을 관리하는 데 필요합니다.</block>
-  <block id="3ef00ef1af91bf9fe0b72f4052a67f59" category="list-text">vCenter Server 5.0용 Element Plug-in에 대한 vCenter 플러그인 등록 페이지:</block>
   <block id="1875d143de1e9be70dc9e780b41377fe" category="list-text">vCenter Server 4.10 이전 버전의 Element Plug-in에 대한 vCenter 플러그인 등록 페이지:</block>
   <block id="b8b146fd1e1ecdf074536a02bfe40871" category="list-text">(사내 서버/다크 사이트의 경우) vCenter용 Element 플러그인 버전에 따라 플러그인 JSON 파일 또는 플러그인 ZIP에 대한 사용자 지정 URL:</block>
   <block id="1993643c12bb4ee547f04d8d85f8c4bf" category="list-text">vCenter Server 5.0용 Element 플러그인부터 NetApp Element 원격 플러그인 확장 지점이 나타납니다.</block>
@@ -11976,4 +11913,41 @@
   <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">관리 서비스 공지 2.23.64(VMware vCenter Server 5.1.12용 NetApp Element 플러그인)</block>
   <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
   <block id="ea52eab386a36623963eee64d8468c76" category="list-text">관리 서비스 2.22.7에는 원격 플러그인이 포함된 vCenter Server 5.0용 Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우 관리 서비스 2.22.7 이상으로 업그레이드하여 로컬 플러그인 지원을 제거하는 VMware 지침을 준수해야 합니다.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>.</block>
+  <block id="f77430f8b3c4f14f1dcd175dca1d54cf" category="paragraph">대안을 적용할 필요 없이 VMware vCenter 7.0 업데이트 3을 사용하여 플러그인을 배포할 수 있도록 vCenter Server 5.0 이상용 NetApp Element 플러그인으로 업그레이드해야 합니다.</block>
+  <block id="4af99aa6c1be006a7c064cb06b9464ac" category="cell">Element 11.8 이상을 실행하는 모든 클러스터</block>
+  <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
+  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">vCenter Server 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
+  <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Element Plug-in for vCenter Server 4.x에서 5.x로 업그레이드하면 vCenter 인스턴스에서 원격 플러그인으로 데이터를 복사할 수 없기 때문에 플러그인으로 이미 구성된 클러스터가 손실됩니다. 원격 플러그인에 클러스터를 다시 추가해야 합니다. 이 작업은 로컬 플러그인에서 원격 플러그인으로 업그레이드할 때 한 번 수행하는 작업입니다.</block>
+  <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">vCenter Server 5.x용 Element 플러그인에 대한 vCenter 플러그인 등록 페이지:</block>
+  <block id="0ac35a688d7a23e1caba58dbbf08c4d7" category="paragraph">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다. Element 12.0 이상을 실행하는 클러스터가 있는 경우 이러한 클러스터에 대해 현재 펌웨어 번들 버전이 나열됩니다. 단일 클러스터의 노드가 서로 다른 펌웨어 버전을 가지고 있거나 업그레이드가 진행되는 동안 * Current Firmware Bundle Version * (현재 펌웨어 번들 버전 *) 열에 * Multiple * (다중 *)이 표시됩니다. 여러 * 를 선택하여 * 노드 * 페이지로 이동하여 펌웨어 버전을 비교할 수 있습니다. 모든 클러스터가 12.0 이전 버전의 Element를 실행하는 경우 펌웨어 번들 버전 번호에 대한 정보가 표시되지 않습니다.</block>
+  <block id="df3b4418989705f2099ec054a495c6ff" category="paragraph">클러스터가 최신 버전이거나 사용 가능한 업그레이드 패키지가 없는 경우 * Element * 및 * Firmware Only * 탭이 표시되지 않습니다. 이 탭은 업그레이드가 진행 중일 때도 표시되지 않습니다. Element * 탭이 표시되지만 * Firmware Only * 탭이 표시되지 않으면 사용 가능한 펌웨어 패키지가 없습니다.</block>
+  <block id="c7f3047b6654f1cb88fcfe6e47c92593" category="cell">이 상태는 스토리지 서비스 API가 가능한 업그레이드 상태의 열거 목록에 없는 업그레이드 상태를 반환할 때 표시됩니다.</block>
+  <block id="f3239c80004833605a44320f76f29a78" category="paragraph">기본 SSL 인증서 변경:</block>
+  <block id="00b6f5df795659d436d482ffd81033aa" category="inline-link-macro">관리 노드의 기본 SSL 인증서를 변경합니다</block>
+  <block id="fe6a80fba2305243dd21703b873b6d51" category="list-text"><block ref="fe6a80fba2305243dd21703b873b6d51" category="inline-link-macro-rx"></block></block>
+  <block id="96c37e9c5684e9f2a7ffd6a79512cde2" category="paragraph">NetApp Element API를 사용하여 관리 노드의 기본 SSL 인증서 및 개인 키를 변경할 수 있습니다.</block>
+  <block id="d311117e36e090462c70d49316078938" category="paragraph">관리 노드를 구성하면 고유한 자체 서명된 SSL(Secure Sockets Layer) 인증서와 Element UI, 노드별 UI 또는 API를 통해 모든 HTTPS 통신에 사용되는 개인 키가 생성됩니다. Element 소프트웨어는 자체 서명된 인증서뿐만 아니라 신뢰할 수 있는 CA(인증 기관)에서 발급 및 확인되는 인증서도 지원합니다.</block>
+  <block id="8fff04b1c0c323ac1aac0d43f5e6b4f8" category="list-text">* GetNodeSSLCertificate *</block>
+  <block id="a07612f154836b90b33c91e3d4becfe8" category="inline-link-macro">GetNodeSSLCertificate 메서드</block>
+  <block id="e33d1822bd6d1efb8885f0c9f078767e" category="paragraph">를 사용할 수 있습니다 <block ref="fc5ae91d2a3def87eb640426dd21d6c3" category="inline-link-macro-rx"></block> 모든 인증서 세부 정보를 포함하여 현재 설치된 SSL 인증서에 대한 정보를 검색합니다.</block>
+  <block id="58f6e4a954eca307131e675eba49accc" category="list-text">* SetNodeSSLCertificate *</block>
+  <block id="123b81eef3f2300f60e089e9078ee7c3" category="inline-link-macro">SetNodeSSLCertificate 메서드</block>
+  <block id="d229d7ad000aef94c4fc9c92a09ef2f9" category="paragraph">를 사용할 수 있습니다 <block ref="a3f906e270f396b1e0abeb1e4b45aabc" category="inline-link-macro-rx"></block> 클러스터 및 노드별 SSL 인증서를 사용자가 제공하는 인증서 및 개인 키로 설정합니다. 시스템은 유효하지 않은 인증서가 적용되지 않도록 인증서와 개인 키의 유효성을 검사합니다.</block>
+  <block id="6f54d04f05c4e4a65ca53b1028d1207b" category="list-text">* RemoveNodeSSLCertificate * 를 선택합니다</block>
+  <block id="9b65a6a78c1794a21bc06b75e90962bb" category="inline-link-macro">RemoveNodeSSLCertificate 메서드</block>
+  <block id="54788257ab6665219d3b197c0c0ab2b3" category="paragraph">여기 <block ref="7a6d88cb46fe8190180be6d3bbd02863" category="inline-link-macro-rx"></block> 현재 설치된 SSL 인증서 및 개인 키를 제거합니다. 그런 다음 클러스터가 새로운 자체 서명된 인증서와 개인 키를 생성합니다.</block>
+  <block id="347d913828eec37c0c4915a8bd604f8a" category="list-text"><block ref="347d913828eec37c0c4915a8bd604f8a" category="inline-link-macro-rx"></block></block>
+  <block id="f056eadecebc58790da8eb91b5211492" category="inline-link">Element 소프트웨어에서 사용자 정의 SSL 인증서를 설정하는 데 필요한 요구 사항은 무엇입니까?</block>
+  <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
+  <block id="71d77d19e87db163a8fa4db90c83237d" category="inline-link-macro">GetSSLCertificate 메서드</block>
+  <block id="3e9585ef7d0edda1489dd7d9051efee2" category="paragraph">를 사용할 수 있습니다 <block ref="785a154069def4382c407c46cd76511f" category="inline-link-macro-rx"></block> 모든 인증서 세부 정보를 포함하여 현재 설치된 SSL 인증서에 대한 정보를 검색합니다.</block>
+  <block id="d071ee449f970ae83d3efc8c36fdd3db" category="inline-link-macro">SetSSLCertificate 메서드</block>
+  <block id="af9aeedb67a7383e9ed9027d9cae0347" category="paragraph">를 사용할 수 있습니다 <block ref="77081d68df13899db5539e9bf47c2e76" category="inline-link-macro-rx"></block> 클러스터 및 노드별 SSL 인증서를 사용자가 제공하는 인증서 및 개인 키로 설정합니다. 시스템은 유효하지 않은 인증서가 적용되지 않도록 인증서와 개인 키의 유효성을 검사합니다.</block>
+  <block id="b3f80d8c01527878ecb6d9da0acbee6c" category="inline-link-macro">RemoveSSLCertificate 메서드입니다</block>
+  <block id="a6c060b483d31ea611debe971d6648f2" category="paragraph">를 클릭합니다 <block ref="0e7e722b98bf8cba65c74d44d6ffe2e6" category="inline-link-macro-rx"></block> 현재 설치된 SSL 인증서 및 개인 키를 제거합니다. 그런 다음 클러스터가 새로운 자체 서명된 인증서와 개인 키를 생성합니다.</block>
+  <block id="b59339c29a0a5c439aaf31d01a32ea3a" category="list-text"><block ref="b59339c29a0a5c439aaf31d01a32ea3a" category="inline-link-macro-rx"></block></block>
+  <block id="54db42757b5d75d2f660dc70f35850cf" category="inline-link">vCenter Plug-in 5.1 릴리즈 노트</block>
+  <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _신규 _</block>
+  <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
+  <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">API를 사용한 후에는 관리 노드를 재부팅해야 합니다.</block>
 </blocks>
