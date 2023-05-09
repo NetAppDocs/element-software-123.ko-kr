@@ -1268,7 +1268,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">자산 관리</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">REST API를 사용하여 Element 시스템 로그를 수집합니다</block>
-  <block id="e6f552ff8b981823a09e603dcf005093" category="list-text"><block ref="e6f552ff8b981823a09e603dcf005093" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
   <block id="0b9f382bf593a3a25e5173264b3e45f0" category="summary">NetApp 하이브리드 클라우드 제어에서 REST API UI를 사용하여 여러 vCenter를 사용하도록 구성할 수 있습니다.</block>
@@ -1753,7 +1752,6 @@
   <block id="91e02cd2b8621d0c05197f645668c5c4" category="paragraph">네트워크</block>
   <block id="382b0f5185773fa0f67a8ed8056c7759" category="paragraph">해당 없음</block>
   <block id="d25b1313ce24472d1605226c513ef95a" category="paragraph">따라서 시스템이 노드의 드라이브에서 클러스터의 다른 드라이브로 데이터를 마이그레이션합니다. 이 프로세스에 걸리는 시간은 마이그레이션해야 하는 데이터의 양에 따라 달라집니다.</block>
-  <block id="f450dc1f11b420ef61c997b620a5ddf3" category="inline-link-macro">Dell R640용 드라이브를 교체합니다</block>
   <block id="cef2ee48106a0a7790ec9a773798ee14" category="inline-link-macro">Element 소프트웨어 UI에서 기본 옵션을 사용합니다</block>
   <block id="feabbbf9b5afb31194daf0d8e3ff75dc" category="inline-link-macro">볼륨 작업</block>
   <block id="661a6e0397d4dd97cf4921386753f84c" category="inline-link-macro">가상 볼륨 작업</block>
@@ -2869,7 +2867,6 @@
   <block id="cbf736cf2cf084245cf2ef853366ba11" category="paragraph">idpConfigInfos</block>
   <block id="c54f92fa106774d26ba461cc1c497aae" category="paragraph">타사 IDP 구성에 대한 정보입니다.</block>
   <block id="0c2fa1c0ffa320e7273124b77aabbd2b" category="inline-link-macro">idpConfigInfo</block>
-  <block id="a29f9fdde9669fd7ca1ae6b4127f82b8" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block> 스토리지</block>
   <block id="195863009ffa903e83ad7fd7e7db63b1" category="paragraph">12.0</block>
   <block id="fa2bf27789f0fe1397f3deffc7b58351" category="summary">GetLldpConfig 메서드를 사용하여 스토리지 클러스터의 각 노드에 대해 LLDP\(Link Layer Discovery Protocol) 구성을 가져올 수 있습니다.</block>
   <block id="bf28260a9de577bfe685f146dfd88a6b" category="doc">GetLldpConfig 를 참조하십시오</block>
@@ -2966,7 +2963,6 @@
   <block id="3b16867b7d374321cf9761a2d81e09bd" category="paragraph">"ListActiveAuthSessions" 메서드를 사용하여 활성화된 인증된 세션을 모두 나열할 수 있습니다. 관리 액세스 권한이 있는 사용자만 이 메서드를 호출할 수 있습니다.</block>
   <block id="bfe739376bae3a5336f58e3971531253" category="paragraph">인증 세션에 대한 세션 정보입니다.</block>
   <block id="9a43554262146ce04817985e50c7f70c" category="inline-link-macro">AuthSessionInfo 를 참조하십시오</block>
-  <block id="b1bff35225b1453efa974801b476caff" category="paragraph"><block ref="b1bff35225b1453efa974801b476caff" category="inline-link-macro-rx"></block></block>
   <block id="e87980629351383341485cfdfeb606cb" category="summary">NetApp 엔지니어링에서는 GetRawStats API 메서드를 사용하여 새로운 기능을 테스트합니다. GetRawStats 에서 반환된 데이터는 문서화되지 않으며 자주 변경되며 정확하다는 보장은 없습니다. 성능 데이터를 수집하거나 Element 소프트웨어를 실행하는 스토리지 클러스터와 기타 관리 통합을 위해 GetRawStats를 사용해서는 안 됩니다.</block>
   <block id="a73bc9a5a0fae468432503496b62e312" category="paragraph">NetApp 엔지니어링에서는 'GetRawStats' API 메소드를 사용하여 새로운 기능을 테스트합니다. GetRawStats에서 반환된 데이터는 문서화되지 않고 자주 변경되며 정확성은 보장되지 않습니다. 성능 데이터를 수집하거나 Element 소프트웨어를 실행하는 스토리지 클러스터와 기타 관리 통합을 위해 "GetRawStats"를 사용해서는 안 됩니다.</block>
   <block id="9637eae4ee7bc2abe1d9f563adbcc5a0" category="paragraph">지원되는 다음 API 메소드를 사용하여 통계 정보를 검색합니다.</block>
@@ -3083,7 +3079,6 @@
   <block id="d87a2a63d480d1602f49d51e523e44af" category="paragraph">저장할 IDP 메타데이터.</block>
   <block id="a4926df300a1048acda1c427456917dd" category="paragraph">SAML 2.0 SSO(Single Sign-On)에 대한 IDP 공급자를 식별하는 데 사용되는 이름입니다.</block>
   <block id="9b275bed2e2d0a90045fbe660777ccf3" category="paragraph">타사 ID 공급자(IDP) 구성에 대한 정보입니다.</block>
-  <block id="9c26e58197dbaa39e74144e77ff06a0e" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block></block>
   <block id="28d9275d84165bcfaf517fc9295daed7" category="summary">API\(스토리지 클러스터, 스토리지 클러스터 생성 및 노드당\)에는 세 가지 유형의 요청 엔드포인트가 사용됩니다. 항상 Element 소프트웨어 버전에서 지원하는 최신 끝점을 사용해야 합니다.</block>
   <block id="be44f93d7d9fb3d2c5ce921893855afd" category="doc">엔드포인트 요청</block>
   <block id="b67a024bd682849c3714e5dfb9b7ec90" category="paragraph">API에 사용되는 요청 엔드포인트에는 스토리지 클러스터, 스토리지 클러스터 생성 및 노드당 세 가지 유형이 있습니다. 항상 Element 소프트웨어 버전에서 지원하는 최신 끝점을 사용해야 합니다.</block>
@@ -3498,7 +3493,6 @@
   <block id="fa086ddf62bedd344204fceb97eb97b1" category="paragraph">KmipKeyServer를 참조하십시오</block>
   <block id="86d9b0ecb31e3598bf29d711f80152ec" category="paragraph">새로 수정된 키 서버에 대한 세부 정보가 포함된 개체입니다.</block>
   <block id="64ce33c3af0564919d68824260f9d7c0" category="inline-link-macro">KeyServerKmip</block>
-  <block id="0971c717c82e5a2659fd8ee2d73d170d" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block></block>
   <block id="e57b956af31e98e7384b69e0e0cfc5a6" category="summary">UpdateBulkVolumeStatus 메서드를 사용하여 StartBulkVolumeRead 또는 StartBulkVolumeWrite 메서드로 시작한 대량 볼륨 작업의 상태를 업데이트할 수 있습니다.</block>
   <block id="0cbc9b3eac70901cd08c76ae7fb284c1" category="paragraph">'UpdateBulkVolumeStatus' 메서드를 사용하여 'tartBulkVolumeRead' 또는 'tartBulkVolumeWrite' 방법으로 시작한 대량 볼륨 작업의 상태를 업데이트할 수 있습니다.</block>
   <block id="793d0e43b349664cfa7cefddafcc4b57" category="paragraph">를 초기화하는 동안 할당된 키입니다 <block ref="9bb219cd6da4ef0df4e030d5d41c36e3" category="inline-xref-macro-rx"></block> 또는 <block ref="436fc063b8d3f9dee672b110fe1b81a1" category="inline-xref-macro-rx"></block> 세션.</block>
@@ -3931,7 +3925,6 @@
   <block id="b140fd3c0111005bcfc14eb207c72b2d" category="paragraph">보호도메인</block>
   <block id="8182124863c7746cec9195a8d74456c3" category="paragraph">노드가 구성원인 보호 도메인의 목록입니다.</block>
   <block id="c6faecb3ce8f08fb0dfc3519050b8527" category="inline-link-macro">보호 도메인</block>
-  <block id="4a7c9a0bc1a3ed41374850a08662f9a1" category="paragraph"><block ref="4a7c9a0bc1a3ed41374850a08662f9a1" category="inline-link-macro-rx"></block></block>
   <block id="486bc69230658e08ce12ba2d95da9e00" category="summary">Element 소프트웨어 웹 UI에서는 QuiesceSnapMirrorRelationship 메서드를 사용하여 SnapMirror 관계에 대한 향후 데이터 전송을 사용하지 않도록 설정합니다. 전송이 진행 중인 경우 전송이 완료될 때까지 관계 상태가 "중지"가 됩니다. 현재 전송이 중단되면 다시 시작되지 않습니다. ResumeSnapMirrorRelationship API 메서드를 사용하여 관계에 대한 데이터 전송을 다시 활성화할 수 있습니다.</block>
   <block id="b5f2b78953aa7cee09ffda3ec8b3be41" category="doc">QuiesceSnapMirror 관계</block>
   <block id="b0a8dcb84595b6fd40c5eb92018dc58f" category="paragraph">Element 소프트웨어 웹 UI에서는 'QuiesSnapMirrorRelationship' 방법을 사용하여 SnapMirror 관계에 대한 향후 데이터 전송을 비활성화합니다. 전송이 진행 중인 경우 전송이 완료될 때까지 관계 상태가 "중지"가 됩니다. 현재 전송이 중단되면 다시 시작되지 않습니다. ResumeSnapMirrorRelationship API 메소드를 사용하여 관계에 대한 데이터 전송을 다시 활성화할 수 있습니다.</block>
@@ -4420,7 +4413,6 @@
   <block id="03ca6818409054c6f788f8f1512a9a83" category="paragraph">이 인수를 생략하면 KMIP 키 서버가 할당되어 있는지 여부에 따라 KMIP 키 서버가 필터링되지 않습니다.</block>
   <block id="2c1426081603fa11f6ec5fe617919158" category="paragraph">KmipKeyServers를 선택합니다</block>
   <block id="24fdfa87efc0bd3dccff05037bf0a5e8" category="paragraph">KMIP 키 서버가 생성된 전체 목록입니다.</block>
-  <block id="0a2a9e2ac4719c4ac6cdb0954649f468" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block> 스토리지</block>
   <block id="dc8e1ac2cbed3593426fc5ed056fe30f" category="summary">ListServices 메서드를 사용하여 클러스터에서 실행 중인 노드, 드라이브, 현재 소프트웨어 및 기타 서비스에 대한 서비스 정보를 나열할 수 있습니다.</block>
   <block id="f87f240ad01adcfddd869079ea264ac0" category="paragraph">"ListServices" 방법을 사용하여 클러스터에서 실행 중인 노드, 드라이브, 현재 소프트웨어 및 기타 서비스에 대한 서비스 정보를 나열할 수 있습니다.</block>
   <block id="10cd395cf71c18328c863c08e78f3fd0" category="paragraph">서비스</block>
@@ -4868,7 +4860,6 @@
   <block id="c02c1eaada945237018f916bc8da84ad" category="paragraph">이 메서드에는 입력 매개 변수가 없습니다.</block>
   <block id="78acf42d4e20f5f2468d1e65f57abf33" category="paragraph">보호도메인레이아웃</block>
   <block id="05a5c63fcd5e41bcca1f51f811155ae8" category="paragraph">각 노드에 연결된 보호 도메인이 있는 노드 목록입니다.</block>
-  <block id="239e7b7fda84773161e54a846a2d1cd4" category="paragraph">의 JSON 목록 <block ref="900764c76dfb916163ee11006f145e7d" category="inline-link-macro-rx"></block> 오브젝트.</block>
   <block id="7c17df20b03d4e07f2afa43f69f48864" category="summary">CopyVolume 메서드를 사용하여 기존 볼륨의 데이터 내용을 다른 볼륨의 데이터 컨텐츠로 덮어쓸 수 있습니다\(또는 snapshot\). IQN, QoS 설정, 크기, 계정, 볼륨 액세스 그룹 구성원 자격 등과 같은 대상 볼륨의 속성은 변경되지 않습니다. 대상 볼륨이 이미 있어야 하며 소스 볼륨과 크기가 같아야 합니다.</block>
   <block id="825fdf7532e30c4cbf3dca22b2c62e9c" category="paragraph">"CopyVolume" 방법을 사용하여 기존 볼륨의 데이터 내용을 다른 볼륨(또는 스냅샷)의 데이터 내용으로 덮어쓸 수 있습니다. IQN, QoS 설정, 크기, 계정, 볼륨 액세스 그룹 구성원 자격 등과 같은 대상 볼륨의 속성은 변경되지 않습니다. 대상 볼륨이 이미 있어야 하며 소스 볼륨과 크기가 같아야 합니다.</block>
   <block id="35abaf19b268121e929df1ba58c67e4a" category="paragraph">작업이 시작되기 전에 클라이언트가 대상 볼륨을 마운트 해제하는 것이 가장 좋습니다. 작업 중에 대상 볼륨이 수정되면 변경 사항이 손실됩니다. 이 작업을 완료하는 데 시간이 걸릴 수 있습니다. 를 사용할 수 있습니다 <block ref="2853137f7040863ca18b1480311d2902" category="inline-xref-macro-rx"></block> 프로세스가 완료된 시점을 결정하는 방법 및 을 참조하십시오 <block ref="5bf2a4d1d336cc32b103ae2eace84bf1" category="inline-xref-macro-rx"></block> 를 눌러 복사 진행 상태를 확인합니다.</block>
@@ -5292,7 +5283,6 @@
   <block id="c398d0b5db2ad6bd0f494cea5b8f4088" category="paragraph">KmipKeyProvider 를 참조하십시오</block>
   <block id="158fc117241750b333d9029fcd379a0b" category="paragraph">새로 만든 키 공급자에 대한 세부 정보가 포함된 개체입니다.</block>
   <block id="af6fa3b56666058ff3f8eacb74577a16" category="inline-link-macro">키ProviderKmip 을 참조하십시오</block>
-  <block id="318d6ed2c493a66e91fc7d1db5a0f022" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block></block>
   <block id="c30ff6c5fbeef539fbe50ceced3d3adb" category="summary">DisableMaintenanceMode 메서드를 사용하여 스토리지 노드를 유지 관리 모드에서 가져올 수 있습니다. 유지 관리를 완료하고 노드가 온라인 상태가 된 후에만 유지보수 모드를 해제해야 합니다.</block>
   <block id="378e5721fe469e91f2b09f34b8b43581" category="paragraph">DisableMaintenanceMode' 메서드를 사용하여 스토리지 노드를 유지보수 모드에서 벗어났을 수 있습니다. 유지 관리를 완료하고 노드가 온라인 상태가 된 후에만 유지보수 모드를 해제해야 합니다.</block>
   <block id="8ca0a895c8a8de3852bfe9bc2855eb91" category="paragraph">GetAsyncResult 메서드를 사용하여 이 asyncHandle 을 검색하고 유지 관리 모드 전환이 완료되는 시기를 결정할 수 있습니다.</block>
@@ -6113,7 +6103,6 @@
   <block id="315d01d864941b08b015bd9724f5b4e7" category="paragraph">이 인수를 생략하면 KMIP 키 서버가 할당되었는지 여부를 기준으로 KMIP 키 공급자가 반환되었습니다.</block>
   <block id="2d956871963e704854b5e24781df3ac6" category="paragraph">KmipKeyProviders 를 참조하십시오</block>
   <block id="daed31255d43e1a9cb8957ea4827280f" category="paragraph">KMIP 키 공급자 목록이 생성되었습니다.</block>
-  <block id="9e1dc08162fd6287c4fb2fdc4c4a9a0f" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block> 스토리지</block>
   <block id="d07ccd2d77f5001f167b3b44147d3a36" category="summary">GetRemoteLoggingHosts 메서드를 사용하여 로그 서버의 현재 목록을 가져올 수 있습니다.</block>
   <block id="d181f64248152c2f348f049cf48ef93e" category="paragraph">GetRemoteLoggingHosts 메서드를 사용하여 로그 서버의 현재 목록을 가져올 수 있습니다.</block>
   <block id="5f4f0ec0918e318616593eade2ab0e45" category="paragraph">원격 호스트</block>
@@ -6131,9 +6120,7 @@
   <block id="f7fbdcd0f959ea03f9c9fe10c1f436f5" category="paragraph">클러스터에서 각 노드의 드라이브에 사용되는 암호화 키를 관리할 수 있도록 "EnableEncryptionAtRest" 방법을 사용하여 클러스터의 유휴 상태에서 AES(Advanced Encryption Standard) 256비트 암호화를 활성화할 수 있습니다. 이 기능은 기본적으로 사용되지 않습니다.</block>
   <block id="b6da302462725db65b08725e21534c35" category="inline-link-macro">클러스터 정보 확인 방법을 참조하십시오</block>
   <block id="df55ce8d5994202037ca7f6b8add22fc" category="inline-link-macro">클러스터에서 유휴 데이터를 암호화하는 데 사용하는 정보를 가져오는 방법입니다</block>
-  <block id="8645b3842f2ebbd31ef1556eca13e734" category="admonition">유휴 상태의 암호화 및/또는 클러스터의 유휴 상태의 소프트웨어 암호화를 확인하려면 를 사용합니다 <block ref="266af3c6722606b03dffbc748cf8f335" category="inline-link-macro-rx"></block>. 'GetSoftwareEncryptionAtRestInfo'를 사용할 수 있습니다 <block ref="71cd4d0c7a8355e8bd1074b7039cdde9" category="inline-link-macro-rx"></block>.</block>
   <block id="9a3e77d40a36fc6582491b29c79ad64a" category="inline-link-macro">클러스터 생성 방법</block>
-  <block id="54345a69ac071e42416d101550699426" category="admonition">이 방법은 저장된 소프트웨어 암호화를 사용하지 않습니다. 이 작업은 를 통해서만 수행할 수 있습니다 <block ref="156163f61ad8e976859b5234666eb7c2" category="inline-link-macro-rx"></block> enableSoftwareEncryptionAtRest가 true로 설정되어 있습니다.</block>
   <block id="79c6818b5a784bd2a9784bba4752ebda" category="paragraph">유휴 데이터 암호화를 설정하면 클러스터에서 각 노드의 드라이브에 대한 암호화 키가 내부적으로 자동으로 관리됩니다.</block>
   <block id="06dd8c5540d025434b69c38d303f3e8a" category="paragraph">keyProviderID 를 지정하면 키 공급자 유형에 따라 암호가 생성되고 검색됩니다. 이는 일반적으로 KMIP 키 공급자의 경우 KMIP(Key Management Interoperability Protocol) 키 서버를 사용하여 수행됩니다. 이 작업 후에는 지정된 공급자가 활성화된 것으로 간주되므로 "disableEncryptionAtRest" 메서드를 사용하여 저장된 암호화 기능을 해제할 때까지 삭제할 수 없습니다.</block>
   <block id="0a78a222fd5e48d5331001cedecde88d" category="admonition">모델 번호가 "-NE"로 끝나는 노드 형식이 있는 경우 "EnableEncryptionAtRest" 메서드 호출이 실패하고 "Encryption not allowed"라는 응답이 표시됩니다. 클러스터에서 암호화할 수 없는 노드가 감지되었습니다."</block>
@@ -7852,9 +7839,7 @@
   <block id="829222e37a81e6723ec1c8312f0896ff" category="doc">SolidFire All-Flash 스토리지를 위한 관리 서비스</block>
   <block id="83221d7a8e6873bb96d6fbbd9afcf8e8" category="inline-link-macro">관리 노드</block>
   <block id="a818b18784f90669084d24af8a7d4d6b" category="paragraph">Element 11.3 릴리스 현재 * 관리 서비스 * 는 에서 호스팅됩니다 <block ref="5faa37a8cb9b8f7bb17a5a6af86182c8" category="inline-link-macro-rx"></block>주요 릴리즈 이외의 특정 소프트웨어 서비스를 빠르게 업데이트할 수 있습니다.</block>
-  <block id="33613f9e26b4d3202f0d812df6bedba3" category="paragraph">관리 서비스는 SolidFire All-Flash 스토리지를 위한 중앙 집중식 및 확장된 관리 기능을 제공합니다. 이러한 서비스에는 다음이 포함됩니다 <block ref="53cac838271c3c6f19adc6b835ed9d5f" category="inline-link-macro-rx"></block>Active IQ 시스템 원격 측정, 로깅 및 서비스 업데이트뿐 아니라 vCenter용 Element 플러그인에 대한 QoSSIOC 서비스도 제공합니다.</block>
   <block id="257409197ae1a07404e333be63986ac6" category="inline-link-macro">관리 서비스 릴리스</block>
-  <block id="4651d824b0048b0eb592cc60e9dd3977" category="admonition">에 대해 자세히 알아보십시오 <block ref="873adfb4e707b3b5ed2423771a9400e1" category="inline-link-macro-rx"></block>.</block>
   <block id="e2593695976e95f81a24db98be39ed45" category="summary">SolidFire All-Flash 스토리지 시스템은 각 노드에서 독립적으로 실행되는 NetApp Element 소프트웨어를 통해 단일 스토리지 리소스 풀로 결합된 개별 하드웨어 구성요소\(드라이브 및 노드\)로 구성됩니다. 이 통합 클러스터는 외부 클라이언트에서 사용할 수 있는 단일 스토리지 시스템으로, Element 소프트웨어 UI, API 및 기타 관리 툴을 통해 단일 엔터티로 관리됩니다.</block>
   <block id="03531bbe6b454e3015b4001ed6ef7590" category="paragraph">SolidFire All-Flash 스토리지 시스템은 스토리지 리소스 풀에 결합되어 각 노드에서 독립적으로 실행되는 NetApp Element 소프트웨어가 포함된 개별 하드웨어 구성요소(드라이브 및 노드)로 구성됩니다. 이 단일 스토리지 시스템은 Element 소프트웨어 UI, API 및 기타 관리 툴을 사용하여 단일 엔터티로 관리됩니다.</block>
   <block id="91d2228a1dd7c829ac2836205775867a" category="paragraph">SolidFire 스토리지 시스템에는 다음과 같은 하드웨어 구성 요소가 포함되어 있습니다.</block>
@@ -7959,11 +7944,6 @@
   <block id="893da6ab703ccebc0128c2188fce2dfa" category="section-title">장애가 발생한 드라이브의 동작 개선</block>
   <block id="bc8064d6976a4ae417d9071be509d014" category="paragraph">Element 12.3은 드라이브의 SMART 상태 데이터를 사용하여 SolidFire 어플라이언스 드라이브에 대해 정기적으로 상태 점검을 수행합니다. SMART 상태 확인에 실패한 드라이브가 거의 실패할 수 있습니다. 드라이브가 SMART 상태 검사에 실패하면 드라이브가 * Failed * 상태로 전환되며 심각한 심각도 클러스터 장애가 나타납니다. 슬롯 &lt;node slot&gt;&lt;drive slot&gt;의 일련 번호 &lt;serial number&gt;이(가) 있는 드라이브:&lt;node slot&gt;가 SMART 전체 상태 검사에 실패했습니다. 이 오류를 해결하려면 드라이브를 교체하십시오</block>
   <block id="f27e588d7a898f97a40bb017bc0cb67e" category="paragraph">SolidFire ESDS는 이제 Dell R640 서버에서 사용할 수 있습니다. 를 참조하십시오<block ref="bbf12a00ac2004a394e4a5957119453c" category="inline-link-rx"></block> 지원되는 구성에 대한 자세한 내용은 를 참조하십시오.</block>
-  <block id="b4eb0a7d2f620a735a49d295cf464c57" category="section-title">SolidFire ESDS에 대한 새로운 설명서</block>
-  <block id="7b23dd0b7e8640cee7cc760aebda33b4" category="paragraph">SolidFire ESDS에 대해 다음과 같은 새로운 설명서를 사용할 수 있습니다.</block>
-  <block id="0758acb395116abd9e0939201a27edd6" category="list-text"><block ref="cf3efad461dedbcc789786816f0318a6" category="inline-link-rx"></block>: Dell R640 서버의 드라이브를 교체하는 단계를 제공합니다.</block>
-  <block id="5ecc3fdf34ca55d0377ecf551fdb9635" category="inline-link">기술 자료 문서(로그인 필요)</block>
-  <block id="4b88ce6903140a7f757c6509c06012dc" category="list-text"><block ref="a047a2b1ef295d12a54302870ed64e97" category="inline-link-rx"></block>: SolidFire ESDS 시스템의 문제 해결에 대한 정보를 제공합니다.</block>
   <block id="295216d6678c57d5badf5770238d96b5" category="section-title">SolidFire ESDS의 알려진 문제에 대한 새로운 위치</block>
   <block id="4a5792ce9d744e9fb996d5cbb1e303d8" category="inline-link">버그 온라인 도구(로그인 필요)</block>
   <block id="28bab3e7358cc261a7101ba6a439e4eb" category="paragraph">이제 에서 알려진 문제를 검색할 수 있습니다<block ref="4010019de5d8f9d6e5f30f9d5509ab8d" category="inline-link-rx"></block>.</block>
@@ -8089,7 +8069,6 @@
   <block id="c8de9bc8a027f0e5864fb603489b44fd" category="list-text"><block ref="c8de9bc8a027f0e5864fb603489b44fd" category="inline-link-rx"></block></block>
   <block id="a0b768ade98ef6cf3df956008c966806" category="list-text"><block ref="a0b768ade98ef6cf3df956008c966806" category="inline-link-rx"></block></block>
   <block id="af149d844cc5e37dba5faa0cc28a9285" category="inline-link-macro">H610S BMC 3.84.07 릴리스 정보</block>
-  <block id="eead60ae6beeaad1ec995f62a611e1c3" category="list-text"><block ref="eead60ae6beeaad1ec995f62a611e1c3" category="inline-link-macro-rx"></block></block>
   <block id="f1d02ef71e655f874094154fe26955ae" category="summary">클러스터는 SolidFire 스토리지 시스템의 허브이며 노드 모음으로 구성됩니다. SolidFire 스토리지 효율성을 실현하려면 하나의 클러스터에 최소 4개의 노드가 있어야 합니다. 클러스터는 네트워크에 단일 논리 그룹으로 표시되며, 블록 스토리지로 액세스할 수 있습니다.</block>
   <block id="c31f538ab7ed22954b3c941becbca20b" category="paragraph">새 클러스터를 생성하면 클러스터의 통신 소유자로 노드가 초기화되고 클러스터의 각 노드에 대한 네트워크 통신이 설정됩니다. 이 프로세스는 각 새 클러스터에 대해 한 번만 수행됩니다. Element UI 또는 API를 사용하여 클러스터를 생성할 수 있습니다.</block>
   <block id="01a99de421fb8a821f16fedb65844d3e" category="paragraph">노드를 추가하여 클러스터를 확장할 수 있습니다. 새 노드를 추가할 경우 서비스가 중단되지 않으며 클러스터는 새 노드의 성능과 용량을 자동으로 사용합니다.</block>
@@ -8366,7 +8345,6 @@
   <block id="94d1207223d97d0a0a9877e887c40d29" category="inline-link-macro">기본 IPMI 암호를 변경합니다</block>
   <block id="a88b2ec4dd01d7fd61509f9c9d5bd481" category="list-text">H410C, H610C 및 H615C 노드의 경우 <block ref="1d4aa273a0eca9d7d120f38c4573165c" category="inline-link-macro-rx"></block>.</block>
   <block id="9ef4592bcb5c2379e3e631deeae02163" category="inline-link-macro">기본 IPM 암호를 변경합니다</block>
-  <block id="c406ac81de66b241c8b18e8b786204ce" category="list-text">H410S 및 H610S 노드의 경우 <block ref="948675b0a3c0cef9123c5f0ab6b48101" category="inline-link-macro-rx"></block>.</block>
   <block id="5da96725b80167a4658f4e9057a4cb45" category="inline-link-macro">관리 노드에서 BMC 자격 증명을 변경합니다</block>
   <block id="57137c1e68d7300587dc9d9e4c6d107c" category="list-text"><block ref="5215e9d1d5c62231ce2eff57e0d99e18" category="inline-link-macro-rx"></block>.</block>
   <block id="409517b29e406b86b0f2e96d825034ac" category="paragraph">ESXi 자격 증명</block>
@@ -9424,7 +9402,6 @@
   <block id="250f00e8767222db89298f946f97e517" category="paragraph">소프트웨어 인터페이스는 Element API를 기반으로 구축됩니다.</block>
   <block id="9767ec22fca2804b6bdbd87e39200375" category="list-text"><block ref="9767ec22fca2804b6bdbd87e39200375" category="inline-link-macro-rx"></block></block>
   <block id="d3daac97e8c69781f73bcc5512cb5c2a" category="inline-link-macro">스토리지 시스템 구성 요소 업그레이드</block>
-  <block id="ecb20e3ca51440136d042527b042c2ee" category="list-text"><block ref="ecb20e3ca51440136d042527b042c2ee" category="inline-link-macro-rx"></block></block>
   <block id="6038a645307a76874f058ffe322fc4f6" category="list-text"><block ref="6038a645307a76874f058ffe322fc4f6" category="inline-link-macro-rx"></block></block>
   <block id="78b427ddfeadab92101bce0e26d2af15" category="list-text"><block ref="78b427ddfeadab92101bce0e26d2af15" category="inline-link-macro-rx"></block></block>
   <block id="b1d9f91038721e8f8e298ac364db6778" category="list-text"><block ref="b1d9f91038721e8f8e298ac364db6778" category="inline-link-macro-rx"></block></block>
@@ -9667,7 +9644,6 @@
   <block id="53661c1451a20d47537b1d0a00b2d7d0" category="list-text">페이지에 있는 모든 경고의 세부 정보를 보려면 자세히 열을 클릭합니다.</block>
   <block id="17597d1694bdaa4d0233e43918f0bd33" category="paragraph">시스템에서 경고를 해결한 후에는 해결된 날짜를 포함한 모든 경고 정보가 해결된 영역으로 이동됩니다.</block>
   <block id="dc679f38ed2d35dde42b872d737e46db" category="list-text"><block ref="dc679f38ed2d35dde42b872d737e46db" category="inline-xref-macro-rx"></block></block>
-  <block id="8e078db9f02bd406ca631ba2825dd629" category="list-text"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
   <block id="e1f86a5a716d7daf38cbb4414809333f" category="summary">한 클러스터의 MVIP를 사용하여 다른 클러스터와의 연결을 설정하여 실시간 복제를 위해 두 클러스터를 페어링할 수 있습니다. 이 방법을 사용하려면 두 클러스터 모두에서 클러스터 관리자 액세스가 필요합니다. 클러스터를 페어링하기 전에 클러스터 관리자 사용자 이름 및 암호를 사용하여 클러스터 액세스를 인증합니다.</block>
   <block id="686d2c92d6ed72fd9b67b053a374b0be" category="list-text">페어링 시작 * 을 클릭하고 * 예 * 를 클릭하여 원격 클러스터에 액세스할 수 있음을 나타냅니다.</block>
   <block id="6b3a7de325b16dd1afda64f2b5d849aa" category="list-text">원격 클러스터 MVIP 주소를 입력합니다.</block>
@@ -9923,7 +9899,6 @@
   <block id="28ebc10ef7c343a4cf32aacf144f1590" category="list-text">저장된 하드웨어 기반 암호화의 경우 암호화 설정을 변경하기 전에 클러스터가 정상 상태인지 확인했습니다.</block>
   <block id="53f1251f9f4067bb924700bbc4f4734a" category="list-text">암호화를 사용하지 않도록 설정하는 경우 드라이브에서 암호화를 해제하려면 두 노드가 클러스터에 참여하고 있어야 합니다.</block>
   <block id="c7f9a749a25add142f440b6abf05f6c6" category="section-title">저장된 암호화 상태를 확인하십시오</block>
-  <block id="cafb235222dece370f504ef5d0d47b47" category="paragraph">유휴 상태의 암호화 및/또는 클러스터의 유휴 상태의 소프트웨어 암호화를 확인하려면 를 사용합니다 <block ref="b94a2f1f88f1b2af0f1632fc6ab0d549" category="inline-link-macro-rx"></block> 방법. 를 사용할 수 있습니다 <block ref="599a2456b2fb227210a4ba9b77591706" category="inline-link-macro-rx"></block> 클러스터에서 유휴 데이터를 암호화하는 데 사용하는 정보를 가져오는 방법입니다.</block>
   <block id="189f9cc5227158e41b6756a4618d70a5" category="admonition">https://&lt;MVIP&gt;/` 의 Element 소프트웨어 UI 대시보드는 현재 하드웨어 기반 암호화에 대한 저장된 암호화 상태만 표시합니다.</block>
   <block id="6411cb076f9a57f4692e35353d26818b" category="list-text"><block ref="0536a180f702fe272c8546e4728d45b2" category="inline-xref-macro-rx"></block></block>
   <block id="4823ade0859e69629fa1e8f164c00d7d" category="list-text"><block ref="a4d311b39c82c29e83b2f7086c1e3a91" category="inline-xref-macro-rx"></block></block>
@@ -10812,8 +10787,6 @@
   <block id="e3ba29915abd7b6580d69f4dab5a9180" category="list-text"><block ref="e3ba29915abd7b6580d69f4dab5a9180" category="inline-link-rx"></block></block>
   <block id="6a5872631c0cf8f8396f83702a5d1b69" category="inline-link">H600S 시리즈 스토리지 노드의 드라이브 교체</block>
   <block id="958c4b86b435f9f588d64cfab02d9a5d" category="list-text"><block ref="958c4b86b435f9f588d64cfab02d9a5d" category="inline-link-rx"></block></block>
-  <block id="24ed1c3d2fd5e7a8e8358705c065eee8" category="list-text"><block ref="24ed1c3d2fd5e7a8e8358705c065eee8" category="inline-link-macro-rx"></block></block>
-  <block id="f938a270ef0dee1673d32b1160f2268d" category="list-text"><block ref="f938a270ef0dee1673d32b1160f2268d" category="inline-link-macro-rx"></block></block>
   <block id="b4de17ead867a3cf0b9d11e57e562672" category="doc">기계 번역</block>
   <block id="3c9f6e4a3154e230010cc09eb27260ad" category="summary">노드는 블록 스토리지로 액세스할 클러스터로 그룹화된 개별 하드웨어 구성 요소입니다. SolidFire 스토리지 시스템에는 스토리지 노드와 Fibre Channel 노드의 두 가지 노드 유형이 있습니다.</block>
   <block id="a5599a81e172ea6d5e660325bbceb5b2" category="paragraph">새 클러스터를 생성하면 클러스터의 통신 소유자로 노드가 초기화되고 클러스터의 각 노드에 대한 네트워크 통신이 설정됩니다. 이 프로세스는 각 새 클러스터에 대해 한 번만 수행됩니다. Element UI 또는 API를 사용하여 클러스터를 생성할 수 있습니다.</block>
@@ -11302,8 +11275,6 @@
   <block id="4e8b9c52e60070f73bcaa6e5e5ba4121" category="inline-link-macro">LDAP 세부 정보입니다</block>
   <block id="543e9c1cf295e8284006e3af49b8105a" category="paragraph"><block ref="543e9c1cf295e8284006e3af49b8105a" category="inline-link-macro-rx"></block></block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
-  <block id="a1245e096ef503d7567667afaa906b60" category="paragraph"><block ref="a1245e096ef503d7567667afaa906b60" category="inline-xref-macro-rx"></block></block>
-  <block id="52dc765a830c6c6b29cc239ca9482774" category="paragraph"><block ref="52dc765a830c6c6b29cc239ca9482774" category="inline-xref-macro-rx"></block></block>
   <block id="27b50c2855e5935b991c110f8f2c985d" category="summary">보안 액세스를 위해 이니시에이터를 볼륨 컬렉션에 매핑하여 볼륨 액세스 그룹을 생성할 수 있습니다. 그런 다음 계정 CHAP 이니시에이터 암호 및 대상 암호를 사용하여 그룹의 볼륨에 대한 액세스 권한을 부여할 수 있습니다.</block>
   <block id="625674c07781dca113f6cbca1243747b" category="list-text">다음 방법 중 하나로 볼륨 액세스 그룹에 이니시에이터를 추가합니다.</block>
   <block id="f5121697b915ee3ca78973d2b9ab5038" category="paragraph">Fibre Channel 이니시에이터 추가</block>
@@ -11950,4 +11921,27 @@
   <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _신규 _</block>
   <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
   <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">API를 사용한 후에는 관리 노드를 재부팅해야 합니다.</block>
+  <block id="f2803c84f404a81af41a23542245cebc" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block></block>
+  <block id="64d9e8809f33aaca7cda9d121b2b2e83" category="paragraph"><block ref="64d9e8809f33aaca7cda9d121b2b2e83" category="inline-link-macro-rx"></block></block>
+  <block id="19f47154ff3c9f0fcf8147cd2369d029" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block></block>
+  <block id="0e9706d9713372bb21a3b9f917953dbc" category="paragraph">의 JSON 목록 <block ref="5820461afa2bd9ee99130d755eddf7ff" category="inline-link-macro-rx"></block> 오브젝트.</block>
+  <block id="1e924e133c06d37b8d10cb78b719f4ce" category="paragraph"><block ref="1e924e133c06d37b8d10cb78b719f4ce" category="inline-link-macro-rx"></block></block>
+  <block id="0aa7fde71cfb5413015e45fa45075fd0" category="admonition">유휴 상태의 암호화 및/또는 클러스터의 유휴 상태의 소프트웨어 암호화를 확인하려면 를 사용합니다 <block ref="d274ae55f8f22fd98ab9b057453f6128" category="inline-link-macro-rx"></block>. 를 사용할 수 있습니다<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="bd5bc3e1755ad5880958398f3551c67d" category="inline-link-macro-rx"></block>.</block>
+  <block id="08e683c68442f500782b3d5486530a71" category="admonition">이 방법은 저장된 소프트웨어 암호화를 사용하지 않습니다. 이 작업은 를 통해서만 수행할 수 있습니다 <block ref="d203a09ebf9d1da1010b557da816049a" category="inline-link-macro-rx"></block> 와 함께<block ref="8a6d1a92159080729def71f4e50f41d0" prefix=" " category="inline-code"></block> 를 로 설정합니다<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>.</block>
+  <block id="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block></block>
+  <block id="954e95e0241c7b3a74f9c6a194795355" category="admonition">유휴 상태의 암호화 및/또는 클러스터의 유휴 상태의 소프트웨어 암호화를 확인하려면 를 사용합니다 <block ref="51ab6f075e7b9b2d3276f61c0b11b186" category="inline-link-macro-rx"></block>. 를 사용할 수 있습니다<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="e5fb14b37e1fdc8a835f7ed4e33c1c63" category="inline-link-macro-rx"></block>.</block>
+  <block id="342c0e2d839abf3902ec2e2ba9a391e5" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block> 스토리지</block>
+  <block id="f1e1734ea4e6ef5a6bd73e15cffa128a" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block> 스토리지</block>
+  <block id="2896bd9b7f534d42f996fc5910e2ad40" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block> 스토리지</block>
+  <block id="89291581fd8be1d9caf505e74fd0773e" category="list-text"><block ref="89291581fd8be1d9caf505e74fd0773e" category="inline-link-macro-rx"></block></block>
+  <block id="a339aaae279fb4166b4ea4a6575b8e54" category="list-text"><block ref="a339aaae279fb4166b4ea4a6575b8e54" category="inline-link-macro-rx"></block></block>
+  <block id="bc392d110b36a51cd536073024a5f532" category="list-text">H410S 및 H610S 노드의 경우 <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>.</block>
+  <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
+  <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">유휴 상태의 암호화 및/또는 클러스터의 유휴 상태의 소프트웨어 암호화를 확인하려면 를 사용합니다 <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> 방법. 를 사용할 수 있습니다 <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> 클러스터에서 유휴 데이터를 암호화하는 데 사용하는 정보를 가져오는 방법입니다.</block>
+  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
+  <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
+  <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
+  <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">관리 서비스는 SolidFire All-Flash 스토리지를 위한 중앙 집중식 및 확장된 관리 기능을 제공합니다. 이러한 서비스에는 다음이 포함됩니다 <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>Active IQ 시스템 원격 측정, 로깅 및 서비스 업데이트뿐 아니라 vCenter용 Element 플러그인에 대한 QoSSIOC 서비스도 제공합니다.</block>
+  <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">에 대해 자세히 알아보십시오 <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
+  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
 </blocks>
