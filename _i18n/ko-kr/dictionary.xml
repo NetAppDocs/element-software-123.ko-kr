@@ -11944,4 +11944,6 @@
   <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">관리 서비스는 SolidFire All-Flash 스토리지를 위한 중앙 집중식 및 확장된 관리 기능을 제공합니다. 이러한 서비스에는 다음이 포함됩니다 <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>Active IQ 시스템 원격 측정, 로깅 및 서비스 업데이트뿐 아니라 vCenter용 Element 플러그인에 대한 QoSSIOC 서비스도 제공합니다.</block>
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">에 대해 자세히 알아보십시오 <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
   <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
+  <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">슬라이스 동기화가 진행 중일 때 볼륨을 스냅샷으로 롤백하는 데 실패할 수 있습니다. 다시 시도하십시오<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> 동기화가 완료된 후</block>
+  <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">슬라이스 동기화가 진행 중일 때 볼륨을 그룹 스냅샷으로 롤백하는 데 실패할 수 있습니다. 다시 시도하십시오<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> 동기화가 완료된 후</block>
 </blocks>
