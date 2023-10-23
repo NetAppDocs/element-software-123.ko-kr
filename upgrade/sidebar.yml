@@ -1,6 +1,6 @@
 ---
 section: upgrade
-title: Element 12.3.x를 위해 NetApp SolidFire All-Flash 스토리지 시스템을 업그레이드하십시오
+title: NetApp SolidFire All-Flash 스토리지 시스템 버전 Element 12.3.x를 업그레이드하십시오
 entries:
 - title: 업그레이드 순서 개요
   url: "/upgrade/concept_element_upgrade_overview.html"

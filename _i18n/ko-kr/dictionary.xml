@@ -805,7 +805,6 @@
   <block id="4c3549801952dfbbac7a8729ddb71778" category="list-text">전면에 있는 전원 단추를 눌러 섀시의 전원을 켭니다. 노드가 부팅될 때까지 약 5분 30초 정도 걸립니다.</block>
   <block id="7fcdd8ade61a6eaaf6d114269e40d93b" category="list-text">구성 단계를 수행합니다.</block>
   <block id="c6ad545ed5197a02a4f86759e091d934" category="summary">SolidFire All-Flash 스토리지 시스템은 스토리지 리소스 풀로 결합된 드라이브 및 노드와 같은 하드웨어 구성 요소로 이루어집니다. 이 유니파이드 클러스터는 단일 스토리지 시스템으로서 NetApp Element 소프트웨어를 통해 관리됩니다.</block>
-  <block id="feaccfca658600b99fd01ee647d128a7" category="doc">SolidFire 및 Element 소프트웨어 12.3.x 문서</block>
   <block id="37bf500e2e9e1010fbba8f9d57fc6653" category="summary">최신 버전을 실행하지 않는 경우 이전 릴리스에 대한 문서를 사용할 수 있습니다.</block>
   <block id="516f6af28c516e78fc33b4c052dabe39" category="doc">이전 버전의 SolidFire 및 NetApp Element 소프트웨어 설명서</block>
   <block id="f20c99cda6c5c700e6ea170eaea46329" category="inline-link">요소 12.2 문서</block>
@@ -11393,7 +11392,6 @@
   <block id="4c46c9acea33f3a7201c692e8d84806b" category="sidebar">지원 연결을 관리합니다</block>
   <block id="f3ef8562bc46b3fd5d64fc8a88bab6f9" category="sidebar">H410S 및 H610S 노드를 설치합니다</block>
   <block id="e558a93d8af634916bae37b7136be1d2" category="sidebar">GetSoftwareEncryptionatRestInfo 를 참조하십시오</block>
-  <block id="0156654ae4dc6b09e871c56632755132" category="sidebar">Element 12.3.x를 위해 NetApp SolidFire All-Flash 스토리지 시스템을 업그레이드하십시오</block>
   <block id="b837bae0f441ebacd86887d737939282" category="sidebar">시스템 업그레이드 절차</block>
   <block id="9282ad3aef7e124a3b2b9c7eab52b33d" category="sidebar">아키텍처 및 구성 요소</block>
   <block id="53b2a4dd7325c2d7325f310860b0b55f" category="sidebar">다중 요소 인증에 대한 추가 정보</block>
@@ -11943,4 +11941,5 @@
   <block id="86eccd8202a873aee7f9acfbe920bb59" category="paragraph"><block ref="00a55ff76496c3c45ca20071f6151bfc" prefix="" category="inline-code"></block></block>
   <block id="474ed7ffbbc0fc1d58ad983e7ef700f6" category="admonition">vCenter 5.0 이상용 Element 플러그인은 vCenter Server 6.7 및 6.5와 호환되지 않습니다.</block>
   <block id="dfd25ff244b001be7beece9729517779" category="list-text">비압축</block>
+  <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">NetApp SolidFire All-Flash 스토리지 시스템 버전 Element 12.3.x를 업그레이드하십시오</block>
 </blocks>
