@@ -76,8 +76,6 @@
   <block id="305404f131cd68bdf692eb046a161981" category="list-text"><block ref="305404f131cd68bdf692eb046a161981" category="inline-link-macro-rx"></block></block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server용 NetApp Element 플러그인</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
-  <block id="631923a687ff82d68973d99b95597b47" category="inline-link">SolidFire 및 요소 리소스 페이지입니다</block>
-  <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="2c21c71423028f346adca15ddc4fe793" category="summary">하이브리드 클라우드 제어 볼륨 페이지를 사용하여 시스템의 볼륨을 모니터링할 수 있습니다.</block>
   <block id="b1fdadb278bc33692729c07d84b4d900" category="doc">스토리지 클러스터의 볼륨을 모니터링합니다</block>
   <block id="ea333cfb83363f2e94893346e3f19cdc" category="paragraph">SolidFire 시스템은 볼륨을 사용하여 스토리지를 프로비저닝합니다. 볼륨은 iSCSI 또는 파이버 채널 클라이언트가 네트워크를 통해 액세스하는 블록 디바이스입니다. 액세스 그룹, 계정, 이니시에이터, 사용된 용량, 스냅샷 데이터 보호 상태, iSCSI 세션 수 및 볼륨과 연관된 QoS(서비스 품질) 정책에 대한 세부 정보를 모니터링할 수 있습니다.</block>
@@ -716,8 +714,6 @@
   <block id="5728f0317e6dafcb81e2d7025632bf5e" category="list-text">하나 또는 두 개의 전원 코드를 연결합니다.</block>
   <block id="8650e9e71e38ae9e93eb5c72f21a25ea" category="list-text">두 전원 공급 장치를 모두 교체한 경우 노드 전면으로 이동하고 전원 단추를 눌러 노드의 전원을 켭니다. 전원을 켜면 전원 단추 LED가 파란색으로 켜집니다. 드라이브의 파란색 LED와 확인 단추가 깜박이기 시작합니다.</block>
   <block id="24902bdac86d2032ef9b09526e7d9043" category="list-text">배송된 상자에 있는 지침에 따라 결함 있는 장치를 NetApp으로 반환합니다.</block>
-  <block id="1c1519037df87ff4dd08fe6e757ff03f" category="inline-link">NetApp SolidFire 리소스 페이지 를 참조하십시오</block>
-  <block id="abc0c04174a58217258765895984ed4e" category="list-text"><block ref="abc0c04174a58217258765895984ed4e" category="inline-link-rx"></block></block>
   <block id="89e3bb4cf03209dcb9c85e2455cde9c3" category="inline-link">이전 버전의 NetApp SolidFire 및 Element 제품에 대한 문서</block>
   <block id="461166164223a1234073a2c9d388d33a" category="list-text"><block ref="461166164223a1234073a2c9d388d33a" category="inline-link-rx"></block></block>
   <block id="00d86638d5b399e6cbf90a0c1f0dc622" category="doc">드라이브 추가 및 제거에 대한 모범 사례</block>
@@ -3814,8 +3810,6 @@
   <block id="a1ecf7be27d0987baa26a8bff8653ff6" category="list-text"><block ref="a1ecf7be27d0987baa26a8bff8653ff6" category="inline-xref-macro-rx"></block></block>
   <block id="93be4895c86d760e8bbee3a36d256dc1" category="inline-xref-macro">답변 예</block>
   <block id="c2c075d7ecfea2a1a630498ac1110e78" category="list-text"><block ref="c2c075d7ecfea2a1a630498ac1110e78" category="inline-xref-macro-rx"></block></block>
-  <block id="b0cda36836b6d8e27c36c8d9d6b48f3a" category="inline-link">SolidFire All-Flash 스토리지 리소스 페이지를 참조하십시오</block>
-  <block id="a980426853b5ccc1de52aeb0b0ae0463" category="list-text"><block ref="a980426853b5ccc1de52aeb0b0ae0463" category="inline-link-rx"></block></block>
   <block id="d25459b3c5acd2943fae1e5fda4cfa22" category="inline-link">SolidFire 및 Element 소프트웨어 설명서 센터</block>
   <block id="024c22e90f2315636ed8d61b006ad1b5" category="list-text"><block ref="024c22e90f2315636ed8d61b006ad1b5" category="inline-link-rx"></block></block>
   <block id="7e4e02c8b3d4ecd51690d912ab9bca18" category="summary">드라이브 개체에는 클러스터의 활성 노드에 있는 개별 드라이브에 대한 정보가 들어 있습니다. 이 오브젝트에는 볼륨 메타데이터 또는 블록 드라이브로 추가된 드라이브에 대한 세부 정보와 아직 추가되지 않았으며 사용 가능한 드라이브가 포함되어 있습니다. ListDrives API 메서드를 사용하여 이 정보를 검색할 수 있습니다.</block>
@@ -11942,4 +11936,8 @@
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">NetApp SolidFire All-Flash 스토리지 시스템 버전 Element 12.3.x를 업그레이드하십시오</block>
   <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">시스템을 원격으로 관리하고 데이터 센터 외부의 클라이언트가 리소스에 연결할 수 있도록 데이터 센터의 에지 방화벽을 통해 다음 TCP 및 UDP 포트를 허용해야 할 수 있습니다. 시스템 사용 방법에 따라 이러한 포트 중 일부는 필요하지 않을 수 있습니다.</block>
   <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">달리 명시되지 않는 한 모든 포트는 TCP이며, 모든 TCP 포트는 NetApp 지원 서버, 관리 노드 및 Element 소프트웨어를 실행하는 노드 간의 3방향 핸드셰이크 통신을 지원해야 합니다. 예를 들어 관리 노드 소스의 호스트는 TCP 포트 443을 통해 스토리지 클러스터 MVIP 대상의 호스트와 통신하고 대상 호스트는 아무 포트나 통해 소스 호스트로 다시 통신합니다.</block>
+  <block id="5858de35bb153f56bdb4f3fbd003b515" category="list-text"><block ref="5858de35bb153f56bdb4f3fbd003b515" category="inline-link-rx"></block></block>
+  <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">LDAP 서버 보기에 대한 일반 설정입니다</block>
+  <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">새 사용자 보기를 만듭니다</block>
+  <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">SolidFire All-Flash 스토리지 시스템은 스토리지 리소스 풀로 결합된 드라이브 및 노드와 같은 하드웨어 구성 요소로 이루어집니다. Element 인터페이스, API 또는 기타 관리 툴을 사용하여 NetApp Element 소프트웨어를 사용하여 이러한 스토리지 리소스 클러스터를 관리할 수 있습니다. 이 사이트에는 Element 소프트웨어 12.3.x에 대한 문서가 포함되어 있습니다</block>
 </blocks>

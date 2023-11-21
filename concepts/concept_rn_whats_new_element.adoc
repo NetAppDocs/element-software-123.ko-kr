@@ -203,7 +203,7 @@ SolidFire ESDS는 이제 Dell R640 서버에서 사용할 수 있습니다. 를 
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["NetApp 하이브리드 클라우드 제어 및 관리 서비스 릴리즈 노트"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/data-storage/solidfire/documentation["SolidFire 및 요소 리소스 페이지입니다"^]
+* https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"^]
 * http://docs.netapp.com/sfe-122/index.jsp["이전 버전용 SolidFire 및 Element 소프트웨어 설명서 센터"^]
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
