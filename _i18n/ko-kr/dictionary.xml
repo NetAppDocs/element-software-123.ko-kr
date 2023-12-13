@@ -11940,4 +11940,6 @@
   <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">LDAP 서버 보기에 대한 일반 설정입니다</block>
   <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">새 사용자 보기를 만듭니다</block>
   <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">SolidFire All-Flash 스토리지 시스템은 스토리지 리소스 풀로 결합된 드라이브 및 노드와 같은 하드웨어 구성 요소로 이루어집니다. Element 인터페이스, API 또는 기타 관리 툴을 사용하여 NetApp Element 소프트웨어를 사용하여 이러한 스토리지 리소스 클러스터를 관리할 수 있습니다. 이 사이트에는 Element 소프트웨어 12.3.x에 대한 문서가 포함되어 있습니다</block>
+  <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">업그레이드 패키지 업로드 오류로 인해 SolidFire 및 HCI 업그레이드를 시작할 수 없습니다</block>
+  <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="admonition">2023년 11월 5일에 서명 키 인증서(개인 및 공개)가 만료되어 NetApp 하이브리드 클라우드 제어 또는 REST API를 사용하여 구성요소 업그레이드를 시작할 수 없습니다. 이 문제는 기술 자료 문서에 설명되어 있는 해결 방법을 따라 해결할 수 있습니다<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>.</block>
 </blocks>
