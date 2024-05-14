@@ -11921,11 +11921,9 @@
   <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
   <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
   <block id="ce397f79b5032c3e327db3efe5a6048a" category="inline-link">vCenter Plug-in 5.2 릴리즈 노트</block>
-  <block id="4718467fa890cd0dcf159b3d461cedbe" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block> _신규 _</block>
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="faf6c38631911f7840c3498b4ec9f746" category="inline-link-macro">관리 서비스 2.24.40 알림(VMware vCenter Server 5.2.12용 NetApp Element 플러그인)</block>
   <block id="db3a980db6ffcc2055052c6c4a453020" category="list-text"><block ref="db3a980db6ffcc2055052c6c4a453020" category="inline-link-macro-rx"></block></block>
-  <block id="eea7cb3a63edf642e1f15162351dfce7" category="list-text">vCenter Server 5.2, 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
   <block id="c9c6a2f6fa07c1f8c580586914c37e79" category="image-alt">에서는 Element 플러그인 5.1 이상에 대한 업그레이드 또는 설치 후 플러그인 확장 지점을 보여 줍니다</block>
   <block id="f35f89119a6374d18bd89e0103590c61" category="image-alt">에는 Element Plug-in 4.10 이하 버전에 대한 업그레이드 또는 설치 후 플러그인 확장 지점이 나와 있습니다</block>
   <block id="1583ff28675a9e24a50fa1079a5dd985" category="paragraph"><block ref="43638993383f845bcd8925bd4e266bc9" prefix="" category="inline-code"></block></block>
@@ -11942,4 +11940,10 @@
   <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">업그레이드 패키지 업로드 오류로 인해 SolidFire 및 HCI 업그레이드를 시작할 수 없습니다</block>
   <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="admonition">2023년 11월 5일에 서명 키 인증서(개인 및 공개)가 만료되어 NetApp 하이브리드 클라우드 제어 또는 REST API를 사용하여 구성요소 업그레이드를 시작할 수 없습니다. 이 문제는 기술 자료 문서에 설명되어 있는 해결 방법을 따라 해결할 수 있습니다<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>.</block>
   <block id="9f94ad22fed97f22703d9d145f565bfb" category="paragraph">를 사용할 수 있습니다<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> 클러스터에 속한 드라이브를 사전에 제거하는 방법 이 방법은 클러스터 용량을 줄이거나 사용 수명이 거의 다 된 드라이브를 교체할 준비를 하는 데 사용할 수 있습니다.<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> 클러스터의 다른 노드에 블록 데이터의 세 번째 복사본을 생성하고 동기화가 완료될 때까지 기다린 후 드라이브를 "사용 가능" 목록으로 이동합니다. "사용 가능" 목록의 드라이브는 시스템에서 완전히 제거되며 실행 중인 서비스나 활성 데이터가 없습니다.</block>
+  <block id="d3c4a89052a32dd9783dd119f30d6d47" category="inline-link">vCenter Plug-in 5.3 릴리즈 노트</block>
+  <block id="0c21440ced3ddae10d1eea32870fdf02" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block> _신규 _</block>
+  <block id="6bd87cf3d55c2ead3ab585e965bea4db" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block></block>
+  <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">vCenter Server 5.3, 5.2, 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
+  <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">관리 서비스 2.25.42 알림(VMware vCenter Server 5.3.9용 NetApp Element 플러그인)</block>
+  <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
 </blocks>
