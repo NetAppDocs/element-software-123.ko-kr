@@ -2294,7 +2294,6 @@
   <block id="89f04872de01c08f9be1f64a5e0ccadc" category="paragraph">예약 ID입니다</block>
   <block id="714fceb471c374698251d925d8d05403" category="paragraph">스케줄의 고유 ID입니다.</block>
   <block id="3e31245b25836087aa43d5d4565230c2" category="paragraph">예약 정보</block>
-  <block id="29a9c6e40ddc0f47741633f0b0bd0699" category="paragraph">스케줄에 지정된 고유한 이름, 생성된 스냅샷의 보존 기간 및 스냅샷이 생성된 볼륨의 볼륨 ID가 포함됩니다.</block>
   <block id="75086d1d4f9f04a29f1f6513159429be" category="paragraph">예약 이름</block>
   <block id="b06b56d23b646ad4c7c629956c9fb6a3" category="paragraph">일정에 할당된 고유한 이름입니다.</block>
   <block id="1513d59c3808ebf74445995e1a3169e3" category="paragraph">일정 유형</block>
@@ -5156,7 +5155,6 @@
   <block id="e3610a84890c0cb8e31ba5e2825ef82e" category="paragraph">클라이언트 대기열 깊이</block>
   <block id="45518dd87d9c3c80ec617e9d8b06c31a" category="paragraph">볼륨에 대한 미해결 읽기 및 쓰기 작업 수입니다.</block>
   <block id="895b9fd9bd82498f2637ee71223fca99" category="paragraph">클러스터 활용률</block>
-  <block id="53559c487d6329ff8a95081175ee8072" category="paragraph">사용 중인 클러스터 용량의 양입니다.</block>
   <block id="f6e65c6017cbd8accff3dedbaa7c9157" category="paragraph">DesiredMetadataHosts 를 선택합니다</block>
   <block id="27921d101d13cbcdde780f0bf7b74051" category="paragraph">볼륨 메타데이터가 메타데이터 서비스 간에 마이그레이션되는 경우 마이그레이션 중인 메타데이터(슬라이스) 서비스입니다. "null" 값은 볼륨이 마이그레이션되지 않음을 의미합니다.</block>
   <block id="d6768553ce2e9167b5c9051355cc39a0" category="paragraph">지연 시간 USec</block>
@@ -11947,4 +11945,25 @@
   <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
   <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="1bcef981f5c54e340e7b915c2dfacb97" category="sidebar">SolidFire 및 Element 소프트웨어 문서 12.3</block>
+  <block id="d9a22d7a8178d5b42a8750123cbfe5b1" category="list-text">완료</block>
+  <block id="acbccd83186c34328efe61415e4f06c3" category="paragraph">iosInProgress(iosInProgress</block>
+  <block id="efadf566bdff7cd45611bcf2ea26634b" category="paragraph">진행 중인 이 드라이브의 I/O 수입니다.</block>
+  <block id="0fb9cf5f04f61bb6f1151da57ceb1ca1" category="paragraph">읽기</block>
+  <block id="2e63b183661efd0e03c30a8933592b67" category="paragraph">이 드라이브에 대한 초당 읽기() 호출 수입니다.</block>
+  <block id="0557cc41212e450b334e6cfd03e28356" category="paragraph">readsCombined(경고)</block>
+  <block id="2d65b6a0c4e91c801de77a9d9219d227" category="paragraph">더 큰 읽기로 결합될 수 있는 인접 섹터에 대한 읽기() 호출 수입니다.</block>
+  <block id="89892cc60750e3ae3839fe1bd6f0e295" category="paragraph">ReadMsec</block>
+  <block id="c30d492a58003b8cb74286227b4474f4" category="paragraph">읽는 데 소요된 시간(밀리초)입니다.</block>
+  <block id="4dcc865dcd8a0440f3e955e66928b6a9" category="paragraph">쓰기</block>
+  <block id="2723fa53100ce7b4222053e0cae1fe2a" category="paragraph">이 드라이브에 대한 초당 쓰기() 호출 수입니다.</block>
+  <block id="90355908c2c641db38cd1f8d115e8288" category="paragraph">쓰기\n구성</block>
+  <block id="dff2bd7a729604d5144c21832c60771e" category="paragraph">더 큰 쓰기로 결합될 수 있는 인접 섹터에 대한 쓰기() 호출 수입니다.</block>
+  <block id="48c52f79a065697f974edffe9baa1840" category="paragraph">쓰기 Msec</block>
+  <block id="a104ca42a35244c8eaac66b37a617289" category="paragraph">쓰는 데 소요된 시간(밀리초)입니다.</block>
+  <block id="cbe31e551cb8a7eda07f7c2fbae6f80b" category="list-text"><block ref="dcd44d342c90672f6b7613a3fda7d755" prefix="" category="inline-code"></block>: 이전 스냅샷 복제가 진행 중인 경우 새 스냅샷 생성을 허용할지 여부를 지정합니다. (부울)</block>
+  <block id="e9eb5370de2e3375a67adb6b46c54033" category="list-text"><block ref="6366ebc98be76ca376a9a50b148937ea" prefix="" category="inline-code"></block>: 스냅샷이 보존되는 시간입니다. 시간에 따라 다음 형식 중 하나로 표시됩니다.</block>
+  <block id="ec6874eecaec538abf3d408bf6b6b411" category="list-text"><block ref="cf54937a2330ac17aa523bf7130911a3" prefix="" category="inline-code"></block>: 스냅샷은 FIFO(First-in-first-out) 기준으로 보존됩니다. 비어 있으면 스냅샷이 영구적으로 유지됩니다. (문자열)</block>
+  <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">"HH:mm:ss"</block>
+  <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">스케줄에 지정된 고유한 이름, 생성된 스냅샷의 보존 기간 및 스냅샷이 생성된 볼륨의 볼륨 ID가 포함됩니다. 유효한 값:</block>
+  <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">동기화 작업 유형에 따라 부동 또는 정수</block>
 </blocks>
