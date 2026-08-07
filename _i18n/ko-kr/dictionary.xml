@@ -5984,7 +5984,6 @@
   <block id="1cf67e15c0f74187a6558d9af0d0b5c3" category="paragraph">불투명 키는 세션을 고유하게 식별합니다.</block>
   <block id="e543376d12681b92fd3f5e3641b94d3c" category="paragraph">노드의 웹 서버에 액세스하는 URL입니다.</block>
   <block id="b1ff5704b48e42d700d43961dd415064" category="doc">상표</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="paragraph"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
   <block id="352b30babf58f27c8ccb8a903f0bf63a" category="summary">Element 웹 UI에서는 CreateSnapMirrorVolume 메서드를 사용하여 원격 ONTAP 시스템에 볼륨을 만듭니다.</block>
   <block id="2c5b62f4e4ee3f5bad359c8fae8aa8bb" category="paragraph">Element 웹 UI에서는 'CreateSnapMirrorVolume' 메서드를 사용하여 원격 ONTAP 시스템에 볼륨을 만듭니다.</block>
   <block id="92a1216b9d7b09644455dda3f5ad32c3" category="paragraph">대상 ONTAP 볼륨 이름입니다.</block>
@@ -6900,7 +6899,6 @@
   <block id="0f5a20082c20009526d7d768b6279f05" category="list-text"><block ref="0f5a20082c20009526d7d768b6279f05" category="inline-xref-macro-rx"></block></block>
   <block id="1c45fd215e6dc295350e4f4f5e2e7e41" category="list-text"><block ref="1c45fd215e6dc295350e4f4f5e2e7e41" category="inline-xref-macro-rx"></block></block>
   <block id="a8d3424ca67e2754569ae54982c009df" category="list-text"><block ref="a8d3424ca67e2754569ae54982c009df" category="inline-xref-macro-rx"></block></block>
-  <block id="f17bdc3100242be6aa20374cb07b1e01" category="list-text"><block ref="f17bdc3100242be6aa20374cb07b1e01" category="inline-xref-macro-rx"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="inline-xref-macro">다음 단계</block>
   <block id="6b758c6baa8d819395041efcb30c549d" category="list-text"><block ref="6b758c6baa8d819395041efcb30c549d" category="inline-xref-macro-rx"></block></block>
   <block id="e2291d0b9bc2d41bc343cf77cf0a1a87" category="inline-link">SolidFire All-Flash 스토리지 개요</block>
@@ -7856,8 +7854,6 @@
   <block id="34515669e219305dec5f0b81dbef8b1e" category="paragraph">문서 센터에서 하드웨어 설치 및 유지 관리, 추가 콘텐츠 리소스 사용 가능, 알려진 문제 및 해결된 문제에 대한 링크, 최신 릴리스 노트를 찾을 수도 있습니다.</block>
   <block id="662a5ad8c6ae651da9220e35d3f16a18" category="list-text">* NetApp SolidFire 리소스 페이지 *</block>
   <block id="c39c68328651c80dceb0f36d050a7109" category="paragraph">비디오 콘텐츠 및 기술 보고서에 대한 링크를 포함하여 Element 소프트웨어에 대한 리소스를 제공합니다.</block>
-  <block id="4b3e0d4570a278a1af3fe11601c01d47" category="inline-link">SolidFire All-Flash 스토리지 리소스</block>
-  <block id="c16fe39e6b501b8347fb1dd55ba312c6" category="paragraph"><block ref="c16fe39e6b501b8347fb1dd55ba312c6" category="inline-link-rx"></block></block>
   <block id="4a9c1435e759b5c6dd543fceea09ea44" category="list-text">* NetApp SolidFire 문서 센터 *</block>
   <block id="028b8f4057634cf2f3954305a74dc779" category="paragraph">하드웨어 설치 및 유지 관리, 사용 가능한 추가 콘텐츠 리소스, 알려진 문제 및 해결된 문제에 대한 링크 및 최신 릴리스 정보를 제공합니다.</block>
   <block id="99876372740307113d18bf0a8023fbbf" category="inline-link">SolidFire 및 Element 11.3 문서 센터</block>
@@ -7929,8 +7925,6 @@
   <block id="8c62a8856619185a333cdec6cc116a79" category="list-text"><block ref="8c62a8856619185a333cdec6cc116a79" category="inline-link-rx"></block></block>
   <block id="feaf808951dafefbf9943700efdb4315" category="inline-link">이전 버전용 SolidFire 및 Element 소프트웨어 설명서 센터</block>
   <block id="049adc1802f0210729234e1fe80d95e6" category="list-text"><block ref="049adc1802f0210729234e1fe80d95e6" category="inline-link-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">NetApp HCI 리소스 페이지를 참조하십시오</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="389d33cbc9ae9f54288b4c6fd3f5d933" category="summary">SolidFire 스토리지 클러스터에는 볼륨별로 QoS\(서비스 품질) 매개 변수를 제공할 수 있는 기능이 있습니다. QoS를 정의하는 세 가지 구성 가능한 매개 변수(최소 IOPS, 최대 IOPS 및 버스트 IOPS)를 사용하여 초당 입력 및 출력(IOPS\)으로 측정한 클러스터 성능을 보장할 수 있습니다.</block>
   <block id="b33b7a0f1639461a3999078f0f3daabf" category="paragraph">SolidFire 스토리지 클러스터에는 볼륨 기준에 따라 서비스 품질(QoS) 매개 변수를 제공할 수 있는 기능이 있습니다. QoS를 정의하는 세 가지 구성 가능한 매개 변수(최소 IOPS, 최대 IOPS 및 버스트 IOPS)를 사용하여 초당 입력 및 출력(IOPS)으로 측정한 클러스터 성능을 보장할 수 있습니다.</block>
   <block id="9df54e6cedfee995f2ec2e37173f4ff0" category="admonition">SolidFire Active IQ에는 QoS 설정 및 최적의 구성에 대한 조언을 제공하는 QoS 권장 사항 페이지가 있습니다.</block>
@@ -8425,7 +8419,6 @@
   <block id="8e3e32f4b3e22ee2339bc37dacebce0c" category="inline-link-macro">요소 API 참조입니다</block>
   <block id="a8d74e35fafff7a5f37815f2dcc89753" category="paragraph">각 API 메소드에 대한 자세한 내용은 에서 확인할 수 있습니다 <block ref="c9d614c7cd4efd8daab5302738f269c2" category="inline-link-macro-rx"></block>.</block>
   <block id="88b1e425f6a8d373d7b16e1b016c6de1" category="list-text">다음 API 메서드를 호출하고 IDP 메타데이터를 JSON 형식 "CreateIdpConfiguration"으로 전달하여 클러스터에 대한 새로운 타사 ID 공급자(IDP) 구성을 생성합니다</block>
-  <block id="168af22e9c6015f03678011bffdead13" category="paragraph">IDP 메타데이터는 일반 텍스트 형식으로 타사 IDP에서 검색됩니다. 이 메타데이터는 JSON으로 올바르게 포맷되었는지 확인하기 위해 유효성을 검증해야 합니다. 사용할 수 있는 JSON 포맷터 응용 프로그램은 매우 다양합니다(예: https://freeformatter.com/json-escape.html).</block>
   <block id="65b69ef14e13e541a93abafc7baa59a1" category="list-text">spMetadataUrl 을 통해 클러스터 메타데이터를 검색하여 다음과 같은 API 메서드('ListIdpConfigurations')를 호출하여 타사 IDP로 복사합니다</block>
   <block id="35cfc4986f93cb44da66955bf17e3c60" category="paragraph">SpMetadataUrl 은 신뢰 관계를 설정하기 위해 IDP의 클러스터에서 서비스 공급자 메타데이터를 검색하는 데 사용되는 URL입니다.</block>
   <block id="c3a1c9aeec925dec1a8d9125871ae8b6" category="list-text">타사 IDP의 SAML 어설션을 구성하여 감사 로깅을 위한 사용자를 고유하게 식별하고 단일 로그아웃이 제대로 작동하는지 ""NameID"" 속성을 포함시킵니다.</block>
@@ -9122,7 +9115,6 @@
   <block id="2f00805e044ca70467775f06c1872f89" category="paragraph">LDAP 서버</block>
   <block id="5483ab43104d3514dfdd7917f5a51b09" category="paragraph">389 TCP/UDP</block>
   <block id="19a0425f816e3267d5a9f5ee03f4fc4f" category="paragraph">(선택 사항) LDAP 조회</block>
-  <block id="6ca93b96b4cd5e33a779ecc83fde0268" category="paragraph">Element 스토리지 펌웨어 업그레이드</block>
   <block id="94a2163bb19fc95c5d537943a7a7a263" category="paragraph">(선택 사항) 백업 및 복구를 위해 S3/Swift 엔드포인트에 대한 HTTPS 통신</block>
   <block id="ed26bc39a920ff3cacdfe283ccd802dc" category="paragraph">514 TCP/UDP</block>
   <block id="525aa1c52ef30b3901ee99d7dfaa1989" category="paragraph">10514 TCP/UDP</block>
@@ -9583,8 +9575,6 @@
   <block id="a4cba27ccc43d00c0bd0c00a74974b97" category="list-text"><block ref="a4cba27ccc43d00c0bd0c00a74974b97" category="inline-link-rx"></block></block>
   <block id="275b3db58911d0480b2a907dde87b422" category="inline-link">SolidFire 및 Element 11.5 문서 센터</block>
   <block id="319d00f06f0a5e8e99d071d51fe10259" category="list-text"><block ref="319d00f06f0a5e8e99d071d51fe10259" category="inline-link-rx"></block></block>
-  <block id="de71a625454de99f599dff258c53dbb8" category="inline-link">SolidFire 리소스 페이지를 참조하십시오</block>
-  <block id="b81ee69dc01cdd048b45d27758827feb" category="list-text"><block ref="b81ee69dc01cdd048b45d27758827feb" category="inline-link-rx"></block></block>
   <block id="a34296282eed34660ea4a3f06492b74a" category="summary">시스템의 클러스터 장애 또는 오류에 대한 알림을 볼 수 있습니다. 경고는 정보, 경고 또는 오류일 수 있으며 클러스터의 실행 상태를 나타내는 좋은 지표입니다. 대부분의 오류는 자동으로 해결됩니다.</block>
   <block id="7625f0d333f3c5d6149502c80fecd63a" category="doc">시스템 경고를 봅니다</block>
   <block id="fd3392770ef45da975f34e097b3aa9f2" category="paragraph">ListClusterFats API 메서드를 사용하여 경고 모니터링을 자동화할 수 있습니다. 이렇게 하면 발생한 모든 경고에 대한 알림을 받을 수 있습니다.</block>
@@ -11236,7 +11226,6 @@
   <block id="064b89de301fcd977867c23b01204653" category="doc">Element에 대한 장애 복구를 수행합니다</block>
   <block id="4a0a4752a851bfbcb612292d19d020e2" category="list-text">LDAPS 프로토콜 사용 * 을 선택합니다.</block>
   <block id="4e8b9c52e60070f73bcaa6e5e5ba4121" category="inline-link-macro">LDAP 세부 정보입니다</block>
-  <block id="543e9c1cf295e8284006e3af49b8105a" category="paragraph"><block ref="543e9c1cf295e8284006e3af49b8105a" category="inline-link-macro-rx"></block></block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
   <block id="27b50c2855e5935b991c110f8f2c985d" category="summary">보안 액세스를 위해 이니시에이터를 볼륨 컬렉션에 매핑하여 볼륨 액세스 그룹을 생성할 수 있습니다. 그런 다음 계정 CHAP 이니시에이터 암호 및 대상 암호를 사용하여 그룹의 볼륨에 대한 액세스 권한을 부여할 수 있습니다.</block>
   <block id="625674c07781dca113f6cbca1243747b" category="list-text">다음 방법 중 하나로 볼륨 액세스 그룹에 이니시에이터를 추가합니다.</block>
@@ -11885,12 +11874,10 @@
   <block id="bc392d110b36a51cd536073024a5f532" category="list-text">H410S 및 H610S 노드의 경우 <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>.</block>
   <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
   <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">유휴 상태의 암호화 및/또는 클러스터의 유휴 상태의 소프트웨어 암호화를 확인하려면 를 사용합니다 <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> 방법. 를 사용할 수 있습니다 <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> 클러스터에서 유휴 데이터를 암호화하는 데 사용하는 정보를 가져오는 방법입니다.</block>
-  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
   <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
   <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
   <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">관리 서비스는 SolidFire All-Flash 스토리지를 위한 중앙 집중식 및 확장된 관리 기능을 제공합니다. 이러한 서비스에는 다음이 포함됩니다 <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>Active IQ 시스템 원격 측정, 로깅 및 서비스 업데이트뿐 아니라 vCenter용 Element 플러그인에 대한 QoSSIOC 서비스도 제공합니다.</block>
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">에 대해 자세히 알아보십시오 <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
-  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">슬라이스 동기화가 진행 중일 때 볼륨을 스냅샷으로 롤백하는 데 실패할 수 있습니다. 다시 시도하십시오<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> 동기화가 완료된 후</block>
   <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">슬라이스 동기화가 진행 중일 때 볼륨을 그룹 스냅샷으로 롤백하는 데 실패할 수 있습니다. 다시 시도하십시오<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> 동기화가 완료된 후</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -11928,9 +11915,6 @@
   <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">vCenter Server 5.3, 5.2, 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
   <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">관리 서비스 2.25.42 알림(VMware vCenter Server 5.3.9용 NetApp Element 플러그인)</block>
   <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
-  <block id="3d08f19c985682eb2a632e36184cedd2" category="paragraph"><block ref="3d08f19c985682eb2a632e36184cedd2" category="inline-link-rx"></block></block>
-  <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
-  <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="1bcef981f5c54e340e7b915c2dfacb97" category="sidebar">SolidFire 및 Element 소프트웨어 문서 12.3</block>
   <block id="d9a22d7a8178d5b42a8750123cbfe5b1" category="list-text">완료</block>
   <block id="acbccd83186c34328efe61415e4f06c3" category="paragraph">iosInProgress(iosInProgress</block>
@@ -11965,4 +11949,18 @@
   <block id="055c37e82a2e8b5a5c2d073fe46d98bb" category="list-text"><block ref="055c37e82a2e8b5a5c2d073fe46d98bb" category="inline-link-macro-rx"></block></block>
   <block id="c31ff914893a6941b1e7621565be0d0c" category="list-text"><block ref="c31ff914893a6941b1e7621565be0d0c" category="inline-link-macro-rx"></block></block>
   <block id="fe3c28c386d2be6c3cbda4b2feb01c29" category="list-text"><block ref="e8348e5b207b91893f9322900bc614aa" category="inline-link-rx"></block>.</block>
+  <block id="cedd3b982f345250c95c539d68542a1c" category="admonition">Element UI에서는 사용할 수 없는 액세스 유형이 API를 통해 제공됩니다.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">관련 정보</block>
+  <block id="66ae9524f9c214ce3d4ddc510dc6384a" category="inline-link-macro">Element UI에서 사용 가능한 액세스 유형에 대해 알아보십시오.</block>
+  <block id="e3ae42684db77c59ef80c04aae526de5" category="paragraph"><block ref="e3ae42684db77c59ef80c04aae526de5" category="inline-link-macro-rx"></block></block>
+  <block id="8c7d040a87c37f1f3051f72abbfbcbc5" category="list-text"><block ref="8c7d040a87c37f1f3051f72abbfbcbc5" category="inline-link-macro-rx"></block></block>
+  <block id="b254c421d245be4ca380ce1a75b8ed59" category="list-text"><block ref="b254c421d245be4ca380ce1a75b8ed59" category="inline-xref-macro-rx"></block></block>
+  <block id="f72c81a1158d9efb9bad238e3c497a6c" category="inline-link-macro">Element API에서 사용할 수 있는 액세스 유형에 대해 알아보십시오.</block>
+  <block id="c858f3d30df8c552799df529153c0e44" category="list-text"><block ref="c858f3d30df8c552799df529153c0e44" category="inline-link-macro-rx"></block></block>
+  <block id="bd000e3a7a010d55765a9684adc1c25f" category="paragraph">Element 스토리지 업그레이드</block>
+  <block id="161b4ed96d634114cd790ffb7038cc24" category="paragraph"><block ref="161b4ed96d634114cd790ffb7038cc24" category="inline-link-rx"></block></block>
+  <block id="c28c56f7a7ce8d5595899ccc3950cb6d" category="paragraph"><block ref="c28c56f7a7ce8d5595899ccc3950cb6d" category="inline-link-rx"></block></block>
+  <block id="145012f945e6ea9359e0b746c1a4925a" category="list-text"><block ref="145012f945e6ea9359e0b746c1a4925a" category="inline-link-rx"></block></block>
+  <block id="9cad028b90d6f90e57eee2a48ccf4000" category="list-text"><block ref="9cad028b90d6f90e57eee2a48ccf4000" category="inline-link-macro-rx"></block></block>
+  <block id="a1855ae3a0a42fa9d6e151b58b750f1f" category="paragraph">IdP 메타데이터는 일반 텍스트 형식으로 타사 IdP에서 가져옵니다. 이 메타데이터는 JSON 형식으로 올바르게 포맷되었는지 확인하기 위해 유효성 검사가 필요합니다. 사용할 수 있는 JSON 포맷터 애플리케이션은 여러 가지가 있습니다. 예를 들면 다음과 같습니다:https://freeformatter.com/json-escape.html</block>
 </blocks>

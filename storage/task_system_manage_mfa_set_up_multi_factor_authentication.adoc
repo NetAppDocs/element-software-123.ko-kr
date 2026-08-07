@@ -17,7 +17,7 @@ Element API를 통해 이러한 기본 단계를 사용하여 다중 요소 인�
 
 . 다음 API 메서드를 호출하고 IDP 메타데이터를 JSON 형식 "CreateIdpConfiguration"으로 전달하여 클러스터에 대한 새로운 타사 ID 공급자(IDP) 구성을 생성합니다
 +
-IDP 메타데이터는 일반 텍스트 형식으로 타사 IDP에서 검색됩니다. 이 메타데이터는 JSON으로 올바르게 포맷되었는지 확인하기 위해 유효성을 검증해야 합니다. 사용할 수 있는 JSON 포맷터 응용 프로그램은 매우 다양합니다(예: https://freeformatter.com/json-escape.html).
+IdP 메타데이터는 일반 텍스트 형식으로 타사 IdP에서 가져옵니다. 이 메타데이터는 JSON 형식으로 올바르게 포맷되었는지 확인하기 위해 유효성 검사가 필요합니다. 사용할 수 있는 JSON 포맷터 애플리케이션은 여러 가지가 있습니다. 예를 들면 다음과 같습니다:https://freeformatter.com/json-escape.html
 
 . spMetadataUrl 을 통해 클러스터 메타데이터를 검색하여 다음과 같은 API 메서드('ListIdpConfigurations')를 호출하여 타사 IDP로 복사합니다
 +
@@ -39,6 +39,7 @@ NOTE: IDP 클러스터 관리자의 사용자 이름은 다음 예와 같이 원
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

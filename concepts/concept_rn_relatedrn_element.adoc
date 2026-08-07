@@ -18,6 +18,7 @@ NOTE: NetApp 지원 자격 증명을 사용하여 로그인하라는 메시지�
 
 
 
+[[netapp-element-software]]
 == NetApp Element 소프트웨어
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["NetApp Element 소프트웨어 12.3.2 릴리스 정보"^]
@@ -37,6 +38,7 @@ NOTE: NetApp 지원 자격 증명을 사용하여 로그인하라는 메시지�
 
 
 
+[[management-services]]
 == 관리 서비스
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["관리 서비스 릴리스 정보"^]
@@ -44,6 +46,7 @@ NOTE: NetApp 지원 자격 증명을 사용하여 로그인하라는 메시지�
 
 
 
+[[netapp-element-plug-in-for-vcenter-server]]
 == vCenter Server용 NetApp Element 플러그인
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3316480["vCenter Plug-in 5.3 릴리즈 노트"^] _신규 _
@@ -62,6 +65,7 @@ NOTE: NetApp 지원 자격 증명을 사용하여 로그인하라는 메시지�
 
 
 
+[[storage-firmware]]
 == 스토리지 펌웨어
 
 * https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.146.html["스토리지 펌웨어 번들 2.146 릴리스 정보(최신)"^]
@@ -73,6 +77,7 @@ NOTE: NetApp 지원 자격 증명을 사용하여 로그인하라는 메시지�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

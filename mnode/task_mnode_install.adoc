@@ -65,6 +65,7 @@ Element 12.2 관리 노드는 선택적 업그레이드입니다. 기존 배포�
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == ISO 또는 OVA를 다운로드하고 VM을 배포합니다
 
 . 에서 설치에 대한 OVA 또는 ISO를 다운로드합니다 link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Element 소프트웨어"^] 페이지로 이동합니다.
@@ -111,6 +112,8 @@ NOTE: 이미지를 사용하여 관리 노드를 설치하면 시작 화면이 �
 
 
 
+[[create-the-management-node-admin-and-configure-the-network]]
+[[create_mnode_admin]]
 == 관리 노드 admin을 생성하고 네트워크를 구성합니다
 
 . 터미널 사용자 인터페이스(TUI)를 사용하여 관리 노드 관리자 사용자를 생성합니다.
@@ -139,6 +142,7 @@ NOTE: 스토리지 트래픽을 격리하기 위해 추가 NIC가 필요한 경�
 
 
 
+[[configure-time-sync]]
 == 시간 동기화를 구성합니다
 
 . NTP를 사용하여 관리 노드와 스토리지 클러스터 간에 시간이 동기화되는지 확인합니다.
@@ -216,6 +220,7 @@ NOTE: 시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십�
 
 
 
+[[set-up-the-management-node]]
 == 관리 노드를 설정합니다
 
 . 관리 노드 setup 명령을 구성하고 실행합니다.
@@ -279,6 +284,7 @@ NOTE: 클러스터의 기존 계정 이름과 다른 영구 볼륨의 경우 고
 
 
 
+[[configure-controller-assets]]
 == 컨트롤러 자산을 구성합니다
 
 . 설치 ID를 찾습니다.

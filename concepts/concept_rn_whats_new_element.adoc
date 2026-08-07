@@ -15,6 +15,7 @@ NetApp은 새로운 기능, 개선 사항 및 버그 수정을 제공하기 위�
 
 
 
+[[netapp-bugs-online-contains-known-and-resolved-issues]]
 == 온라인에서 제공되는 NetApp 버그는 알려진 문제와 해결된 문제를 포함합니다
 
 알려지고 해결된 문제가 NetApp 버그 온라인 툴에 나열되어 있습니다. Element 및 기타 제품에서 이러한 문제를 찾아볼 수 있습니다.
@@ -30,6 +31,7 @@ image:bol_filters.PNG["BOL 필터, \"중심\" 정렬"]
 
 
 
+[[element-12-3-2]]
 == 요소 12.3.2
 
 Element 12.3.2의 새로운 기능에 대해 자세히 알아보십시오.
@@ -38,18 +40,21 @@ Element 소프트웨어 12.3.2 릴리스에는 Apache log4j 취약점에 대한 
 
 
 
+[[element-12-3-1]]
 == 요소 12.3.1
 
 Element 12.3.1의 새로운 기능에 대해 자세히 알아보십시오.
 
 
 
+[[storage-firmware-bundle-2-99-2]]
 === 스토리지 펌웨어 번들 2.99.2
 
 Element 12.3.1 릴리스는 스토리지 펌웨어 번들 버전 2.99.2를 포함합니다. 스토리지 클러스터가 이미 Element 12.3에 있는 경우 새 2.99.2 펌웨어 번들을 설치할 수 있습니다.
 
 
 
+[[support-for-dynamic-cpu-node-rating-for-solidfire-esds-host-platforms]]
 == SolidFire ESDS 호스트 플랫폼에 대한 동적 CPU 노드 등급 지원
 
 SolidFire ESDS는 이제 24개 모델 범위의 인텔 골드 및 실버 캐스케이드 레이크 세대 CPU를 모두 지원할 수 있습니다. 동적 노드 등급 기능은 CPU를 기반으로 호스트 서버에 50K~100K 사이의 QoS IOPS 등급을 할당합니다.
@@ -88,24 +93,28 @@ SolidFire ESDS는 이제 24개 모델 범위의 인텔 골드 및 실버 캐스�
 |===
 
 
+[[support-for-single-bond-network-configuration-for-solidfire-esds]]
 === SolidFire ESDS에 대한 단일 연결 네트워크 구성 지원
 
 이제 SolidFire ESDS를 사용하여 호스트에 대한 단일 연결 네트워크 구성을 사용할 수 있습니다.
 
 
 
+[[new-server-support-in-solidfire-enterprise-sds]]
 === SolidFire 엔터프라이즈 SDS에서 새로운 서버 지원
 
 SolidFire ESDS는 현재 HPE DL380 서버에서 제공되고 있습니다. 를 참조하십시오 https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 지원되는 구성에 대한 자세한 내용은 를 참조하십시오.
 
 
 
+[[element-12-3]]
 == 요소 12.3
 
 Element 12.3의 새로운 기능에 대해 자세히 알아보십시오.
 
 
 
+[[fifo-snapshot-queue-support]]
 === FIFO 스냅샷 큐 지원
 
 요소 12.3에서는 볼륨 스냅숏에 대한 FIFO(First-In-First-Out) 대기열을 만들 수 있습니다. Element API를 사용하여 볼륨을 생성할 때 예약해야 하는 FIFO 스냅샷 슬롯의 최소 및 최대 수를 지정할 수 있습니다. 볼륨에 대한 FIFO 스냅샷 대기열이 가득 차면 해당 볼륨에 대해 생성한 다음 스냅샷이 시스템에서 해당 볼륨의 가장 오래된 스냅샷을 제거합니다. FIFO 및 FIFO 외 스냅샷은 모두 볼륨에서 사용 가능한 스냅샷 슬롯의 동일한 풀을 사용합니다.
@@ -125,6 +134,7 @@ Element 12.3의 새로운 기능에 대해 자세히 알아보십시오.
 
 
 
+[[snapshot-serialization-support]]
 === 스냅샷 직렬화 지원
 
 요소 12.3은 serialize된 스냅샷 생성을 지원합니다. Element API를 사용하여 새 스냅샷을 생성할 때 이전 스냅샷 복제가 아직 진행 중인 경우 스냅샷을 생성하지 않도록 지정할 수 있습니다.
@@ -139,6 +149,7 @@ Element 12.3의 새로운 기능에 대해 자세히 알아보십시오.
 
 
 
+[[snapshot-retention-support]]
 === 스냅샷 보존 지원
 
 Element 12.3에서는 스냅샷의 보존 시간을 지정할 수 있습니다. 스냅샷에 대한 보존 시간이나 만료 시간을 지정하지 않으면 영구적으로 유지됩니다.
@@ -155,6 +166,7 @@ Element 12.3에서는 스냅샷의 보존 시간을 지정할 수 있습니다. 
 
 
 
+[[software-encryption-at-rest-enhancements]]
 === 유휴 데이터의 소프트웨어 암호화 기능이 향상되었습니다
 
 저장된 소프트웨어 암호화 기능의 경우 Element 12.3에는 EKM(외부 키 관리) 및 소프트웨어 암호화 마스터 키를 다시 입력할 수 있는 기능이 도입되었습니다. 스토리지 클러스터를 생성할 때 유휴 소프트웨어 암호화를 설정할 수 있습니다. SolidFire 엔터프라이즈 SDS 스토리지 클러스터를 생성할 때 유휴 소프트웨어 암호화는 기본적으로 설정됩니다. 이 기능은 스토리지 노드의 SSD에 저장된 모든 데이터를 암호화하므로 클라이언트 IO에 미치는 성능이 2% 정도로 매우 적습니다.
@@ -170,30 +182,35 @@ Element 12.3에서는 스냅샷의 보존 시간을 지정할 수 있습니다. 
 
 
 
+[[storage-node-firmware-updates]]
 === 스토리지 노드 펌웨어 업데이트
 
 Element 12.3에는 스토리지 노드의 펌웨어 업데이트가 포함됩니다. link:../concepts/concept_rn_relatedrn_element.html#storage-firmware["자세한 정보"].
 
 
 
+[[security-enhancements]]
 === 보안 강화
 
 Element 12.3은 스토리지 노드 및 관리 노드의 보안 취약점을 해결합니다. https://security.netapp.com/["자세한 정보"] 이러한 보안 개선 사항에 대해 설명합니다.
 
 
 
+[[improved-behavior-for-failing-drives]]
 === 장애가 발생한 드라이브의 동작 개선
 
 Element 12.3은 드라이브의 SMART 상태 데이터를 사용하여 SolidFire 어플라이언스 드라이브에 대해 정기적으로 상태 점검을 수행합니다. SMART 상태 확인에 실패한 드라이브가 거의 실패할 수 있습니다. 드라이브가 SMART 상태 검사에 실패하면 드라이브가 * Failed * 상태로 전환되며 심각한 심각도 클러스터 장애가 나타납니다. 슬롯 <node slot><drive slot>의 일련 번호 <serial number>이(가) 있는 드라이브:<node slot>가 SMART 전체 상태 검사에 실패했습니다. 이 오류를 해결하려면 드라이브를 교체하십시오
 
 
 
+[[new-server-support-in-solidfire-enterprise-sds]]
 === SolidFire 엔터프라이즈 SDS에서 새로운 서버 지원
 
 SolidFire ESDS는 이제 Dell R640 서버에서 사용할 수 있습니다. 를 참조하십시오 https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 지원되는 구성에 대한 자세한 내용은 를 참조하십시오.
 
 
 
+[[new-location-for-solidfire-esds-known-issues]]
 === SolidFire ESDS의 알려진 문제에 대한 새로운 위치
 
 이제 에서 알려진 문제를 검색할 수 있습니다 https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["버그 온라인 도구(로그인 필요)"^].
@@ -206,6 +223,5 @@ SolidFire ESDS는 이제 Dell R640 서버에서 사용할 수 있습니다. 를 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"^]
 * http://docs.netapp.com/sfe-122/index.jsp["이전 버전용 SolidFire 및 Element 소프트웨어 설명서 센터"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * link:../hardware/fw_storage_nodes.html["SolidFire 스토리지 노드에 대해 지원되는 스토리지 펌웨어 버전입니다"] _신규 _
 

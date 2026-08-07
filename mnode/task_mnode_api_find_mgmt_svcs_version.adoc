@@ -28,6 +28,7 @@ keywords: netapp, Element, management node, management services, version, bundle
 
 
 
+[[api-commands]]
 == API 명령
 
 * 관리 노드 OS, 관리 서비스 번들 및 관리 노드에서 실행 중인 관리 노드 API(mnode-API) 서비스에 대한 버전 정보를 가져옵니다.
@@ -50,6 +51,7 @@ NOTE: API 명령에서 사용하는 '${token}' 베어러를 찾을 수 있습니
 
 
 
+[[rest-api-ui-steps]]
 == REST API UI 단계
 
 . 관리 노드의 IP 주소 뒤에 '/mnode/'를 입력하여 서비스의 REST API UI에 액세스합니다.

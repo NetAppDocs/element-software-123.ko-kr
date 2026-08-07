@@ -19,9 +19,6 @@ SolidFire 스토리지 시스템 관련 작업에 대한 자세한 내용은 Net
 +
 비디오 콘텐츠 및 기술 보고서에 대한 링크를 포함하여 Element 소프트웨어에 대한 리소스를 제공합니다.
 
-+
-https://www.netapp.com/us/documentation/solidfire.aspx["SolidFire All-Flash 스토리지 리소스"]
-
 * * NetApp SolidFire 문서 센터 *
 +
 하드웨어 설치 및 유지 관리, 사용 가능한 추가 콘텐츠 리소스, 알려진 문제 및 해결된 문제에 대한 링크 및 최신 릴리스 정보를 제공합니다.
